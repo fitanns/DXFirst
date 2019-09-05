@@ -13,6 +13,7 @@
                 <lightning:verticalNavigationSection label="Courses">
                     <aura:iteration items="{!v.courses}" var="course">
                         <c:CoursesItem course="{!course}"/>
+                    </aura:iteration>
                 </lightning:verticalNavigationSection>
             </lightning:verticalNavigation>
         </nav>

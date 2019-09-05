@@ -3,9 +3,10 @@
  -->
 
 <aura:component description="CoursesItem" implements="forceCommunity:availableForAllPageTypes" access="global">
+    <aura:registerEvent name="courseInfo" type="c:getCourseInfo"/>
     <aura:attribute name="course" type="Course__c"/>
 
     <lightning:verticalNavigationItem class="slds-nav-vertical__item" label="{!v.course.Name}"
-                                      name="{!v.course.Name}">
+                                      name="{!v.course.Name}" onclick="{!c.courseClick}">
     </lightning:verticalNavigationItem>
 </aura:component>

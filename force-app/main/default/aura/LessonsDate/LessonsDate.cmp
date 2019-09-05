@@ -1,0 +1,44 @@
+<aura:component description="LessonsDate" implements="flexipage:availableForAllPageTypes" access="global"
+                controller="LessonsController">
+
+    <aura:attribute name="currentDate" type="Date" default="2019-09-02"/>
+    <aura:attribute name="dayOfWeek" type="String" default="Wednesday"/>
+    <aura:attribute name="tableLessons" type="List"/>
+    <aura:handler name="init" value="{!this}" action="{!c.doInit}"/>
+
+    <lightning:card>
+        <aura:set attribute="actions">
+            <div class="date-and-buttons">
+                <div class="slds-datepicker slds-float_left ">
+                    <lightning:input type="date" value="{!v.currentDate}"/>
+                </div>
+                <lightning:buttonGroup class="slds-float_right">
+                    <lightning:buttonIcon iconName="utility:chevronleft" size="small" alternativeText="Date Before"
+                                          class="slds-button__icon--left" onclick="{!c.handleLeftDate}"/>
+                    <lightning:buttonIcon iconName="utility:chevronright" size="small" alternativeText="Date After"
+                                          class="slds-button__icon--right" onclick="{!c.handleRightDate}"/>
+                    <lightning:button label="today" title="Today" onclick="{! c.handleTodayClick }"/>
+                </lightning:buttonGroup>
+            </div>
+        </aura:set>
+        <p class="slds-p-horizontal_small slds-text-align_center">
+            {!v.dayOfWeek}
+        </p>
+        <div class="main-table">
+            <table class="day-table">
+                <aura:iteration items="{!v.tableLessons}" var="table">
+                    <tbody>
+                    <tr>
+                        <td class="day-hours">{!table.time}</td>
+                        <td class="time-lesson">{!table.firstTimePart}</td>
+                    </tr>
+                    <tr>
+                        <td class="day-hours"></td>
+                        <td class="time-lesson">&nbsp;{!table.secondTimePart}</td>
+                    </tr>
+                    </tbody>
+                </aura:iteration>
+            </table>
+        </div>
+    </lightning:card>
+</aura:component>

@@ -1,0 +1,41 @@
+/**
+ * Created by DmytroPinchuk on 22.08.2019.
+ */
+
+.THIS {
+    margin: 0;
+    padding: 0;
+}
+
+/*table start*/
+.THIS .main-table {
+    margin: auto;
+    background-color: white;
+    font-family: Calibri, Myriad;
+}
+
+.THIS .day-table {
+    width: 100%;
+    border-collapse: collapse;
+    border: 1px solid grey;
+}
+
+.THIS .day-table tbody tr td {
+    padding: 3px;
+    border: 1px solid #ccc;
+}
+
+.THIS .day-table tbody tr .day-hours {
+    width: 13%;
+    text-align: center;
+}
+
+.THIS .day-table tbody tr .time-lesson {
+    background-color: whitesmoke;
+    text-align: left;
+}
+
+
+
+
+

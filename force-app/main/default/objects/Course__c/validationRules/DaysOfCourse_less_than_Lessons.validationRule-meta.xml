@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>DaysOfCourse_less_than_Lessons</fullName>
+    <active>true</active>
+    <errorConditionFormula>Subject__r.Number_of_Lessons__c &gt; (End_Date__c - Start_Date__c )</errorConditionFormula>
+    <errorMessage>Days of Course couldn&#39;t be less than Lessons of the Subject</errorMessage>
+</ValidationRule>

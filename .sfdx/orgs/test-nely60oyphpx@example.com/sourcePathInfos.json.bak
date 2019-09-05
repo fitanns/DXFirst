@@ -48,13 +48,12 @@
             "sourcePath": "C:\\Users\\DmytroPinchuk\\CTProjects\\DXFirst\\force-app\\main\\default\\aura",
             "isDirectory": true,
             "size": 0,
-            "modifiedTime": 1566479146559,
-            "changeTime": 1566479146559,
-            "contentHash": "69cb9dedeca551ee1fd863a6d71575cf5db36a2c",
+            "modifiedTime": 1567699158049,
+            "changeTime": 1567699158049,
+            "contentHash": "d18b23a3f72c1cf8e4457473d7d2e780e6114cf2",
             "isMetadataFile": false,
             "state": "u",
-            "isWorkspace": false,
-            "isArtifactRoot": false
+            "isWorkspace": false
         }
     ],
     [
@@ -177,9 +176,9 @@
             "sourcePath": "C:\\Users\\DmytroPinchuk\\CTProjects\\DXFirst\\force-app\\main\\default\\classes",
             "isDirectory": true,
             "size": 0,
-            "modifiedTime": 1567363627196,
-            "changeTime": 1567363627196,
-            "contentHash": "5e2151a6a392b735da465bc088ca0ac3cbf7295a",
+            "modifiedTime": 1567693108749,
+            "changeTime": 1567693108749,
+            "contentHash": "5fd7a6c55fa379d15a24056ac41664444ae8be82",
             "isMetadataFile": false,
             "state": "u",
             "isWorkspace": false
@@ -248,15 +247,15 @@
     [
         "C:\\Users\\DmytroPinchuk\\CTProjects\\DXFirst\\force-app\\main\\default\\classes\\LessonsController.cls",
         {
-            "state": "u",
             "sourcePath": "C:\\Users\\DmytroPinchuk\\CTProjects\\DXFirst\\force-app\\main\\default\\classes\\LessonsController.cls",
             "isDirectory": false,
-            "isMetadataFile": false,
             "size": 1070,
             "modifiedTime": 1567527264786,
             "changeTime": 1567527264786,
-            "isWorkspace": false,
-            "contentHash": "96f8496f9c723cf160f9e1b767b926d9bb5f32f7"
+            "contentHash": "96f8496f9c723cf160f9e1b767b926d9bb5f32f7",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": false
         }
     ],
     [
@@ -530,13 +529,12 @@
             "sourcePath": "C:\\Users\\DmytroPinchuk\\CTProjects\\DXFirst",
             "isDirectory": true,
             "size": 0,
-            "modifiedTime": 1566305029092,
-            "changeTime": 1566305029092,
-            "contentHash": "465b87829d8e1618646ef8b1cc2f3bf39c4c343b",
+            "modifiedTime": 1567674862878,
+            "changeTime": 1567674862878,
+            "contentHash": "a8ceb8ffd0046cbd7065ac268eede4fec117c960",
             "isMetadataFile": false,
             "state": "u",
-            "isWorkspace": true,
-            "isArtifactRoot": false
+            "isWorkspace": true
         }
     ],
     [
@@ -1376,11 +1374,167 @@
         {
             "sourcePath": "C:\\Users\\DmytroPinchuk\\CTProjects\\DXFirst\\force-app\\main\\default\\aura\\LessonsDate\\LessonsDateHelper.js",
             "isDirectory": false,
-            "size": 4376,
-            "modifiedTime": 1567526729770,
-            "changeTime": 1567526729770,
-            "contentHash": "ae000a43473d772e32712705002c8ea1d2170b88",
+            "size": 2938,
+            "modifiedTime": 1567582150444,
+            "changeTime": 1567582150444,
+            "contentHash": "69cebed5de7c1fd4282e7c96f8d800ae3c37bd9c",
             "isMetadataFile": false,
+            "state": "u"
+        }
+    ],
+    [
+        "C:\\Users\\DmytroPinchuk\\CTProjects\\DXFirst\\force-app\\main\\default\\aura\\ListCourses",
+        {
+            "sourcePath": "C:\\Users\\DmytroPinchuk\\CTProjects\\DXFirst\\force-app\\main\\default\\aura\\ListCourses",
+            "isDirectory": true,
+            "size": 0,
+            "modifiedTime": 1567692951532,
+            "changeTime": 1567692951532,
+            "contentHash": "3d5cb1537ff409ced9c28c1e4de2d65389b562b2",
+            "isMetadataFile": false,
+            "state": "u"
+        }
+    ],
+    [
+        "C:\\Users\\DmytroPinchuk\\CTProjects\\DXFirst\\force-app\\main\\default\\aura\\ListCourses\\ListCourses.cmp",
+        {
+            "state": "u",
+            "sourcePath": "C:\\Users\\DmytroPinchuk\\CTProjects\\DXFirst\\force-app\\main\\default\\aura\\ListCourses\\ListCourses.cmp",
+            "isDirectory": false,
+            "isMetadataFile": false,
+            "size": 1224,
+            "modifiedTime": 1567699742506,
+            "changeTime": 1567699742506,
+            "contentHash": "40b732e52eabb789c75548e89935e00b81d8c46c"
+        }
+    ],
+    [
+        "C:\\Users\\DmytroPinchuk\\CTProjects\\DXFirst\\force-app\\main\\default\\aura\\ListCourses\\ListCourses.cmp-meta.xml",
+        {
+            "sourcePath": "C:\\Users\\DmytroPinchuk\\CTProjects\\DXFirst\\force-app\\main\\default\\aura\\ListCourses\\ListCourses.cmp-meta.xml",
+            "isDirectory": false,
+            "size": 216,
+            "modifiedTime": 1567692402788,
+            "changeTime": 1567692402788,
+            "contentHash": "35cfc3e29c87d034177774681c824956044d97b6",
+            "isMetadataFile": true,
+            "state": "u"
+        }
+    ],
+    [
+        "C:\\Users\\DmytroPinchuk\\CTProjects\\DXFirst\\force-app\\main\\default\\aura\\ListCourses\\ListCoursesController.js",
+        {
+            "sourcePath": "C:\\Users\\DmytroPinchuk\\CTProjects\\DXFirst\\force-app\\main\\default\\aura\\ListCourses\\ListCoursesController.js",
+            "isDirectory": false,
+            "size": 508,
+            "modifiedTime": 1567695079304,
+            "changeTime": 1567695079304,
+            "contentHash": "45fe6bb6c71ad17d56c7965260f3d6dbf2d58380",
+            "isMetadataFile": false,
+            "state": "u"
+        }
+    ],
+    [
+        "C:\\Users\\DmytroPinchuk\\CTProjects\\DXFirst\\force-app\\main\\default\\classes\\ListCoursesController.cls",
+        {
+            "sourcePath": "C:\\Users\\DmytroPinchuk\\CTProjects\\DXFirst\\force-app\\main\\default\\classes\\ListCoursesController.cls",
+            "isDirectory": false,
+            "size": 318,
+            "modifiedTime": 1567694363465,
+            "changeTime": 1567694363465,
+            "contentHash": "90a7940ef6addffaa16effb58d04a687ccf7af95",
+            "isMetadataFile": false,
+            "state": "u"
+        }
+    ],
+    [
+        "C:\\Users\\DmytroPinchuk\\CTProjects\\DXFirst\\force-app\\main\\default\\classes\\ListCoursesController.cls-meta.xml",
+        {
+            "sourcePath": "C:\\Users\\DmytroPinchuk\\CTProjects\\DXFirst\\force-app\\main\\default\\classes\\ListCoursesController.cls-meta.xml",
+            "isDirectory": false,
+            "size": 179,
+            "modifiedTime": 1567693108759,
+            "changeTime": 1567693108759,
+            "contentHash": "463a780dc1b11f5d645b2a49558ed28551f48927",
+            "isMetadataFile": true,
+            "state": "u"
+        }
+    ],
+    [
+        "C:\\Users\\DmytroPinchuk\\CTProjects\\DXFirst\\force-app\\main\\default\\aura\\CoursesInfo",
+        {
+            "sourcePath": "C:\\Users\\DmytroPinchuk\\CTProjects\\DXFirst\\force-app\\main\\default\\aura\\CoursesInfo",
+            "isDirectory": true,
+            "size": 0,
+            "modifiedTime": 1567699158169,
+            "changeTime": 1567699158169,
+            "contentHash": "e3d3b8b8107f69a27bb716e1401160fdf3d0ade2",
+            "isMetadataFile": false,
+            "state": "u"
+        }
+    ],
+    [
+        "C:\\Users\\DmytroPinchuk\\CTProjects\\DXFirst\\force-app\\main\\default\\aura\\CoursesItem",
+        {
+            "sourcePath": "C:\\Users\\DmytroPinchuk\\CTProjects\\DXFirst\\force-app\\main\\default\\aura\\CoursesItem",
+            "isDirectory": true,
+            "size": 0,
+            "modifiedTime": 1567699147720,
+            "changeTime": 1567699147720,
+            "contentHash": "c6b8ae88837ee49c3df9a7aa290619dc35f20f83",
+            "isMetadataFile": false,
+            "state": "u"
+        }
+    ],
+    [
+        "C:\\Users\\DmytroPinchuk\\CTProjects\\DXFirst\\force-app\\main\\default\\aura\\CoursesInfo\\CoursesInfo.cmp",
+        {
+            "sourcePath": "C:\\Users\\DmytroPinchuk\\CTProjects\\DXFirst\\force-app\\main\\default\\aura\\CoursesInfo\\CoursesInfo.cmp",
+            "isDirectory": false,
+            "size": 121,
+            "modifiedTime": 1567699158064,
+            "changeTime": 1567699158064,
+            "contentHash": "d4e85013bac2afa77f5e583f1024342aebeb26d3",
+            "isMetadataFile": false,
+            "state": "u"
+        }
+    ],
+    [
+        "C:\\Users\\DmytroPinchuk\\CTProjects\\DXFirst\\force-app\\main\\default\\aura\\CoursesInfo\\CoursesInfo.cmp-meta.xml",
+        {
+            "sourcePath": "C:\\Users\\DmytroPinchuk\\CTProjects\\DXFirst\\force-app\\main\\default\\aura\\CoursesInfo\\CoursesInfo.cmp-meta.xml",
+            "isDirectory": false,
+            "size": 216,
+            "modifiedTime": 1567699158178,
+            "changeTime": 1567699158178,
+            "contentHash": "bae308dc1dcbcf9f447f8c1b3ed3084f2bf61b04",
+            "isMetadataFile": true,
+            "state": "u"
+        }
+    ],
+    [
+        "C:\\Users\\DmytroPinchuk\\CTProjects\\DXFirst\\force-app\\main\\default\\aura\\CoursesItem\\CoursesItem.cmp",
+        {
+            "sourcePath": "C:\\Users\\DmytroPinchuk\\CTProjects\\DXFirst\\force-app\\main\\default\\aura\\CoursesItem\\CoursesItem.cmp",
+            "isDirectory": false,
+            "size": 443,
+            "modifiedTime": 1567699528983,
+            "changeTime": 1567699528983,
+            "contentHash": "b168088309ec761ff1874d965493bf560b19ce22",
+            "isMetadataFile": false,
+            "state": "u"
+        }
+    ],
+    [
+        "C:\\Users\\DmytroPinchuk\\CTProjects\\DXFirst\\force-app\\main\\default\\aura\\CoursesItem\\CoursesItem.cmp-meta.xml",
+        {
+            "sourcePath": "C:\\Users\\DmytroPinchuk\\CTProjects\\DXFirst\\force-app\\main\\default\\aura\\CoursesItem\\CoursesItem.cmp-meta.xml",
+            "isDirectory": false,
+            "size": 216,
+            "modifiedTime": 1567699147730,
+            "changeTime": 1567699147730,
+            "contentHash": "fe114f21eafa23f0e0a960453628f3f29ee507da",
+            "isMetadataFile": true,
             "state": "u"
         }
     ]

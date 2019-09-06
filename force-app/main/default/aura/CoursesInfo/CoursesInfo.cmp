@@ -8,19 +8,19 @@
 
     <lightning:card variant="Narrow" title="Course" iconName="standard:dashboard" footer=" ">
         <div class="slds-card__body">
-            <table class="slds-table slds-table_cell-buffer slds-no-row-hover slds-table_bordered slds-table_fixed-layout" role="grid">
+            <table class="slds-table slds-table_cell-buffer slds-no-row-hover slds-table_bordered slds-table_fixed-layout " role="grid">
                 <thead>
                 <tr class="slds-line-height_reset">
-                    <th class="" scope="col">
+                    <th class="slds-color__background_gray-3" scope="col">
                         <div class="slds-truncate" title="Name">Name</div>
                     </th>
-                    <th class="" scope="col">
+                    <th class="slds-color__background_gray-3" scope="col">
                         <div class="slds-truncate" title="Start Date">Start Date</div>
                     </th>
-                    <th class="" scope="col">
+                    <th class="slds-color__background_gray-3" scope="col">
                         <div class="slds-truncate" title="End Date">End Date</div>
                     </th>
-                    <th class="" scope="col">
+                    <th class="slds-color__background_gray-3" scope="col">
                         <div class="slds-truncate" title="Subject">Subject</div>
                     </th>
                 </tr>

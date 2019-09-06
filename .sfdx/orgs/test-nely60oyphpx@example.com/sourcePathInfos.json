@@ -35,9 +35,9 @@
             "sourcePath": "C:\\Users\\DmytroPinchuk\\CTProjects\\DXFirst\\force-app\\main\\default",
             "isDirectory": true,
             "size": 0,
-            "modifiedTime": 1566558257785,
-            "changeTime": 1566558257785,
-            "contentHash": "1c7deddee1a4d7f760812534dc11f9fcd9e0f3f4",
+            "modifiedTime": 1567759969117,
+            "changeTime": 1567759969117,
+            "contentHash": "2e66fe57edb98e4dd0fddb5388a8f0e50e5e4ae7",
             "isMetadataFile": false,
             "state": "u"
         }
@@ -48,12 +48,11 @@
             "sourcePath": "C:\\Users\\DmytroPinchuk\\CTProjects\\DXFirst\\force-app\\main\\default\\aura",
             "isDirectory": true,
             "size": 0,
-            "modifiedTime": 1567700022597,
-            "changeTime": 1567700022597,
-            "contentHash": "e0e4e5d21ecfeb00a0f18d4294ecc8f3f06ec6d5",
+            "modifiedTime": 1567785327706,
+            "changeTime": 1567785327706,
+            "contentHash": "873abaad6f41b8d5a22424d1e76709d6e1fba22e",
             "isMetadataFile": false,
-            "state": "u",
-            "isWorkspace": false
+            "state": "u"
         }
     ],
     [
@@ -176,12 +175,11 @@
             "sourcePath": "C:\\Users\\DmytroPinchuk\\CTProjects\\DXFirst\\force-app\\main\\default\\classes",
             "isDirectory": true,
             "size": 0,
-            "modifiedTime": 1567693108749,
-            "changeTime": 1567693108749,
-            "contentHash": "5fd7a6c55fa379d15a24056ac41664444ae8be82",
+            "modifiedTime": 1567785442534,
+            "changeTime": 1567785442534,
+            "contentHash": "b0c5f8082433b3bd278def3ca5420b4b2c6ecb4b",
             "isMetadataFile": false,
-            "state": "u",
-            "isWorkspace": false
+            "state": "u"
         }
     ],
     [
@@ -412,7 +410,7 @@
             "sourcePath": "C:\\Users\\DmytroPinchuk\\CTProjects\\DXFirst\\force-app\\main\\default\\triggers",
             "isDirectory": true,
             "size": 0,
-            "modifiedTime": 1565959700195,
+            "modifiedTime": 1567759968848,
             "changeTime": 1565959700195,
             "contentHash": "9d5093093b2df412e7e89f4304f756c06a77ac8c",
             "isMetadataFile": false,
@@ -426,14 +424,12 @@
         {
             "sourcePath": "C:\\Users\\DmytroPinchuk\\CTProjects\\DXFirst\\force-app\\main\\default\\triggers\\CourseTrigger.trigger",
             "isDirectory": false,
-            "size": 255,
-            "modifiedTime": 1565961846239,
-            "changeTime": 1565961846239,
-            "contentHash": "75e5a48313c2302cbc73ea3ff60039c2573c0079",
+            "size": 249,
+            "modifiedTime": 1567759968848,
+            "changeTime": 1567759968848,
+            "contentHash": "e26c5f6a5246cf50d06cb84ff50e8ea18068cc2c",
             "isMetadataFile": false,
-            "state": "u",
-            "isWorkspace": false,
-            "isArtifactRoot": false
+            "state": "u"
         }
     ],
     [
@@ -815,10 +811,10 @@
         {
             "sourcePath": "C:\\Users\\DmytroPinchuk\\CTProjects\\DXFirst\\force-app\\main\\default\\tabs\\Course__c.tab-meta.xml",
             "isDirectory": false,
-            "size": 225,
-            "modifiedTime": 1566558257694,
-            "changeTime": 1566558257694,
-            "contentHash": "02af176c2b3fe640302ea93f03571c71708827e2",
+            "size": 221,
+            "modifiedTime": 1567759968617,
+            "changeTime": 1567759968617,
+            "contentHash": "99ad59b0f67ecf7d00cfef6ed7b06faa99ff7657",
             "isMetadataFile": true,
             "state": "u"
         }
@@ -841,10 +837,10 @@
         {
             "sourcePath": "C:\\Users\\DmytroPinchuk\\CTProjects\\DXFirst\\force-app\\main\\default\\applications\\Course_Management.app-meta.xml",
             "isDirectory": false,
-            "size": 774,
-            "modifiedTime": 1566558257705,
-            "changeTime": 1566558257705,
-            "contentHash": "76c8dfbe632e908963fad73c8f52f878c56d3ac1",
+            "size": 1086,
+            "modifiedTime": 1567759968633,
+            "changeTime": 1567759968633,
+            "contentHash": "6f1546460ca585d326f64e6497dfd551c5bd3287",
             "isMetadataFile": true,
             "state": "u"
         }
@@ -854,10 +850,10 @@
         {
             "sourcePath": "C:\\Users\\DmytroPinchuk\\CTProjects\\DXFirst\\force-app\\main\\default\\profiles\\Custom%3A Marketing Profile.profile-meta.xml",
             "isDirectory": false,
-            "size": 8284,
-            "modifiedTime": 1567363016527,
-            "changeTime": 1567363016527,
-            "contentHash": "af33db57328be3d56b819434980360cc8e9cb51e",
+            "size": 19695,
+            "modifiedTime": 1567759968897,
+            "changeTime": 1567759968897,
+            "contentHash": "234be2aac0db51f0162363c55772c26a1e8c875a",
             "isMetadataFile": true,
             "state": "u"
         }
@@ -867,10 +863,10 @@
         {
             "sourcePath": "C:\\Users\\DmytroPinchuk\\CTProjects\\DXFirst\\force-app\\main\\default\\profiles\\Custom%3A Sales Profile.profile-meta.xml",
             "isDirectory": false,
-            "size": 8284,
-            "modifiedTime": 1567363016556,
-            "changeTime": 1567363016556,
-            "contentHash": "af33db57328be3d56b819434980360cc8e9cb51e",
+            "size": 19695,
+            "modifiedTime": 1567759968956,
+            "changeTime": 1567759968956,
+            "contentHash": "234be2aac0db51f0162363c55772c26a1e8c875a",
             "isMetadataFile": true,
             "state": "u"
         }
@@ -880,10 +876,10 @@
         {
             "sourcePath": "C:\\Users\\DmytroPinchuk\\CTProjects\\DXFirst\\force-app\\main\\default\\profiles\\Custom%3A Support Profile.profile-meta.xml",
             "isDirectory": false,
-            "size": 8622,
-            "modifiedTime": 1567363016598,
-            "changeTime": 1567363016598,
-            "contentHash": "91e949cd4f4fdf55e1b6adb7b2bf4de561f8f9df",
+            "size": 20033,
+            "modifiedTime": 1567759969008,
+            "changeTime": 1567759969008,
+            "contentHash": "a72b6326b127ce1ae47eefcb401f03df60299d93",
             "isMetadataFile": true,
             "state": "u"
         }
@@ -893,10 +889,10 @@
         {
             "sourcePath": "C:\\Users\\DmytroPinchuk\\CTProjects\\DXFirst\\force-app\\main\\default\\profiles\\Admin.profile-meta.xml",
             "isDirectory": false,
-            "size": 24586,
-            "modifiedTime": 1567363016660,
-            "changeTime": 1567363016660,
-            "contentHash": "baa594297f0fb6afbda3474728cbd93b30607cf0",
+            "size": 35832,
+            "modifiedTime": 1567759969054,
+            "changeTime": 1567759969054,
+            "contentHash": "b80313fe7d938ca32e3d697491aef910ba44b27c",
             "isMetadataFile": true,
             "state": "u"
         }
@@ -906,10 +902,10 @@
         {
             "sourcePath": "C:\\Users\\DmytroPinchuk\\CTProjects\\DXFirst\\force-app\\main\\default\\appMenus\\Salesforce1.appMenu-meta.xml",
             "isDirectory": false,
-            "size": 1670,
-            "modifiedTime": 1566558257789,
-            "changeTime": 1566558257789,
-            "contentHash": "81cea6c2affa5d8da72de0f2405d6d566e4461ce",
+            "size": 1766,
+            "modifiedTime": 1567759969079,
+            "changeTime": 1567759969079,
+            "contentHash": "eecc90d94d7dcde36ff2d2eafcc6865c89f35f82",
             "isMetadataFile": true,
             "state": "u"
         }
@@ -919,10 +915,10 @@
         {
             "sourcePath": "C:\\Users\\DmytroPinchuk\\CTProjects\\DXFirst\\force-app\\main\\default\\appMenus\\AppSwitcher.appMenu-meta.xml",
             "isDirectory": false,
-            "size": 2007,
-            "modifiedTime": 1566558257793,
-            "changeTime": 1566558257793,
-            "contentHash": "e9cd7f2e3af351c05c8cb4f64b31c1190cec0d72",
+            "size": 2235,
+            "modifiedTime": 1567759969089,
+            "changeTime": 1567759969089,
+            "contentHash": "8d76afd49657000fadd3805506ad813e608196e6",
             "isMetadataFile": true,
             "state": "u"
         }
@@ -946,9 +942,9 @@
             "sourcePath": "C:\\Users\\DmytroPinchuk\\CTProjects\\DXFirst\\force-app\\main\\default\\objects",
             "isDirectory": true,
             "size": 0,
-            "modifiedTime": 1567074934462,
-            "changeTime": 1567074934462,
-            "contentHash": "b52c89d357c89e88c39ee514dc52cf997a0c8948",
+            "modifiedTime": 1567759968590,
+            "changeTime": 1567759968590,
+            "contentHash": "11eb09c7fc5783b1122c9b8feb83dd360531e0c9",
             "isMetadataFile": false,
             "state": "u"
         }
@@ -1076,9 +1072,9 @@
             "sourcePath": "C:\\Users\\DmytroPinchuk\\CTProjects\\DXFirst\\force-app\\main\\default\\flexipages",
             "isDirectory": true,
             "size": 0,
-            "modifiedTime": 1566558257680,
-            "changeTime": 1566558257680,
-            "contentHash": "2346149cff36fb21bc2368872f49e8507f8434f8",
+            "modifiedTime": 1567759968606,
+            "changeTime": 1567759968606,
+            "contentHash": "dfa1f10df78d91813e3a2959f3fea532f091080a",
             "isMetadataFile": false,
             "state": "u"
         }
@@ -1089,9 +1085,9 @@
             "sourcePath": "C:\\Users\\DmytroPinchuk\\CTProjects\\DXFirst\\force-app\\main\\default\\tabs",
             "isDirectory": true,
             "size": 0,
-            "modifiedTime": 1567074934504,
-            "changeTime": 1567074934504,
-            "contentHash": "43eba7bfbca7cacab02a53f0d319e4a89c5e2220",
+            "modifiedTime": 1567759968620,
+            "changeTime": 1567759968620,
+            "contentHash": "426db802fa429990728505ab672d60d9f17bfa26",
             "isMetadataFile": false,
             "state": "u"
         }
@@ -1115,9 +1111,9 @@
             "sourcePath": "C:\\Users\\DmytroPinchuk\\CTProjects\\DXFirst\\force-app\\main\\default\\profiles",
             "isDirectory": true,
             "size": 0,
-            "modifiedTime": 1566558257763,
-            "changeTime": 1566558257763,
-            "contentHash": "9c367b0e719eb8c48c5b0d9cbfb5f580a4bd6717",
+            "modifiedTime": 1567759968974,
+            "changeTime": 1567759968974,
+            "contentHash": "7a36177a9e862b0ae62ee4206596ba27940ee2d4",
             "isMetadataFile": false,
             "state": "u"
         }
@@ -1179,10 +1175,10 @@
         {
             "sourcePath": "C:\\Users\\DmytroPinchuk\\CTProjects\\DXFirst\\force-app\\main\\default\\aura\\LessonsOfTheDay\\LessonsOfTheDay.css",
             "isDirectory": false,
-            "size": 696,
-            "modifiedTime": 1567066547521,
-            "changeTime": 1567066547521,
-            "contentHash": "d578d26a024bd45092a837f2dac7cf438ff1d98f",
+            "size": 715,
+            "modifiedTime": 1567761972331,
+            "changeTime": 1567761972331,
+            "contentHash": "bcf7f584243c093d2081fbba20743a9e839141fe",
             "isMetadataFile": false,
             "state": "u"
         }
@@ -1388,9 +1384,9 @@
             "sourcePath": "C:\\Users\\DmytroPinchuk\\CTProjects\\DXFirst\\force-app\\main\\default\\aura\\ListCourses",
             "isDirectory": true,
             "size": 0,
-            "modifiedTime": 1567692951532,
-            "changeTime": 1567692951532,
-            "contentHash": "3d5cb1537ff409ced9c28c1e4de2d65389b562b2",
+            "modifiedTime": 1567762057545,
+            "changeTime": 1567762057545,
+            "contentHash": "e6d36cbd6cdcff574d92253b66e911bf6cb8a21c",
             "isMetadataFile": false,
             "state": "u"
         }
@@ -1400,10 +1396,10 @@
         {
             "sourcePath": "C:\\Users\\DmytroPinchuk\\CTProjects\\DXFirst\\force-app\\main\\default\\aura\\ListCourses\\ListCourses.cmp",
             "isDirectory": false,
-            "size": 832,
-            "modifiedTime": 1567700748382,
-            "changeTime": 1567700748382,
-            "contentHash": "42a1703b727c8de87b19580b32b2feea53fb8624",
+            "size": 850,
+            "modifiedTime": 1567766280140,
+            "changeTime": 1567766280140,
+            "contentHash": "1833fa105d476cc4915476f6b624e1323bd6fdd5",
             "isMetadataFile": false,
             "state": "u"
         }
@@ -1437,14 +1433,14 @@
     [
         "C:\\Users\\DmytroPinchuk\\CTProjects\\DXFirst\\force-app\\main\\default\\classes\\ListCoursesController.cls",
         {
-            "state": "u",
             "sourcePath": "C:\\Users\\DmytroPinchuk\\CTProjects\\DXFirst\\force-app\\main\\default\\classes\\ListCoursesController.cls",
             "isDirectory": false,
-            "isMetadataFile": false,
             "size": 323,
             "modifiedTime": 1567757785966,
             "changeTime": 1567757785966,
-            "contentHash": "cde78b363e28611d2e8ed2b56a67b781c80f8d61"
+            "contentHash": "cde78b363e28611d2e8ed2b56a67b781c80f8d61",
+            "isMetadataFile": false,
+            "state": "u"
         }
     ],
     [
@@ -1479,9 +1475,9 @@
             "sourcePath": "C:\\Users\\DmytroPinchuk\\CTProjects\\DXFirst\\force-app\\main\\default\\aura\\CoursesItem",
             "isDirectory": true,
             "size": 0,
-            "modifiedTime": 1567700150836,
-            "changeTime": 1567700150836,
-            "contentHash": "276e5fb630215225dfd936fee681a7581da760d4",
+            "modifiedTime": 1567762135164,
+            "changeTime": 1567762135164,
+            "contentHash": "62da9f1c9ca486fc79f9da55526df8124443394b",
             "isMetadataFile": false,
             "state": "u"
         }
@@ -1489,14 +1485,14 @@
     [
         "C:\\Users\\DmytroPinchuk\\CTProjects\\DXFirst\\force-app\\main\\default\\aura\\CoursesInfo\\CoursesInfo.cmp",
         {
-            "state": "u",
             "sourcePath": "C:\\Users\\DmytroPinchuk\\CTProjects\\DXFirst\\force-app\\main\\default\\aura\\CoursesInfo\\CoursesInfo.cmp",
             "isDirectory": false,
+            "size": 2244,
+            "modifiedTime": 1567758521643,
+            "changeTime": 1567758521643,
+            "contentHash": "2cea0750d27fce32589f87eb47d1a7bd0624e54a",
             "isMetadataFile": false,
-            "size": 2127,
-            "modifiedTime": 1567757785977,
-            "changeTime": 1567757785977,
-            "contentHash": "19d56ec17ad4f9e63eb5e3aa56e4118a1a2b158c"
+            "state": "u"
         }
     ],
     [
@@ -1600,6 +1596,2450 @@
             "changeTime": 1567700748350,
             "contentHash": "aa7558125473f735e10b0caa1e6abbd28040b241",
             "isMetadataFile": false,
+            "state": "u"
+        }
+    ],
+    [
+        "C:\\Users\\DmytroPinchuk\\CTProjects\\DXFirst\\force-app\\main\\default\\staticresources\\SiteSamples.resource-meta.xml",
+        {
+            "sourcePath": "C:\\Users\\DmytroPinchuk\\CTProjects\\DXFirst\\force-app\\main\\default\\staticresources\\SiteSamples.resource-meta.xml",
+            "isDirectory": false,
+            "size": 279,
+            "modifiedTime": 1567759968108,
+            "changeTime": 1567759968108,
+            "contentHash": "d631b8484f7cf65ecbe56127a65e4ec278d8657d",
+            "isMetadataFile": true,
+            "state": "u"
+        }
+    ],
+    [
+        "C:\\Users\\DmytroPinchuk\\CTProjects\\DXFirst\\force-app\\main\\default\\staticresources\\SiteSamples\\img\\clock.png",
+        {
+            "sourcePath": "C:\\Users\\DmytroPinchuk\\CTProjects\\DXFirst\\force-app\\main\\default\\staticresources\\SiteSamples\\img\\clock.png",
+            "isDirectory": false,
+            "size": 4681,
+            "modifiedTime": 1567759968153,
+            "changeTime": 1567759968153,
+            "contentHash": "6f2f8d42808b3c04c1a2e7d9b6ba37ea7f862ba7",
+            "isMetadataFile": false,
+            "state": "u"
+        }
+    ],
+    [
+        "C:\\Users\\DmytroPinchuk\\CTProjects\\DXFirst\\force-app\\main\\default\\staticresources\\SiteSamples\\img\\construction.png",
+        {
+            "sourcePath": "C:\\Users\\DmytroPinchuk\\CTProjects\\DXFirst\\force-app\\main\\default\\staticresources\\SiteSamples\\img\\construction.png",
+            "isDirectory": false,
+            "size": 15051,
+            "modifiedTime": 1567759968156,
+            "changeTime": 1567759968156,
+            "contentHash": "322851d6d1ef8caf107caf445de1b6c05caef6bc",
+            "isMetadataFile": false,
+            "state": "u"
+        }
+    ],
+    [
+        "C:\\Users\\DmytroPinchuk\\CTProjects\\DXFirst\\force-app\\main\\default\\staticresources\\SiteSamples\\img\\force_logo.png",
+        {
+            "sourcePath": "C:\\Users\\DmytroPinchuk\\CTProjects\\DXFirst\\force-app\\main\\default\\staticresources\\SiteSamples\\img\\force_logo.png",
+            "isDirectory": false,
+            "size": 1728,
+            "modifiedTime": 1567759968158,
+            "changeTime": 1567759968158,
+            "contentHash": "40bb27e6354b88edcd694651e69ac817cc859541",
+            "isMetadataFile": false,
+            "state": "u"
+        }
+    ],
+    [
+        "C:\\Users\\DmytroPinchuk\\CTProjects\\DXFirst\\force-app\\main\\default\\staticresources\\SiteSamples\\img\\maintenance.png",
+        {
+            "sourcePath": "C:\\Users\\DmytroPinchuk\\CTProjects\\DXFirst\\force-app\\main\\default\\staticresources\\SiteSamples\\img\\maintenance.png",
+            "isDirectory": false,
+            "size": 12247,
+            "modifiedTime": 1567759968161,
+            "changeTime": 1567759968161,
+            "contentHash": "3eae4032e6c554a7c44ec277b10f9fa92de2d6cf",
+            "isMetadataFile": false,
+            "state": "u"
+        }
+    ],
+    [
+        "C:\\Users\\DmytroPinchuk\\CTProjects\\DXFirst\\force-app\\main\\default\\staticresources\\SiteSamples\\img\\poweredby.png",
+        {
+            "sourcePath": "C:\\Users\\DmytroPinchuk\\CTProjects\\DXFirst\\force-app\\main\\default\\staticresources\\SiteSamples\\img\\poweredby.png",
+            "isDirectory": false,
+            "size": 984,
+            "modifiedTime": 1567759968163,
+            "changeTime": 1567759968163,
+            "contentHash": "a29fa078df1fc18309a8fa02d5941312e4e41344",
+            "isMetadataFile": false,
+            "state": "u"
+        }
+    ],
+    [
+        "C:\\Users\\DmytroPinchuk\\CTProjects\\DXFirst\\force-app\\main\\default\\staticresources\\SiteSamples\\img\\tools.png",
+        {
+            "sourcePath": "C:\\Users\\DmytroPinchuk\\CTProjects\\DXFirst\\force-app\\main\\default\\staticresources\\SiteSamples\\img\\tools.png",
+            "isDirectory": false,
+            "size": 2136,
+            "modifiedTime": 1567759968166,
+            "changeTime": 1567759968166,
+            "contentHash": "06ee26032a159736878decef296cba66ec8d8e25",
+            "isMetadataFile": false,
+            "state": "u"
+        }
+    ],
+    [
+        "C:\\Users\\DmytroPinchuk\\CTProjects\\DXFirst\\force-app\\main\\default\\staticresources\\SiteSamples\\img\\unauthorized.png",
+        {
+            "sourcePath": "C:\\Users\\DmytroPinchuk\\CTProjects\\DXFirst\\force-app\\main\\default\\staticresources\\SiteSamples\\img\\unauthorized.png",
+            "isDirectory": false,
+            "size": 2076,
+            "modifiedTime": 1567759968169,
+            "changeTime": 1567759968169,
+            "contentHash": "74dc855d72862a1f62d1c9ec0535f43a229fb1a4",
+            "isMetadataFile": false,
+            "state": "u"
+        }
+    ],
+    [
+        "C:\\Users\\DmytroPinchuk\\CTProjects\\DXFirst\\force-app\\main\\default\\staticresources\\SiteSamples\\img\\warning.png",
+        {
+            "sourcePath": "C:\\Users\\DmytroPinchuk\\CTProjects\\DXFirst\\force-app\\main\\default\\staticresources\\SiteSamples\\img\\warning.png",
+            "isDirectory": false,
+            "size": 1767,
+            "modifiedTime": 1567759968172,
+            "changeTime": 1567759968172,
+            "contentHash": "90ef2806b042926ca428c19654b9306555b53429",
+            "isMetadataFile": false,
+            "state": "u"
+        }
+    ],
+    [
+        "C:\\Users\\DmytroPinchuk\\CTProjects\\DXFirst\\force-app\\main\\default\\staticresources\\SiteSamples\\SiteStyles.css",
+        {
+            "sourcePath": "C:\\Users\\DmytroPinchuk\\CTProjects\\DXFirst\\force-app\\main\\default\\staticresources\\SiteSamples\\SiteStyles.css",
+            "isDirectory": false,
+            "size": 402,
+            "modifiedTime": 1567759968175,
+            "changeTime": 1567759968175,
+            "contentHash": "acbb17c79c96e91d9c04ae4c847b7241ccde01de",
+            "isMetadataFile": false,
+            "state": "u"
+        }
+    ],
+    [
+        "C:\\Users\\DmytroPinchuk\\CTProjects\\DXFirst\\force-app\\main\\default\\settings\\Account.settings-meta.xml",
+        {
+            "sourcePath": "C:\\Users\\DmytroPinchuk\\CTProjects\\DXFirst\\force-app\\main\\default\\settings\\Account.settings-meta.xml",
+            "isDirectory": false,
+            "size": 294,
+            "modifiedTime": 1567759968192,
+            "changeTime": 1567759968192,
+            "contentHash": "f9e638b8375b964ef14290fbd9d4af7692cd1995",
+            "isMetadataFile": true,
+            "state": "u"
+        }
+    ],
+    [
+        "C:\\Users\\DmytroPinchuk\\CTProjects\\DXFirst\\force-app\\main\\default\\aura\\loginForm\\loginForm.cmp-meta.xml",
+        {
+            "sourcePath": "C:\\Users\\DmytroPinchuk\\CTProjects\\DXFirst\\force-app\\main\\default\\aura\\loginForm\\loginForm.cmp-meta.xml",
+            "isDirectory": false,
+            "size": 230,
+            "modifiedTime": 1567759968197,
+            "changeTime": 1567759968197,
+            "contentHash": "eeaf911b0bcc62a154f382cb1dea008566d194cd",
+            "isMetadataFile": true,
+            "state": "u"
+        }
+    ],
+    [
+        "C:\\Users\\DmytroPinchuk\\CTProjects\\DXFirst\\force-app\\main\\default\\aura\\loginForm\\loginForm.cmp",
+        {
+            "sourcePath": "C:\\Users\\DmytroPinchuk\\CTProjects\\DXFirst\\force-app\\main\\default\\aura\\loginForm\\loginForm.cmp",
+            "isDirectory": false,
+            "size": 4098,
+            "modifiedTime": 1567759968201,
+            "changeTime": 1567759968201,
+            "contentHash": "8cad4a3886eb1be09b766a10c7a0975c6c1fdf46",
+            "isMetadataFile": false,
+            "state": "u"
+        }
+    ],
+    [
+        "C:\\Users\\DmytroPinchuk\\CTProjects\\DXFirst\\force-app\\main\\default\\aura\\loginForm\\loginFormHelper.js",
+        {
+            "sourcePath": "C:\\Users\\DmytroPinchuk\\CTProjects\\DXFirst\\force-app\\main\\default\\aura\\loginForm\\loginFormHelper.js",
+            "isDirectory": false,
+            "size": 2872,
+            "modifiedTime": 1567759968211,
+            "changeTime": 1567759968211,
+            "contentHash": "0005d3525bc7e18a24f19df148a2833b4a1ccb5e",
+            "isMetadataFile": false,
+            "state": "u"
+        }
+    ],
+    [
+        "C:\\Users\\DmytroPinchuk\\CTProjects\\DXFirst\\force-app\\main\\default\\aura\\loginForm\\loginFormController.js",
+        {
+            "sourcePath": "C:\\Users\\DmytroPinchuk\\CTProjects\\DXFirst\\force-app\\main\\default\\aura\\loginForm\\loginFormController.js",
+            "isDirectory": false,
+            "size": 2950,
+            "modifiedTime": 1567759968216,
+            "changeTime": 1567759968216,
+            "contentHash": "64e5af91d1a6454d38258590c1efdfc27222c2ff",
+            "isMetadataFile": false,
+            "state": "u"
+        }
+    ],
+    [
+        "C:\\Users\\DmytroPinchuk\\CTProjects\\DXFirst\\force-app\\main\\default\\aura\\loginForm\\loginForm.design",
+        {
+            "sourcePath": "C:\\Users\\DmytroPinchuk\\CTProjects\\DXFirst\\force-app\\main\\default\\aura\\loginForm\\loginForm.design",
+            "isDirectory": false,
+            "size": 546,
+            "modifiedTime": 1567759968219,
+            "changeTime": 1567759968219,
+            "contentHash": "9c45d15bab64fa1cfe6466a3cea52b68fbcc787c",
+            "isMetadataFile": false,
+            "state": "u"
+        }
+    ],
+    [
+        "C:\\Users\\DmytroPinchuk\\CTProjects\\DXFirst\\force-app\\main\\default\\aura\\loginForm\\loginForm.css",
+        {
+            "sourcePath": "C:\\Users\\DmytroPinchuk\\CTProjects\\DXFirst\\force-app\\main\\default\\aura\\loginForm\\loginForm.css",
+            "isDirectory": false,
+            "size": 1851,
+            "modifiedTime": 1567759968221,
+            "changeTime": 1567759968221,
+            "contentHash": "e863ec165e4c2983bf703eaf60418cf394ead707",
+            "isMetadataFile": false,
+            "state": "u"
+        }
+    ],
+    [
+        "C:\\Users\\DmytroPinchuk\\CTProjects\\DXFirst\\force-app\\main\\default\\aura\\selfRegister\\selfRegister.cmp-meta.xml",
+        {
+            "sourcePath": "C:\\Users\\DmytroPinchuk\\CTProjects\\DXFirst\\force-app\\main\\default\\aura\\selfRegister\\selfRegister.cmp-meta.xml",
+            "isDirectory": false,
+            "size": 233,
+            "modifiedTime": 1567759968229,
+            "changeTime": 1567759968229,
+            "contentHash": "a94194f74a9a8a4e78909fda9a4cfe6814e2e164",
+            "isMetadataFile": true,
+            "state": "u"
+        }
+    ],
+    [
+        "C:\\Users\\DmytroPinchuk\\CTProjects\\DXFirst\\force-app\\main\\default\\aura\\selfRegister\\selfRegisterController.js",
+        {
+            "sourcePath": "C:\\Users\\DmytroPinchuk\\CTProjects\\DXFirst\\force-app\\main\\default\\aura\\selfRegister\\selfRegisterController.js",
+            "isDirectory": false,
+            "size": 1183,
+            "modifiedTime": 1567759968234,
+            "changeTime": 1567759968234,
+            "contentHash": "1ac99d86482ed0f2997f150773d0f867705fe610",
+            "isMetadataFile": false,
+            "state": "u"
+        }
+    ],
+    [
+        "C:\\Users\\DmytroPinchuk\\CTProjects\\DXFirst\\force-app\\main\\default\\aura\\selfRegister\\selfRegister.cmp",
+        {
+            "sourcePath": "C:\\Users\\DmytroPinchuk\\CTProjects\\DXFirst\\force-app\\main\\default\\aura\\selfRegister\\selfRegister.cmp",
+            "isDirectory": false,
+            "size": 5281,
+            "modifiedTime": 1567759968237,
+            "changeTime": 1567759968237,
+            "contentHash": "3fd8be0700fabe1c7aae4090088fbea18e02c349",
+            "isMetadataFile": false,
+            "state": "u"
+        }
+    ],
+    [
+        "C:\\Users\\DmytroPinchuk\\CTProjects\\DXFirst\\force-app\\main\\default\\aura\\selfRegister\\selfRegister.css",
+        {
+            "sourcePath": "C:\\Users\\DmytroPinchuk\\CTProjects\\DXFirst\\force-app\\main\\default\\aura\\selfRegister\\selfRegister.css",
+            "isDirectory": false,
+            "size": 3412,
+            "modifiedTime": 1567759968240,
+            "changeTime": 1567759968240,
+            "contentHash": "eb17e7321358d4e1f50506328593d32deef7e6ff",
+            "isMetadataFile": false,
+            "state": "u"
+        }
+    ],
+    [
+        "C:\\Users\\DmytroPinchuk\\CTProjects\\DXFirst\\force-app\\main\\default\\aura\\selfRegister\\selfRegisterHelper.js",
+        {
+            "sourcePath": "C:\\Users\\DmytroPinchuk\\CTProjects\\DXFirst\\force-app\\main\\default\\aura\\selfRegister\\selfRegisterHelper.js",
+            "isDirectory": false,
+            "size": 2424,
+            "modifiedTime": 1567759968245,
+            "changeTime": 1567759968245,
+            "contentHash": "e579fbb4dae5e6c3e604f900719e1c697908fe02",
+            "isMetadataFile": false,
+            "state": "u"
+        }
+    ],
+    [
+        "C:\\Users\\DmytroPinchuk\\CTProjects\\DXFirst\\force-app\\main\\default\\aura\\selfRegister\\selfRegister.design",
+        {
+            "sourcePath": "C:\\Users\\DmytroPinchuk\\CTProjects\\DXFirst\\force-app\\main\\default\\aura\\selfRegister\\selfRegister.design",
+            "isDirectory": false,
+            "size": 714,
+            "modifiedTime": 1567759968249,
+            "changeTime": 1567759968249,
+            "contentHash": "c50da00f4f7211befe944a7e800c75a3c31d3c81",
+            "isMetadataFile": false,
+            "state": "u"
+        }
+    ],
+    [
+        "C:\\Users\\DmytroPinchuk\\CTProjects\\DXFirst\\force-app\\main\\default\\aura\\forgotPassword\\forgotPassword.cmp-meta.xml",
+        {
+            "sourcePath": "C:\\Users\\DmytroPinchuk\\CTProjects\\DXFirst\\force-app\\main\\default\\aura\\forgotPassword\\forgotPassword.cmp-meta.xml",
+            "isDirectory": false,
+            "size": 235,
+            "modifiedTime": 1567759968255,
+            "changeTime": 1567759968255,
+            "contentHash": "deec747bc99a7ddd2c51354773284b67e7820f8b",
+            "isMetadataFile": true,
+            "state": "u"
+        }
+    ],
+    [
+        "C:\\Users\\DmytroPinchuk\\CTProjects\\DXFirst\\force-app\\main\\default\\aura\\forgotPassword\\forgotPassword.design",
+        {
+            "sourcePath": "C:\\Users\\DmytroPinchuk\\CTProjects\\DXFirst\\force-app\\main\\default\\aura\\forgotPassword\\forgotPassword.design",
+            "isDirectory": false,
+            "size": 288,
+            "modifiedTime": 1567759968259,
+            "changeTime": 1567759968259,
+            "contentHash": "7ecc66999387934c5dea131a1825ab1c7703f11f",
+            "isMetadataFile": false,
+            "state": "u"
+        }
+    ],
+    [
+        "C:\\Users\\DmytroPinchuk\\CTProjects\\DXFirst\\force-app\\main\\default\\aura\\forgotPassword\\forgotPassword.css",
+        {
+            "sourcePath": "C:\\Users\\DmytroPinchuk\\CTProjects\\DXFirst\\force-app\\main\\default\\aura\\forgotPassword\\forgotPassword.css",
+            "isDirectory": false,
+            "size": 1433,
+            "modifiedTime": 1567759968263,
+            "changeTime": 1567759968263,
+            "contentHash": "b23bd13dd4e4a91d377bd7dc39826c44fb349ffd",
+            "isMetadataFile": false,
+            "state": "u"
+        }
+    ],
+    [
+        "C:\\Users\\DmytroPinchuk\\CTProjects\\DXFirst\\force-app\\main\\default\\aura\\forgotPassword\\forgotPassword.cmp",
+        {
+            "sourcePath": "C:\\Users\\DmytroPinchuk\\CTProjects\\DXFirst\\force-app\\main\\default\\aura\\forgotPassword\\forgotPassword.cmp",
+            "isDirectory": false,
+            "size": 1732,
+            "modifiedTime": 1567759968272,
+            "changeTime": 1567759968272,
+            "contentHash": "315d442c8f2b49ea3d63f7c728dfcff24c3e3a99",
+            "isMetadataFile": false,
+            "state": "u"
+        }
+    ],
+    [
+        "C:\\Users\\DmytroPinchuk\\CTProjects\\DXFirst\\force-app\\main\\default\\aura\\forgotPassword\\forgotPasswordHelper.js",
+        {
+            "sourcePath": "C:\\Users\\DmytroPinchuk\\CTProjects\\DXFirst\\force-app\\main\\default\\aura\\forgotPassword\\forgotPasswordHelper.js",
+            "isDirectory": false,
+            "size": 1043,
+            "modifiedTime": 1567759968276,
+            "changeTime": 1567759968276,
+            "contentHash": "2002734bc484699cf8d5f68bb5930de6801e5b3e",
+            "isMetadataFile": false,
+            "state": "u"
+        }
+    ],
+    [
+        "C:\\Users\\DmytroPinchuk\\CTProjects\\DXFirst\\force-app\\main\\default\\aura\\forgotPassword\\forgotPasswordController.js",
+        {
+            "sourcePath": "C:\\Users\\DmytroPinchuk\\CTProjects\\DXFirst\\force-app\\main\\default\\aura\\forgotPassword\\forgotPasswordController.js",
+            "isDirectory": false,
+            "size": 765,
+            "modifiedTime": 1567759968281,
+            "changeTime": 1567759968281,
+            "contentHash": "830df9a34fd83eb9e7916aea616541d67dbc34e6",
+            "isMetadataFile": false,
+            "state": "u"
+        }
+    ],
+    [
+        "C:\\Users\\DmytroPinchuk\\CTProjects\\DXFirst\\force-app\\main\\default\\aura\\setStartUrl\\setStartUrl.evt-meta.xml",
+        {
+            "sourcePath": "C:\\Users\\DmytroPinchuk\\CTProjects\\DXFirst\\force-app\\main\\default\\aura\\setStartUrl\\setStartUrl.evt-meta.xml",
+            "isDirectory": false,
+            "size": 228,
+            "modifiedTime": 1567759968288,
+            "changeTime": 1567759968288,
+            "contentHash": "0b7a8c34c830d32bcf2d1d39622075aa27b44ae4",
+            "isMetadataFile": true,
+            "state": "u"
+        }
+    ],
+    [
+        "C:\\Users\\DmytroPinchuk\\CTProjects\\DXFirst\\force-app\\main\\default\\aura\\setStartUrl\\setStartUrl.evt",
+        {
+            "sourcePath": "C:\\Users\\DmytroPinchuk\\CTProjects\\DXFirst\\force-app\\main\\default\\aura\\setStartUrl\\setStartUrl.evt",
+            "isDirectory": false,
+            "size": 96,
+            "modifiedTime": 1567759968293,
+            "changeTime": 1567759968293,
+            "contentHash": "36d4cf2f3ee9039bdae4d29a0056923260d7373b",
+            "isMetadataFile": false,
+            "state": "u"
+        }
+    ],
+    [
+        "C:\\Users\\DmytroPinchuk\\CTProjects\\DXFirst\\force-app\\main\\default\\aura\\setExpId\\setExpId.evt-meta.xml",
+        {
+            "sourcePath": "C:\\Users\\DmytroPinchuk\\CTProjects\\DXFirst\\force-app\\main\\default\\aura\\setExpId\\setExpId.evt-meta.xml",
+            "isDirectory": false,
+            "size": 225,
+            "modifiedTime": 1567759968301,
+            "changeTime": 1567759968301,
+            "contentHash": "9b31a9c54b67fce1f6afad5557a955c3316768e0",
+            "isMetadataFile": true,
+            "state": "u"
+        }
+    ],
+    [
+        "C:\\Users\\DmytroPinchuk\\CTProjects\\DXFirst\\force-app\\main\\default\\aura\\setExpId\\setExpId.evt",
+        {
+            "sourcePath": "C:\\Users\\DmytroPinchuk\\CTProjects\\DXFirst\\force-app\\main\\default\\aura\\setExpId\\setExpId.evt",
+            "isDirectory": false,
+            "size": 96,
+            "modifiedTime": 1567759968304,
+            "changeTime": 1567759968304,
+            "contentHash": "3eb7d547ead7f9611baf1f7ee880973ccb65889c",
+            "isMetadataFile": false,
+            "state": "u"
+        }
+    ],
+    [
+        "C:\\Users\\DmytroPinchuk\\CTProjects\\DXFirst\\force-app\\main\\default\\components\\SiteFooter.component-meta.xml",
+        {
+            "sourcePath": "C:\\Users\\DmytroPinchuk\\CTProjects\\DXFirst\\force-app\\main\\default\\components\\SiteFooter.component-meta.xml",
+            "isDirectory": false,
+            "size": 264,
+            "modifiedTime": 1567759968310,
+            "changeTime": 1567759968310,
+            "contentHash": "69cf7787233bf434a2e51df1c98aa6098264f360",
+            "isMetadataFile": true,
+            "state": "u"
+        }
+    ],
+    [
+        "C:\\Users\\DmytroPinchuk\\CTProjects\\DXFirst\\force-app\\main\\default\\components\\SiteFooter.component",
+        {
+            "sourcePath": "C:\\Users\\DmytroPinchuk\\CTProjects\\DXFirst\\force-app\\main\\default\\components\\SiteFooter.component",
+            "isDirectory": false,
+            "size": 77,
+            "modifiedTime": 1567759968322,
+            "changeTime": 1567759968322,
+            "contentHash": "8c9f2b97bbfa52fdef76795bfea4a72ea95d3258",
+            "isMetadataFile": false,
+            "state": "u"
+        }
+    ],
+    [
+        "C:\\Users\\DmytroPinchuk\\CTProjects\\DXFirst\\force-app\\main\\default\\components\\SiteLogin.component-meta.xml",
+        {
+            "sourcePath": "C:\\Users\\DmytroPinchuk\\CTProjects\\DXFirst\\force-app\\main\\default\\components\\SiteLogin.component-meta.xml",
+            "isDirectory": false,
+            "size": 255,
+            "modifiedTime": 1567759968330,
+            "changeTime": 1567759968330,
+            "contentHash": "0be5585ea38c2bb586a6e883fc51bc536a9de9fa",
+            "isMetadataFile": true,
+            "state": "u"
+        }
+    ],
+    [
+        "C:\\Users\\DmytroPinchuk\\CTProjects\\DXFirst\\force-app\\main\\default\\components\\SiteLogin.component",
+        {
+            "sourcePath": "C:\\Users\\DmytroPinchuk\\CTProjects\\DXFirst\\force-app\\main\\default\\components\\SiteLogin.component",
+            "isDirectory": false,
+            "size": 1254,
+            "modifiedTime": 1567759968342,
+            "changeTime": 1567759968342,
+            "contentHash": "bc708781ea43467adf9e0efda09caf0e4abc96ba",
+            "isMetadataFile": false,
+            "state": "u"
+        }
+    ],
+    [
+        "C:\\Users\\DmytroPinchuk\\CTProjects\\DXFirst\\force-app\\main\\default\\components\\SitePoweredBy.component-meta.xml",
+        {
+            "sourcePath": "C:\\Users\\DmytroPinchuk\\CTProjects\\DXFirst\\force-app\\main\\default\\components\\SitePoweredBy.component-meta.xml",
+            "isDirectory": false,
+            "size": 271,
+            "modifiedTime": 1567759968348,
+            "changeTime": 1567759968348,
+            "contentHash": "2b5ac1d6e5b29ba5a39d03d6e354a08086596d74",
+            "isMetadataFile": true,
+            "state": "u"
+        }
+    ],
+    [
+        "C:\\Users\\DmytroPinchuk\\CTProjects\\DXFirst\\force-app\\main\\default\\components\\SitePoweredBy.component",
+        {
+            "sourcePath": "C:\\Users\\DmytroPinchuk\\CTProjects\\DXFirst\\force-app\\main\\default\\components\\SitePoweredBy.component",
+            "isDirectory": false,
+            "size": 532,
+            "modifiedTime": 1567759968359,
+            "changeTime": 1567759968359,
+            "contentHash": "353f26acfff5ff089406bc9b6029fec483f8360f",
+            "isMetadataFile": false,
+            "state": "u"
+        }
+    ],
+    [
+        "C:\\Users\\DmytroPinchuk\\CTProjects\\DXFirst\\force-app\\main\\default\\components\\SiteHeader.component-meta.xml",
+        {
+            "sourcePath": "C:\\Users\\DmytroPinchuk\\CTProjects\\DXFirst\\force-app\\main\\default\\components\\SiteHeader.component-meta.xml",
+            "isDirectory": false,
+            "size": 264,
+            "modifiedTime": 1567759968367,
+            "changeTime": 1567759968367,
+            "contentHash": "529def4af2d04ba4a88e768fa82617f1ab166588",
+            "isMetadataFile": true,
+            "state": "u"
+        }
+    ],
+    [
+        "C:\\Users\\DmytroPinchuk\\CTProjects\\DXFirst\\force-app\\main\\default\\components\\SiteHeader.component",
+        {
+            "sourcePath": "C:\\Users\\DmytroPinchuk\\CTProjects\\DXFirst\\force-app\\main\\default\\components\\SiteHeader.component",
+            "isDirectory": false,
+            "size": 1214,
+            "modifiedTime": 1567759968375,
+            "changeTime": 1567759968375,
+            "contentHash": "0a710387c2669b94a3224b8016f37d0a3fc20948",
+            "isMetadataFile": false,
+            "state": "u"
+        }
+    ],
+    [
+        "C:\\Users\\DmytroPinchuk\\CTProjects\\DXFirst\\force-app\\main\\default\\pages\\FileNotFound.page-meta.xml",
+        {
+            "sourcePath": "C:\\Users\\DmytroPinchuk\\CTProjects\\DXFirst\\force-app\\main\\default\\pages\\FileNotFound.page-meta.xml",
+            "isDirectory": false,
+            "size": 371,
+            "modifiedTime": 1567759968382,
+            "changeTime": 1567759968382,
+            "contentHash": "e81696c2521847c73b4e2d9063d1523cb93022c4",
+            "isMetadataFile": true,
+            "state": "u"
+        }
+    ],
+    [
+        "C:\\Users\\DmytroPinchuk\\CTProjects\\DXFirst\\force-app\\main\\default\\pages\\FileNotFound.page",
+        {
+            "sourcePath": "C:\\Users\\DmytroPinchuk\\CTProjects\\DXFirst\\force-app\\main\\default\\pages\\FileNotFound.page",
+            "isDirectory": false,
+            "size": 1390,
+            "modifiedTime": 1567759968386,
+            "changeTime": 1567759968386,
+            "contentHash": "05705db68c561260a078d5a0d8877ec9f5f986e1",
+            "isMetadataFile": false,
+            "state": "u"
+        }
+    ],
+    [
+        "C:\\Users\\DmytroPinchuk\\CTProjects\\DXFirst\\force-app\\main\\default\\pages\\SiteTemplate.page-meta.xml",
+        {
+            "sourcePath": "C:\\Users\\DmytroPinchuk\\CTProjects\\DXFirst\\force-app\\main\\default\\pages\\SiteTemplate.page-meta.xml",
+            "isDirectory": false,
+            "size": 370,
+            "modifiedTime": 1567759968391,
+            "changeTime": 1567759968391,
+            "contentHash": "55199ee74d0b3200eb7b975b9b63787c4efeaf12",
+            "isMetadataFile": true,
+            "state": "u"
+        }
+    ],
+    [
+        "C:\\Users\\DmytroPinchuk\\CTProjects\\DXFirst\\force-app\\main\\default\\pages\\SiteTemplate.page",
+        {
+            "sourcePath": "C:\\Users\\DmytroPinchuk\\CTProjects\\DXFirst\\force-app\\main\\default\\pages\\SiteTemplate.page",
+            "isDirectory": false,
+            "size": 363,
+            "modifiedTime": 1567759968395,
+            "changeTime": 1567759968395,
+            "contentHash": "0795cba97d90e8e6f4511bdc6845b4f6ba593a49",
+            "isMetadataFile": false,
+            "state": "u"
+        }
+    ],
+    [
+        "C:\\Users\\DmytroPinchuk\\CTProjects\\DXFirst\\force-app\\main\\default\\pages\\Exception.page-meta.xml",
+        {
+            "sourcePath": "C:\\Users\\DmytroPinchuk\\CTProjects\\DXFirst\\force-app\\main\\default\\pages\\Exception.page-meta.xml",
+            "isDirectory": false,
+            "size": 379,
+            "modifiedTime": 1567759968401,
+            "changeTime": 1567759968401,
+            "contentHash": "5ae4ea4077ff918e511d1b1c4a243983ef8068b3",
+            "isMetadataFile": true,
+            "state": "u"
+        }
+    ],
+    [
+        "C:\\Users\\DmytroPinchuk\\CTProjects\\DXFirst\\force-app\\main\\default\\pages\\Exception.page",
+        {
+            "sourcePath": "C:\\Users\\DmytroPinchuk\\CTProjects\\DXFirst\\force-app\\main\\default\\pages\\Exception.page",
+            "isDirectory": false,
+            "size": 1439,
+            "modifiedTime": 1567759968405,
+            "changeTime": 1567759968405,
+            "contentHash": "7149555a289c449a7acbe66be14756414e0468c5",
+            "isMetadataFile": false,
+            "state": "u"
+        }
+    ],
+    [
+        "C:\\Users\\DmytroPinchuk\\CTProjects\\DXFirst\\force-app\\main\\default\\pages\\BandwidthExceeded.page-meta.xml",
+        {
+            "sourcePath": "C:\\Users\\DmytroPinchuk\\CTProjects\\DXFirst\\force-app\\main\\default\\pages\\BandwidthExceeded.page-meta.xml",
+            "isDirectory": false,
+            "size": 371,
+            "modifiedTime": 1567759968413,
+            "changeTime": 1567759968413,
+            "contentHash": "967ce303962c5a6ac257efe51f7613bfbf4d454e",
+            "isMetadataFile": true,
+            "state": "u"
+        }
+    ],
+    [
+        "C:\\Users\\DmytroPinchuk\\CTProjects\\DXFirst\\force-app\\main\\default\\pages\\BandwidthExceeded.page",
+        {
+            "sourcePath": "C:\\Users\\DmytroPinchuk\\CTProjects\\DXFirst\\force-app\\main\\default\\pages\\BandwidthExceeded.page",
+            "isDirectory": false,
+            "size": 521,
+            "modifiedTime": 1567759968416,
+            "changeTime": 1567759968416,
+            "contentHash": "fbd51e9cb151f08b2ba8c0d96f4cca9173c3a818",
+            "isMetadataFile": false,
+            "state": "u"
+        }
+    ],
+    [
+        "C:\\Users\\DmytroPinchuk\\CTProjects\\DXFirst\\force-app\\main\\default\\pages\\SiteRegisterConfirm.page-meta.xml",
+        {
+            "sourcePath": "C:\\Users\\DmytroPinchuk\\CTProjects\\DXFirst\\force-app\\main\\default\\pages\\SiteRegisterConfirm.page-meta.xml",
+            "isDirectory": false,
+            "size": 387,
+            "modifiedTime": 1567759968421,
+            "changeTime": 1567759968421,
+            "contentHash": "a48fb8827c7de5fd5fc9bc3df44ff0c3c9e90dc2",
+            "isMetadataFile": true,
+            "state": "u"
+        }
+    ],
+    [
+        "C:\\Users\\DmytroPinchuk\\CTProjects\\DXFirst\\force-app\\main\\default\\pages\\SiteRegisterConfirm.page",
+        {
+            "sourcePath": "C:\\Users\\DmytroPinchuk\\CTProjects\\DXFirst\\force-app\\main\\default\\pages\\SiteRegisterConfirm.page",
+            "isDirectory": false,
+            "size": 1336,
+            "modifiedTime": 1567759968425,
+            "changeTime": 1567759968425,
+            "contentHash": "e1c4950e6f20b5744e83b77652be25196945a53b",
+            "isMetadataFile": false,
+            "state": "u"
+        }
+    ],
+    [
+        "C:\\Users\\DmytroPinchuk\\CTProjects\\DXFirst\\force-app\\main\\default\\pages\\ForgotPasswordConfirm.page-meta.xml",
+        {
+            "sourcePath": "C:\\Users\\DmytroPinchuk\\CTProjects\\DXFirst\\force-app\\main\\default\\pages\\ForgotPasswordConfirm.page-meta.xml",
+            "isDirectory": false,
+            "size": 387,
+            "modifiedTime": 1567759968430,
+            "changeTime": 1567759968430,
+            "contentHash": "3fc288354e7353e7fab6d48c99db614ddf22e9c9",
+            "isMetadataFile": true,
+            "state": "u"
+        }
+    ],
+    [
+        "C:\\Users\\DmytroPinchuk\\CTProjects\\DXFirst\\force-app\\main\\default\\pages\\ForgotPasswordConfirm.page",
+        {
+            "sourcePath": "C:\\Users\\DmytroPinchuk\\CTProjects\\DXFirst\\force-app\\main\\default\\pages\\ForgotPasswordConfirm.page",
+            "isDirectory": false,
+            "size": 1315,
+            "modifiedTime": 1567759968433,
+            "changeTime": 1567759968433,
+            "contentHash": "b36e48b39e4d3b8b31a82c9c5eee2ffffc194ee3",
+            "isMetadataFile": false,
+            "state": "u"
+        }
+    ],
+    [
+        "C:\\Users\\DmytroPinchuk\\CTProjects\\DXFirst\\force-app\\main\\default\\pages\\StdExceptionTemplate.page-meta.xml",
+        {
+            "sourcePath": "C:\\Users\\DmytroPinchuk\\CTProjects\\DXFirst\\force-app\\main\\default\\pages\\StdExceptionTemplate.page-meta.xml",
+            "isDirectory": false,
+            "size": 392,
+            "modifiedTime": 1567759968438,
+            "changeTime": 1567759968438,
+            "contentHash": "9289578a152e9bfcc0f33697635df1caecfd3928",
+            "isMetadataFile": true,
+            "state": "u"
+        }
+    ],
+    [
+        "C:\\Users\\DmytroPinchuk\\CTProjects\\DXFirst\\force-app\\main\\default\\pages\\StdExceptionTemplate.page",
+        {
+            "sourcePath": "C:\\Users\\DmytroPinchuk\\CTProjects\\DXFirst\\force-app\\main\\default\\pages\\StdExceptionTemplate.page",
+            "isDirectory": false,
+            "size": 918,
+            "modifiedTime": 1567759968442,
+            "changeTime": 1567759968442,
+            "contentHash": "ee21ef14d08dc898cc2f7c14b009b44e39843047",
+            "isMetadataFile": false,
+            "state": "u"
+        }
+    ],
+    [
+        "C:\\Users\\DmytroPinchuk\\CTProjects\\DXFirst\\force-app\\main\\default\\pages\\MyProfilePage.page-meta.xml",
+        {
+            "sourcePath": "C:\\Users\\DmytroPinchuk\\CTProjects\\DXFirst\\force-app\\main\\default\\pages\\MyProfilePage.page-meta.xml",
+            "isDirectory": false,
+            "size": 361,
+            "modifiedTime": 1567759968447,
+            "changeTime": 1567759968447,
+            "contentHash": "7dfdb5927d4cc36b39f8741270a09ed92683fc45",
+            "isMetadataFile": true,
+            "state": "u"
+        }
+    ],
+    [
+        "C:\\Users\\DmytroPinchuk\\CTProjects\\DXFirst\\force-app\\main\\default\\pages\\MyProfilePage.page",
+        {
+            "sourcePath": "C:\\Users\\DmytroPinchuk\\CTProjects\\DXFirst\\force-app\\main\\default\\pages\\MyProfilePage.page",
+            "isDirectory": false,
+            "size": 5352,
+            "modifiedTime": 1567759968450,
+            "changeTime": 1567759968450,
+            "contentHash": "620edf5c2c314699cb5acd8a29ee2897a7f4be9c",
+            "isMetadataFile": false,
+            "state": "u"
+        }
+    ],
+    [
+        "C:\\Users\\DmytroPinchuk\\CTProjects\\DXFirst\\force-app\\main\\default\\pages\\CommunitiesTemplate.page-meta.xml",
+        {
+            "sourcePath": "C:\\Users\\DmytroPinchuk\\CTProjects\\DXFirst\\force-app\\main\\default\\pages\\CommunitiesTemplate.page-meta.xml",
+            "isDirectory": false,
+            "size": 365,
+            "modifiedTime": 1567759968454,
+            "changeTime": 1567759968454,
+            "contentHash": "4743fdda0664477618558cfe0edb12064fd7d44f",
+            "isMetadataFile": true,
+            "state": "u"
+        }
+    ],
+    [
+        "C:\\Users\\DmytroPinchuk\\CTProjects\\DXFirst\\force-app\\main\\default\\pages\\CommunitiesTemplate.page",
+        {
+            "sourcePath": "C:\\Users\\DmytroPinchuk\\CTProjects\\DXFirst\\force-app\\main\\default\\pages\\CommunitiesTemplate.page",
+            "isDirectory": false,
+            "size": 254,
+            "modifiedTime": 1567759968458,
+            "changeTime": 1567759968458,
+            "contentHash": "959a24656384758f13bbd30dfa419f0ca6f0392d",
+            "isMetadataFile": false,
+            "state": "u"
+        }
+    ],
+    [
+        "C:\\Users\\DmytroPinchuk\\CTProjects\\DXFirst\\force-app\\main\\default\\pages\\AnswersHome.page-meta.xml",
+        {
+            "sourcePath": "C:\\Users\\DmytroPinchuk\\CTProjects\\DXFirst\\force-app\\main\\default\\pages\\AnswersHome.page-meta.xml",
+            "isDirectory": false,
+            "size": 373,
+            "modifiedTime": 1567759968463,
+            "changeTime": 1567759968463,
+            "contentHash": "c8ce6d96972b76be7bff58fdcdf514e644dbc64c",
+            "isMetadataFile": true,
+            "state": "u"
+        }
+    ],
+    [
+        "C:\\Users\\DmytroPinchuk\\CTProjects\\DXFirst\\force-app\\main\\default\\pages\\AnswersHome.page",
+        {
+            "sourcePath": "C:\\Users\\DmytroPinchuk\\CTProjects\\DXFirst\\force-app\\main\\default\\pages\\AnswersHome.page",
+            "isDirectory": false,
+            "size": 61,
+            "modifiedTime": 1567759968468,
+            "changeTime": 1567759968468,
+            "contentHash": "a82a578935f0381f7ce194fc36f422775d6ab707",
+            "isMetadataFile": false,
+            "state": "u"
+        }
+    ],
+    [
+        "C:\\Users\\DmytroPinchuk\\CTProjects\\DXFirst\\force-app\\main\\default\\pages\\Unauthorized.page-meta.xml",
+        {
+            "sourcePath": "C:\\Users\\DmytroPinchuk\\CTProjects\\DXFirst\\force-app\\main\\default\\pages\\Unauthorized.page-meta.xml",
+            "isDirectory": false,
+            "size": 374,
+            "modifiedTime": 1567759968473,
+            "changeTime": 1567759968473,
+            "contentHash": "f6f509b0806a5e180c2fa6def570eefc60a5331b",
+            "isMetadataFile": true,
+            "state": "u"
+        }
+    ],
+    [
+        "C:\\Users\\DmytroPinchuk\\CTProjects\\DXFirst\\force-app\\main\\default\\pages\\Unauthorized.page",
+        {
+            "sourcePath": "C:\\Users\\DmytroPinchuk\\CTProjects\\DXFirst\\force-app\\main\\default\\pages\\Unauthorized.page",
+            "isDirectory": false,
+            "size": 1728,
+            "modifiedTime": 1567759968477,
+            "changeTime": 1567759968477,
+            "contentHash": "e2d900a0e0685865732acee0c84539a31cb8638e",
+            "isMetadataFile": false,
+            "state": "u"
+        }
+    ],
+    [
+        "C:\\Users\\DmytroPinchuk\\CTProjects\\DXFirst\\force-app\\main\\default\\pages\\InMaintenance.page-meta.xml",
+        {
+            "sourcePath": "C:\\Users\\DmytroPinchuk\\CTProjects\\DXFirst\\force-app\\main\\default\\pages\\InMaintenance.page-meta.xml",
+            "isDirectory": false,
+            "size": 367,
+            "modifiedTime": 1567759968481,
+            "changeTime": 1567759968481,
+            "contentHash": "a140bdda5971ba2fa91ce3eb9f795627e999e5b5",
+            "isMetadataFile": true,
+            "state": "u"
+        }
+    ],
+    [
+        "C:\\Users\\DmytroPinchuk\\CTProjects\\DXFirst\\force-app\\main\\default\\pages\\InMaintenance.page",
+        {
+            "sourcePath": "C:\\Users\\DmytroPinchuk\\CTProjects\\DXFirst\\force-app\\main\\default\\pages\\InMaintenance.page",
+            "isDirectory": false,
+            "size": 629,
+            "modifiedTime": 1567759968484,
+            "changeTime": 1567759968484,
+            "contentHash": "12e7accec2f2bc348d5e0fe3ca539cfb3e145873",
+            "isMetadataFile": false,
+            "state": "u"
+        }
+    ],
+    [
+        "C:\\Users\\DmytroPinchuk\\CTProjects\\DXFirst\\force-app\\main\\default\\pages\\IdeasHome.page-meta.xml",
+        {
+            "sourcePath": "C:\\Users\\DmytroPinchuk\\CTProjects\\DXFirst\\force-app\\main\\default\\pages\\IdeasHome.page-meta.xml",
+            "isDirectory": false,
+            "size": 369,
+            "modifiedTime": 1567759968488,
+            "changeTime": 1567759968488,
+            "contentHash": "5facab4c62889794b95e37509bc55bb38cc2e639",
+            "isMetadataFile": true,
+            "state": "u"
+        }
+    ],
+    [
+        "C:\\Users\\DmytroPinchuk\\CTProjects\\DXFirst\\force-app\\main\\default\\pages\\IdeasHome.page",
+        {
+            "sourcePath": "C:\\Users\\DmytroPinchuk\\CTProjects\\DXFirst\\force-app\\main\\default\\pages\\IdeasHome.page",
+            "isDirectory": false,
+            "size": 56,
+            "modifiedTime": 1567759968493,
+            "changeTime": 1567759968493,
+            "contentHash": "321994aef1dc6905bd2f9ea1275cef640575796a",
+            "isMetadataFile": false,
+            "state": "u"
+        }
+    ],
+    [
+        "C:\\Users\\DmytroPinchuk\\CTProjects\\DXFirst\\force-app\\main\\default\\pages\\UnderConstruction.page-meta.xml",
+        {
+            "sourcePath": "C:\\Users\\DmytroPinchuk\\CTProjects\\DXFirst\\force-app\\main\\default\\pages\\UnderConstruction.page-meta.xml",
+            "isDirectory": false,
+            "size": 375,
+            "modifiedTime": 1567759968498,
+            "changeTime": 1567759968498,
+            "contentHash": "64a24b274f38ff7ce02bf111f4b3c87158140823",
+            "isMetadataFile": true,
+            "state": "u"
+        }
+    ],
+    [
+        "C:\\Users\\DmytroPinchuk\\CTProjects\\DXFirst\\force-app\\main\\default\\pages\\UnderConstruction.page",
+        {
+            "sourcePath": "C:\\Users\\DmytroPinchuk\\CTProjects\\DXFirst\\force-app\\main\\default\\pages\\UnderConstruction.page",
+            "isDirectory": false,
+            "size": 595,
+            "modifiedTime": 1567759968501,
+            "changeTime": 1567759968501,
+            "contentHash": "162bd59e7d2cc6f57d1b2e62831713147007d563",
+            "isMetadataFile": false,
+            "state": "u"
+        }
+    ],
+    [
+        "C:\\Users\\DmytroPinchuk\\CTProjects\\DXFirst\\force-app\\main\\default\\pages\\CommunitiesLanding.page-meta.xml",
+        {
+            "sourcePath": "C:\\Users\\DmytroPinchuk\\CTProjects\\DXFirst\\force-app\\main\\default\\pages\\CommunitiesLanding.page-meta.xml",
+            "isDirectory": false,
+            "size": 358,
+            "modifiedTime": 1567759968506,
+            "changeTime": 1567759968506,
+            "contentHash": "be15d3189a78b8d16ff6bac001e4dec5fe642f62",
+            "isMetadataFile": true,
+            "state": "u"
+        }
+    ],
+    [
+        "C:\\Users\\DmytroPinchuk\\CTProjects\\DXFirst\\force-app\\main\\default\\pages\\CommunitiesLanding.page",
+        {
+            "sourcePath": "C:\\Users\\DmytroPinchuk\\CTProjects\\DXFirst\\force-app\\main\\default\\pages\\CommunitiesLanding.page",
+            "isDirectory": false,
+            "size": 159,
+            "modifiedTime": 1567759968510,
+            "changeTime": 1567759968510,
+            "contentHash": "f4f56310b743abd6983739cb9fb38a89ed8bd5d9",
+            "isMetadataFile": false,
+            "state": "u"
+        }
+    ],
+    [
+        "C:\\Users\\DmytroPinchuk\\CTProjects\\DXFirst\\force-app\\main\\default\\pages\\CommunitiesLogin.page-meta.xml",
+        {
+            "sourcePath": "C:\\Users\\DmytroPinchuk\\CTProjects\\DXFirst\\force-app\\main\\default\\pages\\CommunitiesLogin.page-meta.xml",
+            "isDirectory": false,
+            "size": 354,
+            "modifiedTime": 1567759968515,
+            "changeTime": 1567759968515,
+            "contentHash": "0c81ec6bd566a8b3061bcd95de003e335ff36f65",
+            "isMetadataFile": true,
+            "state": "u"
+        }
+    ],
+    [
+        "C:\\Users\\DmytroPinchuk\\CTProjects\\DXFirst\\force-app\\main\\default\\pages\\CommunitiesLogin.page",
+        {
+            "sourcePath": "C:\\Users\\DmytroPinchuk\\CTProjects\\DXFirst\\force-app\\main\\default\\pages\\CommunitiesLogin.page",
+            "isDirectory": false,
+            "size": 143,
+            "modifiedTime": 1567759968518,
+            "changeTime": 1567759968518,
+            "contentHash": "d494d65b30936c6c6cc4ea317ca0be26fefd0899",
+            "isMetadataFile": false,
+            "state": "u"
+        }
+    ],
+    [
+        "C:\\Users\\DmytroPinchuk\\CTProjects\\DXFirst\\force-app\\main\\default\\pages\\CommunitiesSelfRegConfirm.page-meta.xml",
+        {
+            "sourcePath": "C:\\Users\\DmytroPinchuk\\CTProjects\\DXFirst\\force-app\\main\\default\\pages\\CommunitiesSelfRegConfirm.page-meta.xml",
+            "isDirectory": false,
+            "size": 388,
+            "modifiedTime": 1567759968523,
+            "changeTime": 1567759968523,
+            "contentHash": "033699d990b186fc04e6a97d4195dd5cfe8e2e6a",
+            "isMetadataFile": true,
+            "state": "u"
+        }
+    ],
+    [
+        "C:\\Users\\DmytroPinchuk\\CTProjects\\DXFirst\\force-app\\main\\default\\pages\\CommunitiesSelfRegConfirm.page",
+        {
+            "sourcePath": "C:\\Users\\DmytroPinchuk\\CTProjects\\DXFirst\\force-app\\main\\default\\pages\\CommunitiesSelfRegConfirm.page",
+            "isDirectory": false,
+            "size": 1369,
+            "modifiedTime": 1567759968527,
+            "changeTime": 1567759968527,
+            "contentHash": "9bd974d33dbf89a831056f0b8e84b9b425e7df18",
+            "isMetadataFile": false,
+            "state": "u"
+        }
+    ],
+    [
+        "C:\\Users\\DmytroPinchuk\\CTProjects\\DXFirst\\force-app\\main\\default\\pages\\CommunitiesSelfReg.page-meta.xml",
+        {
+            "sourcePath": "C:\\Users\\DmytroPinchuk\\CTProjects\\DXFirst\\force-app\\main\\default\\pages\\CommunitiesSelfReg.page-meta.xml",
+            "isDirectory": false,
+            "size": 368,
+            "modifiedTime": 1567759968531,
+            "changeTime": 1567759968531,
+            "contentHash": "37f0ef7c529278a66ace175cb56cad6fe52e7b6f",
+            "isMetadataFile": true,
+            "state": "u"
+        }
+    ],
+    [
+        "C:\\Users\\DmytroPinchuk\\CTProjects\\DXFirst\\force-app\\main\\default\\pages\\CommunitiesSelfReg.page",
+        {
+            "sourcePath": "C:\\Users\\DmytroPinchuk\\CTProjects\\DXFirst\\force-app\\main\\default\\pages\\CommunitiesSelfReg.page",
+            "isDirectory": false,
+            "size": 1835,
+            "modifiedTime": 1567759968534,
+            "changeTime": 1567759968534,
+            "contentHash": "8740a361c26a708331f96b5d59b82154d2efcf9c",
+            "isMetadataFile": false,
+            "state": "u"
+        }
+    ],
+    [
+        "C:\\Users\\DmytroPinchuk\\CTProjects\\DXFirst\\force-app\\main\\default\\pages\\ChangePassword.page-meta.xml",
+        {
+            "sourcePath": "C:\\Users\\DmytroPinchuk\\CTProjects\\DXFirst\\force-app\\main\\default\\pages\\ChangePassword.page-meta.xml",
+            "isDirectory": false,
+            "size": 367,
+            "modifiedTime": 1567759968542,
+            "changeTime": 1567759968542,
+            "contentHash": "762947a6b6d1896def5ec1d9a8364d2685ccd84f",
+            "isMetadataFile": true,
+            "state": "u"
+        }
+    ],
+    [
+        "C:\\Users\\DmytroPinchuk\\CTProjects\\DXFirst\\force-app\\main\\default\\pages\\ChangePassword.page",
+        {
+            "sourcePath": "C:\\Users\\DmytroPinchuk\\CTProjects\\DXFirst\\force-app\\main\\default\\pages\\ChangePassword.page",
+            "isDirectory": false,
+            "size": 2253,
+            "modifiedTime": 1567759968545,
+            "changeTime": 1567759968545,
+            "contentHash": "ef99757f7f329769d4297658a07069ba6479259a",
+            "isMetadataFile": false,
+            "state": "u"
+        }
+    ],
+    [
+        "C:\\Users\\DmytroPinchuk\\CTProjects\\DXFirst\\force-app\\main\\default\\pages\\SiteRegister.page-meta.xml",
+        {
+            "sourcePath": "C:\\Users\\DmytroPinchuk\\CTProjects\\DXFirst\\force-app\\main\\default\\pages\\SiteRegister.page-meta.xml",
+            "isDirectory": false,
+            "size": 367,
+            "modifiedTime": 1567759968549,
+            "changeTime": 1567759968549,
+            "contentHash": "4879aadcd5cbf4a4666b635ce22fda3ad2beb035",
+            "isMetadataFile": true,
+            "state": "u"
+        }
+    ],
+    [
+        "C:\\Users\\DmytroPinchuk\\CTProjects\\DXFirst\\force-app\\main\\default\\pages\\SiteRegister.page",
+        {
+            "sourcePath": "C:\\Users\\DmytroPinchuk\\CTProjects\\DXFirst\\force-app\\main\\default\\pages\\SiteRegister.page",
+            "isDirectory": false,
+            "size": 2535,
+            "modifiedTime": 1567759968553,
+            "changeTime": 1567759968553,
+            "contentHash": "41ff51ebecfc21b5b03567851586edbc5fefc6bf",
+            "isMetadataFile": false,
+            "state": "u"
+        }
+    ],
+    [
+        "C:\\Users\\DmytroPinchuk\\CTProjects\\DXFirst\\force-app\\main\\default\\pages\\SiteLogin.page-meta.xml",
+        {
+            "sourcePath": "C:\\Users\\DmytroPinchuk\\CTProjects\\DXFirst\\force-app\\main\\default\\pages\\SiteLogin.page-meta.xml",
+            "isDirectory": false,
+            "size": 352,
+            "modifiedTime": 1567759968557,
+            "changeTime": 1567759968557,
+            "contentHash": "f6bf54940f92adaa3ec98b3f4e912a8dec517fb6",
+            "isMetadataFile": true,
+            "state": "u"
+        }
+    ],
+    [
+        "C:\\Users\\DmytroPinchuk\\CTProjects\\DXFirst\\force-app\\main\\default\\pages\\SiteLogin.page",
+        {
+            "sourcePath": "C:\\Users\\DmytroPinchuk\\CTProjects\\DXFirst\\force-app\\main\\default\\pages\\SiteLogin.page",
+            "isDirectory": false,
+            "size": 1178,
+            "modifiedTime": 1567759968560,
+            "changeTime": 1567759968560,
+            "contentHash": "cbc0628ee0ca131ce53c251ae3221ba5048f2020",
+            "isMetadataFile": false,
+            "state": "u"
+        }
+    ],
+    [
+        "C:\\Users\\DmytroPinchuk\\CTProjects\\DXFirst\\force-app\\main\\default\\pages\\ForgotPassword.page-meta.xml",
+        {
+            "sourcePath": "C:\\Users\\DmytroPinchuk\\CTProjects\\DXFirst\\force-app\\main\\default\\pages\\ForgotPassword.page-meta.xml",
+            "isDirectory": false,
+            "size": 380,
+            "modifiedTime": 1567759968564,
+            "changeTime": 1567759968564,
+            "contentHash": "9560516c61d4c8e69d83b00ce3d1e45964ae6ac0",
+            "isMetadataFile": true,
+            "state": "u"
+        }
+    ],
+    [
+        "C:\\Users\\DmytroPinchuk\\CTProjects\\DXFirst\\force-app\\main\\default\\pages\\ForgotPassword.page",
+        {
+            "sourcePath": "C:\\Users\\DmytroPinchuk\\CTProjects\\DXFirst\\force-app\\main\\default\\pages\\ForgotPassword.page",
+            "isDirectory": false,
+            "size": 1734,
+            "modifiedTime": 1567759968571,
+            "changeTime": 1567759968571,
+            "contentHash": "d08010b952d7bc3b249a76a840810bef066c56e8",
+            "isMetadataFile": false,
+            "state": "u"
+        }
+    ],
+    [
+        "C:\\Users\\DmytroPinchuk\\CTProjects\\DXFirst\\force-app\\main\\default\\objects\\Account\\recordTypes\\Main.recordType-meta.xml",
+        {
+            "sourcePath": "C:\\Users\\DmytroPinchuk\\CTProjects\\DXFirst\\force-app\\main\\default\\objects\\Account\\recordTypes\\Main.recordType-meta.xml",
+            "isDirectory": false,
+            "size": 6540,
+            "modifiedTime": 1567759968592,
+            "changeTime": 1567759968592,
+            "contentHash": "3168259b261a83325be7978af7aa3584dda3c7be",
+            "isMetadataFile": true,
+            "state": "u"
+        }
+    ],
+    [
+        "C:\\Users\\DmytroPinchuk\\CTProjects\\DXFirst\\force-app\\main\\default\\flexipages\\Home.flexipage-meta.xml",
+        {
+            "sourcePath": "C:\\Users\\DmytroPinchuk\\CTProjects\\DXFirst\\force-app\\main\\default\\flexipages\\Home.flexipage-meta.xml",
+            "isDirectory": false,
+            "size": 702,
+            "modifiedTime": 1567759968601,
+            "changeTime": 1567759968601,
+            "contentHash": "c7c26781705f536f830993729fdc18765b33988a",
+            "isMetadataFile": true,
+            "state": "u"
+        }
+    ],
+    [
+        "C:\\Users\\DmytroPinchuk\\CTProjects\\DXFirst\\force-app\\main\\default\\flexipages\\Home_Page_Default.flexipage-meta.xml",
+        {
+            "sourcePath": "C:\\Users\\DmytroPinchuk\\CTProjects\\DXFirst\\force-app\\main\\default\\flexipages\\Home_Page_Default.flexipage-meta.xml",
+            "isDirectory": false,
+            "size": 969,
+            "modifiedTime": 1567759968606,
+            "changeTime": 1567759968606,
+            "contentHash": "ed586e0633a70e7e3ffa91621189aab15776a914",
+            "isMetadataFile": true,
+            "state": "u"
+        }
+    ],
+    [
+        "C:\\Users\\DmytroPinchuk\\CTProjects\\DXFirst\\force-app\\main\\default\\tabs\\Home.tab-meta.xml",
+        {
+            "sourcePath": "C:\\Users\\DmytroPinchuk\\CTProjects\\DXFirst\\force-app\\main\\default\\tabs\\Home.tab-meta.xml",
+            "isDirectory": false,
+            "size": 303,
+            "modifiedTime": 1567759968620,
+            "changeTime": 1567759968620,
+            "contentHash": "cdd0a9207d22203a0c5a802bf1fe3f9a8dfd75ef",
+            "isMetadataFile": true,
+            "state": "u"
+        }
+    ],
+    [
+        "C:\\Users\\DmytroPinchuk\\CTProjects\\DXFirst\\force-app\\main\\default\\classes\\LightningForgotPasswordController.cls-meta.xml",
+        {
+            "sourcePath": "C:\\Users\\DmytroPinchuk\\CTProjects\\DXFirst\\force-app\\main\\default\\classes\\LightningForgotPasswordController.cls-meta.xml",
+            "isDirectory": false,
+            "size": 174,
+            "modifiedTime": 1567759968636,
+            "changeTime": 1567759968636,
+            "contentHash": "7f6517e5462e478a2d535000a85299d8a5a10871",
+            "isMetadataFile": true,
+            "state": "u"
+        }
+    ],
+    [
+        "C:\\Users\\DmytroPinchuk\\CTProjects\\DXFirst\\force-app\\main\\default\\classes\\LightningForgotPasswordController.cls",
+        {
+            "sourcePath": "C:\\Users\\DmytroPinchuk\\CTProjects\\DXFirst\\force-app\\main\\default\\classes\\LightningForgotPasswordController.cls",
+            "isDirectory": false,
+            "size": 1038,
+            "modifiedTime": 1567759968640,
+            "changeTime": 1567759968640,
+            "contentHash": "326dc096dacead23bcce832cafa8046eeff5821c",
+            "isMetadataFile": false,
+            "state": "u"
+        }
+    ],
+    [
+        "C:\\Users\\DmytroPinchuk\\CTProjects\\DXFirst\\force-app\\main\\default\\classes\\LightningLoginFormController.cls-meta.xml",
+        {
+            "sourcePath": "C:\\Users\\DmytroPinchuk\\CTProjects\\DXFirst\\force-app\\main\\default\\classes\\LightningLoginFormController.cls-meta.xml",
+            "isDirectory": false,
+            "size": 174,
+            "modifiedTime": 1567759968644,
+            "changeTime": 1567759968644,
+            "contentHash": "7f6517e5462e478a2d535000a85299d8a5a10871",
+            "isMetadataFile": true,
+            "state": "u"
+        }
+    ],
+    [
+        "C:\\Users\\DmytroPinchuk\\CTProjects\\DXFirst\\force-app\\main\\default\\classes\\LightningLoginFormController.cls",
+        {
+            "sourcePath": "C:\\Users\\DmytroPinchuk\\CTProjects\\DXFirst\\force-app\\main\\default\\classes\\LightningLoginFormController.cls",
+            "isDirectory": false,
+            "size": 1972,
+            "modifiedTime": 1567759968648,
+            "changeTime": 1567759968648,
+            "contentHash": "f1fd99eb82c4744783af85a86be464c1f8e321ad",
+            "isMetadataFile": false,
+            "state": "u"
+        }
+    ],
+    [
+        "C:\\Users\\DmytroPinchuk\\CTProjects\\DXFirst\\force-app\\main\\default\\classes\\LightningLoginFormControllerTest.cls-meta.xml",
+        {
+            "sourcePath": "C:\\Users\\DmytroPinchuk\\CTProjects\\DXFirst\\force-app\\main\\default\\classes\\LightningLoginFormControllerTest.cls-meta.xml",
+            "isDirectory": false,
+            "size": 174,
+            "modifiedTime": 1567759968652,
+            "changeTime": 1567759968652,
+            "contentHash": "7f6517e5462e478a2d535000a85299d8a5a10871",
+            "isMetadataFile": true,
+            "state": "u"
+        }
+    ],
+    [
+        "C:\\Users\\DmytroPinchuk\\CTProjects\\DXFirst\\force-app\\main\\default\\classes\\LightningLoginFormControllerTest.cls",
+        {
+            "sourcePath": "C:\\Users\\DmytroPinchuk\\CTProjects\\DXFirst\\force-app\\main\\default\\classes\\LightningLoginFormControllerTest.cls",
+            "isDirectory": false,
+            "size": 1079,
+            "modifiedTime": 1567759968655,
+            "changeTime": 1567759968655,
+            "contentHash": "e1e93bc0b3687bf1d952419a750eb1c08887706f",
+            "isMetadataFile": false,
+            "state": "u"
+        }
+    ],
+    [
+        "C:\\Users\\DmytroPinchuk\\CTProjects\\DXFirst\\force-app\\main\\default\\classes\\LightningForgotPasswordControllerTest.cls-meta.xml",
+        {
+            "sourcePath": "C:\\Users\\DmytroPinchuk\\CTProjects\\DXFirst\\force-app\\main\\default\\classes\\LightningForgotPasswordControllerTest.cls-meta.xml",
+            "isDirectory": false,
+            "size": 174,
+            "modifiedTime": 1567759968660,
+            "changeTime": 1567759968660,
+            "contentHash": "7f6517e5462e478a2d535000a85299d8a5a10871",
+            "isMetadataFile": true,
+            "state": "u"
+        }
+    ],
+    [
+        "C:\\Users\\DmytroPinchuk\\CTProjects\\DXFirst\\force-app\\main\\default\\classes\\LightningForgotPasswordControllerTest.cls",
+        {
+            "sourcePath": "C:\\Users\\DmytroPinchuk\\CTProjects\\DXFirst\\force-app\\main\\default\\classes\\LightningForgotPasswordControllerTest.cls",
+            "isDirectory": false,
+            "size": 1332,
+            "modifiedTime": 1567759968663,
+            "changeTime": 1567759968663,
+            "contentHash": "21d44e671389d01c2035cb54f2a3b22777492713",
+            "isMetadataFile": false,
+            "state": "u"
+        }
+    ],
+    [
+        "C:\\Users\\DmytroPinchuk\\CTProjects\\DXFirst\\force-app\\main\\default\\classes\\LightningSelfRegisterControllerTest.cls-meta.xml",
+        {
+            "sourcePath": "C:\\Users\\DmytroPinchuk\\CTProjects\\DXFirst\\force-app\\main\\default\\classes\\LightningSelfRegisterControllerTest.cls-meta.xml",
+            "isDirectory": false,
+            "size": 174,
+            "modifiedTime": 1567759968667,
+            "changeTime": 1567759968667,
+            "contentHash": "7f6517e5462e478a2d535000a85299d8a5a10871",
+            "isMetadataFile": true,
+            "state": "u"
+        }
+    ],
+    [
+        "C:\\Users\\DmytroPinchuk\\CTProjects\\DXFirst\\force-app\\main\\default\\classes\\LightningSelfRegisterControllerTest.cls",
+        {
+            "sourcePath": "C:\\Users\\DmytroPinchuk\\CTProjects\\DXFirst\\force-app\\main\\default\\classes\\LightningSelfRegisterControllerTest.cls",
+            "isDirectory": false,
+            "size": 6197,
+            "modifiedTime": 1567759968670,
+            "changeTime": 1567759968670,
+            "contentHash": "0078ae1357b38fec34ceffb97e7249e51daa04e6",
+            "isMetadataFile": false,
+            "state": "u"
+        }
+    ],
+    [
+        "C:\\Users\\DmytroPinchuk\\CTProjects\\DXFirst\\force-app\\main\\default\\classes\\SiteLoginController.cls-meta.xml",
+        {
+            "sourcePath": "C:\\Users\\DmytroPinchuk\\CTProjects\\DXFirst\\force-app\\main\\default\\classes\\SiteLoginController.cls-meta.xml",
+            "isDirectory": false,
+            "size": 174,
+            "modifiedTime": 1567759968675,
+            "changeTime": 1567759968675,
+            "contentHash": "7f6517e5462e478a2d535000a85299d8a5a10871",
+            "isMetadataFile": true,
+            "state": "u"
+        }
+    ],
+    [
+        "C:\\Users\\DmytroPinchuk\\CTProjects\\DXFirst\\force-app\\main\\default\\classes\\SiteLoginController.cls",
+        {
+            "sourcePath": "C:\\Users\\DmytroPinchuk\\CTProjects\\DXFirst\\force-app\\main\\default\\classes\\SiteLoginController.cls",
+            "isDirectory": false,
+            "size": 434,
+            "modifiedTime": 1567759968679,
+            "changeTime": 1567759968679,
+            "contentHash": "45bce0841ca7e53e9891170118879727980b051a",
+            "isMetadataFile": false,
+            "state": "u"
+        }
+    ],
+    [
+        "C:\\Users\\DmytroPinchuk\\CTProjects\\DXFirst\\force-app\\main\\default\\classes\\SiteLoginControllerTest.cls-meta.xml",
+        {
+            "sourcePath": "C:\\Users\\DmytroPinchuk\\CTProjects\\DXFirst\\force-app\\main\\default\\classes\\SiteLoginControllerTest.cls-meta.xml",
+            "isDirectory": false,
+            "size": 174,
+            "modifiedTime": 1567759968684,
+            "changeTime": 1567759968684,
+            "contentHash": "7f6517e5462e478a2d535000a85299d8a5a10871",
+            "isMetadataFile": true,
+            "state": "u"
+        }
+    ],
+    [
+        "C:\\Users\\DmytroPinchuk\\CTProjects\\DXFirst\\force-app\\main\\default\\classes\\SiteLoginControllerTest.cls",
+        {
+            "sourcePath": "C:\\Users\\DmytroPinchuk\\CTProjects\\DXFirst\\force-app\\main\\default\\classes\\SiteLoginControllerTest.cls",
+            "isDirectory": false,
+            "size": 558,
+            "modifiedTime": 1567759968687,
+            "changeTime": 1567759968687,
+            "contentHash": "676ee62c09240e726b685da56266e2201bf46664",
+            "isMetadataFile": false,
+            "state": "u"
+        }
+    ],
+    [
+        "C:\\Users\\DmytroPinchuk\\CTProjects\\DXFirst\\force-app\\main\\default\\classes\\CommunitiesLoginControllerTest.cls-meta.xml",
+        {
+            "sourcePath": "C:\\Users\\DmytroPinchuk\\CTProjects\\DXFirst\\force-app\\main\\default\\classes\\CommunitiesLoginControllerTest.cls-meta.xml",
+            "isDirectory": false,
+            "size": 174,
+            "modifiedTime": 1567759968691,
+            "changeTime": 1567759968691,
+            "contentHash": "7f6517e5462e478a2d535000a85299d8a5a10871",
+            "isMetadataFile": true,
+            "state": "u"
+        }
+    ],
+    [
+        "C:\\Users\\DmytroPinchuk\\CTProjects\\DXFirst\\force-app\\main\\default\\classes\\CommunitiesLoginControllerTest.cls",
+        {
+            "sourcePath": "C:\\Users\\DmytroPinchuk\\CTProjects\\DXFirst\\force-app\\main\\default\\classes\\CommunitiesLoginControllerTest.cls",
+            "isDirectory": false,
+            "size": 396,
+            "modifiedTime": 1567759968697,
+            "changeTime": 1567759968697,
+            "contentHash": "cb9e706e4f2584adcf80c77bf7fd48a140f907db",
+            "isMetadataFile": false,
+            "state": "u"
+        }
+    ],
+    [
+        "C:\\Users\\DmytroPinchuk\\CTProjects\\DXFirst\\force-app\\main\\default\\classes\\CommunitiesLandingController.cls-meta.xml",
+        {
+            "sourcePath": "C:\\Users\\DmytroPinchuk\\CTProjects\\DXFirst\\force-app\\main\\default\\classes\\CommunitiesLandingController.cls-meta.xml",
+            "isDirectory": false,
+            "size": 174,
+            "modifiedTime": 1567759968702,
+            "changeTime": 1567759968702,
+            "contentHash": "7f6517e5462e478a2d535000a85299d8a5a10871",
+            "isMetadataFile": true,
+            "state": "u"
+        }
+    ],
+    [
+        "C:\\Users\\DmytroPinchuk\\CTProjects\\DXFirst\\force-app\\main\\default\\classes\\CommunitiesLandingController.cls",
+        {
+            "sourcePath": "C:\\Users\\DmytroPinchuk\\CTProjects\\DXFirst\\force-app\\main\\default\\classes\\CommunitiesLandingController.cls",
+            "isDirectory": false,
+            "size": 369,
+            "modifiedTime": 1567759968705,
+            "changeTime": 1567759968705,
+            "contentHash": "f0aa4e4a73ec760302173389f42991266a807010",
+            "isMetadataFile": false,
+            "state": "u"
+        }
+    ],
+    [
+        "C:\\Users\\DmytroPinchuk\\CTProjects\\DXFirst\\force-app\\main\\default\\classes\\CommunitiesLandingControllerTest.cls-meta.xml",
+        {
+            "sourcePath": "C:\\Users\\DmytroPinchuk\\CTProjects\\DXFirst\\force-app\\main\\default\\classes\\CommunitiesLandingControllerTest.cls-meta.xml",
+            "isDirectory": false,
+            "size": 174,
+            "modifiedTime": 1567759968711,
+            "changeTime": 1567759968711,
+            "contentHash": "7f6517e5462e478a2d535000a85299d8a5a10871",
+            "isMetadataFile": true,
+            "state": "u"
+        }
+    ],
+    [
+        "C:\\Users\\DmytroPinchuk\\CTProjects\\DXFirst\\force-app\\main\\default\\classes\\CommunitiesLandingControllerTest.cls",
+        {
+            "sourcePath": "C:\\Users\\DmytroPinchuk\\CTProjects\\DXFirst\\force-app\\main\\default\\classes\\CommunitiesLandingControllerTest.cls",
+            "isDirectory": false,
+            "size": 795,
+            "modifiedTime": 1567759968715,
+            "changeTime": 1567759968715,
+            "contentHash": "9fc17f3ba0a097f66fc1467c82c8e1d22398b48f",
+            "isMetadataFile": false,
+            "state": "u"
+        }
+    ],
+    [
+        "C:\\Users\\DmytroPinchuk\\CTProjects\\DXFirst\\force-app\\main\\default\\classes\\CommunitiesSelfRegController.cls-meta.xml",
+        {
+            "sourcePath": "C:\\Users\\DmytroPinchuk\\CTProjects\\DXFirst\\force-app\\main\\default\\classes\\CommunitiesSelfRegController.cls-meta.xml",
+            "isDirectory": false,
+            "size": 174,
+            "modifiedTime": 1567759968719,
+            "changeTime": 1567759968719,
+            "contentHash": "7f6517e5462e478a2d535000a85299d8a5a10871",
+            "isMetadataFile": true,
+            "state": "u"
+        }
+    ],
+    [
+        "C:\\Users\\DmytroPinchuk\\CTProjects\\DXFirst\\force-app\\main\\default\\classes\\CommunitiesSelfRegController.cls",
+        {
+            "sourcePath": "C:\\Users\\DmytroPinchuk\\CTProjects\\DXFirst\\force-app\\main\\default\\classes\\CommunitiesSelfRegController.cls",
+            "isDirectory": false,
+            "size": 2805,
+            "modifiedTime": 1567759968722,
+            "changeTime": 1567759968722,
+            "contentHash": "68250b28cbd25dc5afb432323903534767578a58",
+            "isMetadataFile": false,
+            "state": "u"
+        }
+    ],
+    [
+        "C:\\Users\\DmytroPinchuk\\CTProjects\\DXFirst\\force-app\\main\\default\\classes\\CommunitiesSelfRegControllerTest.cls-meta.xml",
+        {
+            "sourcePath": "C:\\Users\\DmytroPinchuk\\CTProjects\\DXFirst\\force-app\\main\\default\\classes\\CommunitiesSelfRegControllerTest.cls-meta.xml",
+            "isDirectory": false,
+            "size": 174,
+            "modifiedTime": 1567759968727,
+            "changeTime": 1567759968727,
+            "contentHash": "7f6517e5462e478a2d535000a85299d8a5a10871",
+            "isMetadataFile": true,
+            "state": "u"
+        }
+    ],
+    [
+        "C:\\Users\\DmytroPinchuk\\CTProjects\\DXFirst\\force-app\\main\\default\\classes\\CommunitiesSelfRegControllerTest.cls",
+        {
+            "sourcePath": "C:\\Users\\DmytroPinchuk\\CTProjects\\DXFirst\\force-app\\main\\default\\classes\\CommunitiesSelfRegControllerTest.cls",
+            "isDirectory": false,
+            "size": 877,
+            "modifiedTime": 1567759968730,
+            "changeTime": 1567759968730,
+            "contentHash": "84070006a2c57644fd7d707525e9297ec15f91a0",
+            "isMetadataFile": false,
+            "state": "u"
+        }
+    ],
+    [
+        "C:\\Users\\DmytroPinchuk\\CTProjects\\DXFirst\\force-app\\main\\default\\classes\\CommunitiesSelfRegConfirmController.cls-meta.xml",
+        {
+            "sourcePath": "C:\\Users\\DmytroPinchuk\\CTProjects\\DXFirst\\force-app\\main\\default\\classes\\CommunitiesSelfRegConfirmController.cls-meta.xml",
+            "isDirectory": false,
+            "size": 174,
+            "modifiedTime": 1567759968735,
+            "changeTime": 1567759968735,
+            "contentHash": "7f6517e5462e478a2d535000a85299d8a5a10871",
+            "isMetadataFile": true,
+            "state": "u"
+        }
+    ],
+    [
+        "C:\\Users\\DmytroPinchuk\\CTProjects\\DXFirst\\force-app\\main\\default\\classes\\CommunitiesSelfRegConfirmController.cls",
+        {
+            "sourcePath": "C:\\Users\\DmytroPinchuk\\CTProjects\\DXFirst\\force-app\\main\\default\\classes\\CommunitiesSelfRegConfirmController.cls",
+            "isDirectory": false,
+            "size": 238,
+            "modifiedTime": 1567759968738,
+            "changeTime": 1567759968738,
+            "contentHash": "d699d2c76978ccad1fc33fcd78ed17c360747337",
+            "isMetadataFile": false,
+            "state": "u"
+        }
+    ],
+    [
+        "C:\\Users\\DmytroPinchuk\\CTProjects\\DXFirst\\force-app\\main\\default\\classes\\CommunitiesSelfRegConfirmControllerTest.cls-meta.xml",
+        {
+            "sourcePath": "C:\\Users\\DmytroPinchuk\\CTProjects\\DXFirst\\force-app\\main\\default\\classes\\CommunitiesSelfRegConfirmControllerTest.cls-meta.xml",
+            "isDirectory": false,
+            "size": 174,
+            "modifiedTime": 1567759968747,
+            "changeTime": 1567759968747,
+            "contentHash": "7f6517e5462e478a2d535000a85299d8a5a10871",
+            "isMetadataFile": true,
+            "state": "u"
+        }
+    ],
+    [
+        "C:\\Users\\DmytroPinchuk\\CTProjects\\DXFirst\\force-app\\main\\default\\classes\\CommunitiesSelfRegConfirmControllerTest.cls",
+        {
+            "sourcePath": "C:\\Users\\DmytroPinchuk\\CTProjects\\DXFirst\\force-app\\main\\default\\classes\\CommunitiesSelfRegConfirmControllerTest.cls",
+            "isDirectory": false,
+            "size": 469,
+            "modifiedTime": 1567759968753,
+            "changeTime": 1567759968753,
+            "contentHash": "e91f7457a25b5da77131fe41c8f29c04bc7867c2",
+            "isMetadataFile": false,
+            "state": "u"
+        }
+    ],
+    [
+        "C:\\Users\\DmytroPinchuk\\CTProjects\\DXFirst\\force-app\\main\\default\\classes\\LightningSelfRegisterController.cls-meta.xml",
+        {
+            "sourcePath": "C:\\Users\\DmytroPinchuk\\CTProjects\\DXFirst\\force-app\\main\\default\\classes\\LightningSelfRegisterController.cls-meta.xml",
+            "isDirectory": false,
+            "size": 174,
+            "modifiedTime": 1567759968760,
+            "changeTime": 1567759968760,
+            "contentHash": "7f6517e5462e478a2d535000a85299d8a5a10871",
+            "isMetadataFile": true,
+            "state": "u"
+        }
+    ],
+    [
+        "C:\\Users\\DmytroPinchuk\\CTProjects\\DXFirst\\force-app\\main\\default\\classes\\LightningSelfRegisterController.cls",
+        {
+            "sourcePath": "C:\\Users\\DmytroPinchuk\\CTProjects\\DXFirst\\force-app\\main\\default\\classes\\LightningSelfRegisterController.cls",
+            "isDirectory": false,
+            "size": 5572,
+            "modifiedTime": 1567759968763,
+            "changeTime": 1567759968763,
+            "contentHash": "ed5ee92fa1fa56d090e83ef0e235b5bf6c188fe7",
+            "isMetadataFile": false,
+            "state": "u"
+        }
+    ],
+    [
+        "C:\\Users\\DmytroPinchuk\\CTProjects\\DXFirst\\force-app\\main\\default\\classes\\ForgotPasswordControllerTest.cls-meta.xml",
+        {
+            "sourcePath": "C:\\Users\\DmytroPinchuk\\CTProjects\\DXFirst\\force-app\\main\\default\\classes\\ForgotPasswordControllerTest.cls-meta.xml",
+            "isDirectory": false,
+            "size": 174,
+            "modifiedTime": 1567759968768,
+            "changeTime": 1567759968768,
+            "contentHash": "7f6517e5462e478a2d535000a85299d8a5a10871",
+            "isMetadataFile": true,
+            "state": "u"
+        }
+    ],
+    [
+        "C:\\Users\\DmytroPinchuk\\CTProjects\\DXFirst\\force-app\\main\\default\\classes\\ForgotPasswordControllerTest.cls",
+        {
+            "sourcePath": "C:\\Users\\DmytroPinchuk\\CTProjects\\DXFirst\\force-app\\main\\default\\classes\\ForgotPasswordControllerTest.cls",
+            "isDirectory": false,
+            "size": 506,
+            "modifiedTime": 1567759968771,
+            "changeTime": 1567759968771,
+            "contentHash": "66dcdb35e263e3858438516c272143f39594ab6b",
+            "isMetadataFile": false,
+            "state": "u"
+        }
+    ],
+    [
+        "C:\\Users\\DmytroPinchuk\\CTProjects\\DXFirst\\force-app\\main\\default\\classes\\MyProfilePageController.cls-meta.xml",
+        {
+            "sourcePath": "C:\\Users\\DmytroPinchuk\\CTProjects\\DXFirst\\force-app\\main\\default\\classes\\MyProfilePageController.cls-meta.xml",
+            "isDirectory": false,
+            "size": 174,
+            "modifiedTime": 1567759968775,
+            "changeTime": 1567759968775,
+            "contentHash": "7f6517e5462e478a2d535000a85299d8a5a10871",
+            "isMetadataFile": true,
+            "state": "u"
+        }
+    ],
+    [
+        "C:\\Users\\DmytroPinchuk\\CTProjects\\DXFirst\\force-app\\main\\default\\classes\\MyProfilePageController.cls",
+        {
+            "sourcePath": "C:\\Users\\DmytroPinchuk\\CTProjects\\DXFirst\\force-app\\main\\default\\classes\\MyProfilePageController.cls",
+            "isDirectory": false,
+            "size": 1584,
+            "modifiedTime": 1567759968778,
+            "changeTime": 1567759968778,
+            "contentHash": "2e72ea98db541366419984e2a8878f467de5a3e5",
+            "isMetadataFile": false,
+            "state": "u"
+        }
+    ],
+    [
+        "C:\\Users\\DmytroPinchuk\\CTProjects\\DXFirst\\force-app\\main\\default\\classes\\MyProfilePageControllerTest.cls-meta.xml",
+        {
+            "sourcePath": "C:\\Users\\DmytroPinchuk\\CTProjects\\DXFirst\\force-app\\main\\default\\classes\\MyProfilePageControllerTest.cls-meta.xml",
+            "isDirectory": false,
+            "size": 174,
+            "modifiedTime": 1567759968783,
+            "changeTime": 1567759968783,
+            "contentHash": "7f6517e5462e478a2d535000a85299d8a5a10871",
+            "isMetadataFile": true,
+            "state": "u"
+        }
+    ],
+    [
+        "C:\\Users\\DmytroPinchuk\\CTProjects\\DXFirst\\force-app\\main\\default\\classes\\MyProfilePageControllerTest.cls",
+        {
+            "sourcePath": "C:\\Users\\DmytroPinchuk\\CTProjects\\DXFirst\\force-app\\main\\default\\classes\\MyProfilePageControllerTest.cls",
+            "isDirectory": false,
+            "size": 2792,
+            "modifiedTime": 1567759968786,
+            "changeTime": 1567759968786,
+            "contentHash": "3dad7650b8dd8e6e57710fec687bf1bb5eff80bd",
+            "isMetadataFile": false,
+            "state": "u"
+        }
+    ],
+    [
+        "C:\\Users\\DmytroPinchuk\\CTProjects\\DXFirst\\force-app\\main\\default\\classes\\CommunitiesLoginController.cls-meta.xml",
+        {
+            "sourcePath": "C:\\Users\\DmytroPinchuk\\CTProjects\\DXFirst\\force-app\\main\\default\\classes\\CommunitiesLoginController.cls-meta.xml",
+            "isDirectory": false,
+            "size": 174,
+            "modifiedTime": 1567759968791,
+            "changeTime": 1567759968791,
+            "contentHash": "7f6517e5462e478a2d535000a85299d8a5a10871",
+            "isMetadataFile": true,
+            "state": "u"
+        }
+    ],
+    [
+        "C:\\Users\\DmytroPinchuk\\CTProjects\\DXFirst\\force-app\\main\\default\\classes\\CommunitiesLoginController.cls",
+        {
+            "sourcePath": "C:\\Users\\DmytroPinchuk\\CTProjects\\DXFirst\\force-app\\main\\default\\classes\\CommunitiesLoginController.cls",
+            "isDirectory": false,
+            "size": 516,
+            "modifiedTime": 1567759968794,
+            "changeTime": 1567759968794,
+            "contentHash": "cf9f2476b780b0f6cf19e569521fe72388a25bf6",
+            "isMetadataFile": false,
+            "state": "u"
+        }
+    ],
+    [
+        "C:\\Users\\DmytroPinchuk\\CTProjects\\DXFirst\\force-app\\main\\default\\classes\\SiteRegisterController.cls-meta.xml",
+        {
+            "sourcePath": "C:\\Users\\DmytroPinchuk\\CTProjects\\DXFirst\\force-app\\main\\default\\classes\\SiteRegisterController.cls-meta.xml",
+            "isDirectory": false,
+            "size": 174,
+            "modifiedTime": 1567759968798,
+            "changeTime": 1567759968798,
+            "contentHash": "7f6517e5462e478a2d535000a85299d8a5a10871",
+            "isMetadataFile": true,
+            "state": "u"
+        }
+    ],
+    [
+        "C:\\Users\\DmytroPinchuk\\CTProjects\\DXFirst\\force-app\\main\\default\\classes\\SiteRegisterController.cls",
+        {
+            "sourcePath": "C:\\Users\\DmytroPinchuk\\CTProjects\\DXFirst\\force-app\\main\\default\\classes\\SiteRegisterController.cls",
+            "isDirectory": false,
+            "size": 2077,
+            "modifiedTime": 1567759968802,
+            "changeTime": 1567759968802,
+            "contentHash": "19e473741cd0e4047e59345c952d815aa05e1ac2",
+            "isMetadataFile": false,
+            "state": "u"
+        }
+    ],
+    [
+        "C:\\Users\\DmytroPinchuk\\CTProjects\\DXFirst\\force-app\\main\\default\\classes\\SiteRegisterControllerTest.cls-meta.xml",
+        {
+            "sourcePath": "C:\\Users\\DmytroPinchuk\\CTProjects\\DXFirst\\force-app\\main\\default\\classes\\SiteRegisterControllerTest.cls-meta.xml",
+            "isDirectory": false,
+            "size": 174,
+            "modifiedTime": 1567759968806,
+            "changeTime": 1567759968806,
+            "contentHash": "7f6517e5462e478a2d535000a85299d8a5a10871",
+            "isMetadataFile": true,
+            "state": "u"
+        }
+    ],
+    [
+        "C:\\Users\\DmytroPinchuk\\CTProjects\\DXFirst\\force-app\\main\\default\\classes\\SiteRegisterControllerTest.cls",
+        {
+            "sourcePath": "C:\\Users\\DmytroPinchuk\\CTProjects\\DXFirst\\force-app\\main\\default\\classes\\SiteRegisterControllerTest.cls",
+            "isDirectory": false,
+            "size": 721,
+            "modifiedTime": 1567759968809,
+            "changeTime": 1567759968809,
+            "contentHash": "00a06a0620a60d0ee0118431a169b4ec3ba79891",
+            "isMetadataFile": false,
+            "state": "u"
+        }
+    ],
+    [
+        "C:\\Users\\DmytroPinchuk\\CTProjects\\DXFirst\\force-app\\main\\default\\classes\\ChangePasswordController.cls-meta.xml",
+        {
+            "sourcePath": "C:\\Users\\DmytroPinchuk\\CTProjects\\DXFirst\\force-app\\main\\default\\classes\\ChangePasswordController.cls-meta.xml",
+            "isDirectory": false,
+            "size": 174,
+            "modifiedTime": 1567759968814,
+            "changeTime": 1567759968814,
+            "contentHash": "7f6517e5462e478a2d535000a85299d8a5a10871",
+            "isMetadataFile": true,
+            "state": "u"
+        }
+    ],
+    [
+        "C:\\Users\\DmytroPinchuk\\CTProjects\\DXFirst\\force-app\\main\\default\\classes\\ChangePasswordController.cls",
+        {
+            "sourcePath": "C:\\Users\\DmytroPinchuk\\CTProjects\\DXFirst\\force-app\\main\\default\\classes\\ChangePasswordController.cls",
+            "isDirectory": false,
+            "size": 467,
+            "modifiedTime": 1567759968817,
+            "changeTime": 1567759968817,
+            "contentHash": "769eaed52f3c934b7ad9b57adcb55a922c257168",
+            "isMetadataFile": false,
+            "state": "u"
+        }
+    ],
+    [
+        "C:\\Users\\DmytroPinchuk\\CTProjects\\DXFirst\\force-app\\main\\default\\classes\\ChangePasswordControllerTest.cls-meta.xml",
+        {
+            "sourcePath": "C:\\Users\\DmytroPinchuk\\CTProjects\\DXFirst\\force-app\\main\\default\\classes\\ChangePasswordControllerTest.cls-meta.xml",
+            "isDirectory": false,
+            "size": 174,
+            "modifiedTime": 1567759968821,
+            "changeTime": 1567759968821,
+            "contentHash": "7f6517e5462e478a2d535000a85299d8a5a10871",
+            "isMetadataFile": true,
+            "state": "u"
+        }
+    ],
+    [
+        "C:\\Users\\DmytroPinchuk\\CTProjects\\DXFirst\\force-app\\main\\default\\classes\\ChangePasswordControllerTest.cls",
+        {
+            "sourcePath": "C:\\Users\\DmytroPinchuk\\CTProjects\\DXFirst\\force-app\\main\\default\\classes\\ChangePasswordControllerTest.cls",
+            "isDirectory": false,
+            "size": 642,
+            "modifiedTime": 1567759968825,
+            "changeTime": 1567759968825,
+            "contentHash": "0bb3c4ec096aa5dd33d79abbb693eb98b3e899a0",
+            "isMetadataFile": false,
+            "state": "u"
+        }
+    ],
+    [
+        "C:\\Users\\DmytroPinchuk\\CTProjects\\DXFirst\\force-app\\main\\default\\classes\\ForgotPasswordController.cls-meta.xml",
+        {
+            "sourcePath": "C:\\Users\\DmytroPinchuk\\CTProjects\\DXFirst\\force-app\\main\\default\\classes\\ForgotPasswordController.cls-meta.xml",
+            "isDirectory": false,
+            "size": 174,
+            "modifiedTime": 1567759968829,
+            "changeTime": 1567759968829,
+            "contentHash": "7f6517e5462e478a2d535000a85299d8a5a10871",
+            "isMetadataFile": true,
+            "state": "u"
+        }
+    ],
+    [
+        "C:\\Users\\DmytroPinchuk\\CTProjects\\DXFirst\\force-app\\main\\default\\classes\\ForgotPasswordController.cls",
+        {
+            "sourcePath": "C:\\Users\\DmytroPinchuk\\CTProjects\\DXFirst\\force-app\\main\\default\\classes\\ForgotPasswordController.cls",
+            "isDirectory": false,
+            "size": 480,
+            "modifiedTime": 1567759968832,
+            "changeTime": 1567759968832,
+            "contentHash": "f90081d88c1b56f4db006bf0c9022a1b23126145",
+            "isMetadataFile": false,
+            "state": "u"
+        }
+    ],
+    [
+        "C:\\Users\\DmytroPinchuk\\CTProjects\\DXFirst\\force-app\\main\\default\\profiles\\First Community Profile.profile-meta.xml",
+        {
+            "sourcePath": "C:\\Users\\DmytroPinchuk\\CTProjects\\DXFirst\\force-app\\main\\default\\profiles\\First Community Profile.profile-meta.xml",
+            "isDirectory": false,
+            "size": 15841,
+            "modifiedTime": 1567759968975,
+            "changeTime": 1567759968975,
+            "contentHash": "509ce8be64007e8b2c461fce22d3312bbe40e49e",
+            "isMetadataFile": true,
+            "state": "u"
+        }
+    ],
+    [
+        "C:\\Users\\DmytroPinchuk\\CTProjects\\DXFirst\\force-app\\main\\default\\profilePasswordPolicies\\First_Community_Profile_profilePasswordPolicy1567698002084.profilePasswordPolicy-meta.xml",
+        {
+            "sourcePath": "C:\\Users\\DmytroPinchuk\\CTProjects\\DXFirst\\force-app\\main\\default\\profilePasswordPolicies\\First_Community_Profile_profilePasswordPolicy1567698002084.profilePasswordPolicy-meta.xml",
+            "isDirectory": false,
+            "size": 650,
+            "modifiedTime": 1567759969063,
+            "changeTime": 1567759969063,
+            "contentHash": "c519285810c48279c73cf7da6294480cd04b3bfb",
+            "isMetadataFile": true,
+            "state": "u"
+        }
+    ],
+    [
+        "C:\\Users\\DmytroPinchuk\\CTProjects\\DXFirst\\force-app\\main\\default\\profileSessionSettings\\First_Community_Profile_profileSessionSetting1567698002246.profileSessionSetting-meta.xml",
+        {
+            "sourcePath": "C:\\Users\\DmytroPinchuk\\CTProjects\\DXFirst\\force-app\\main\\default\\profileSessionSettings\\First_Community_Profile_profileSessionSetting1567698002246.profileSessionSetting-meta.xml",
+            "isDirectory": false,
+            "size": 450,
+            "modifiedTime": 1567759969066,
+            "changeTime": 1567759969066,
+            "contentHash": "e7658695df2b654342531603ba7d278f7180d9a0",
+            "isMetadataFile": true,
+            "state": "u"
+        }
+    ],
+    [
+        "C:\\Users\\DmytroPinchuk\\CTProjects\\DXFirst\\force-app\\main\\default\\sites\\First_Community.site-meta.xml",
+        {
+            "sourcePath": "C:\\Users\\DmytroPinchuk\\CTProjects\\DXFirst\\force-app\\main\\default\\sites\\First_Community.site-meta.xml",
+            "isDirectory": false,
+            "size": 1573,
+            "modifiedTime": 1567759969070,
+            "changeTime": 1567759969070,
+            "contentHash": "74cba68c419a083b9660b61b9b8734f2174308a8",
+            "isMetadataFile": true,
+            "state": "u"
+        }
+    ],
+    [
+        "C:\\Users\\DmytroPinchuk\\CTProjects\\DXFirst\\force-app\\main\\default\\siteDotComSites\\First_Community1.site-meta.xml",
+        {
+            "sourcePath": "C:\\Users\\DmytroPinchuk\\CTProjects\\DXFirst\\force-app\\main\\default\\siteDotComSites\\First_Community1.site-meta.xml",
+            "isDirectory": false,
+            "size": 196,
+            "modifiedTime": 1567759969098,
+            "changeTime": 1567759969098,
+            "contentHash": "140d79362c0cceb8228c78cef83f3bfc0ea5ef25",
+            "isMetadataFile": true,
+            "state": "u"
+        }
+    ],
+    [
+        "C:\\Users\\DmytroPinchuk\\CTProjects\\DXFirst\\force-app\\main\\default\\siteDotComSites\\First_Community1.site",
+        {
+            "sourcePath": "C:\\Users\\DmytroPinchuk\\CTProjects\\DXFirst\\force-app\\main\\default\\siteDotComSites\\First_Community1.site",
+            "isDirectory": false,
+            "size": 32192,
+            "modifiedTime": 1567759969102,
+            "changeTime": 1567759969102,
+            "contentHash": "535852aa72499cc644080a236f541fbeb268d2ec",
+            "isMetadataFile": false,
+            "state": "u"
+        }
+    ],
+    [
+        "C:\\Users\\DmytroPinchuk\\CTProjects\\DXFirst\\force-app\\main\\default\\networks\\First Community.network-meta.xml",
+        {
+            "sourcePath": "C:\\Users\\DmytroPinchuk\\CTProjects\\DXFirst\\force-app\\main\\default\\networks\\First Community.network-meta.xml",
+            "isDirectory": false,
+            "size": 2624,
+            "modifiedTime": 1567759969113,
+            "changeTime": 1567759969113,
+            "contentHash": "8d42802f4d9c78efc51aaf4ab2e00bf33d24b468",
+            "isMetadataFile": true,
+            "state": "u"
+        }
+    ],
+    [
+        "C:\\Users\\DmytroPinchuk\\CTProjects\\DXFirst\\force-app\\main\\default\\networkBranding\\cbFirst_Community.networkBranding-meta.xml",
+        {
+            "sourcePath": "C:\\Users\\DmytroPinchuk\\CTProjects\\DXFirst\\force-app\\main\\default\\networkBranding\\cbFirst_Community.networkBranding-meta.xml",
+            "isDirectory": false,
+            "size": 636,
+            "modifiedTime": 1567759969118,
+            "changeTime": 1567759969118,
+            "contentHash": "76859085593cafc6d1de2cb8fc249decaa00d5af",
+            "isMetadataFile": true,
+            "state": "u"
+        }
+    ],
+    [
+        "C:\\Users\\DmytroPinchuk\\CTProjects\\DXFirst\\force-app\\main\\default\\networkBranding\\cbFirst_Community.networkBranding",
+        {
+            "sourcePath": "C:\\Users\\DmytroPinchuk\\CTProjects\\DXFirst\\force-app\\main\\default\\networkBranding\\cbFirst_Community.networkBranding",
+            "isDirectory": false,
+            "size": 2,
+            "modifiedTime": 1567759969122,
+            "changeTime": 1567759969122,
+            "contentHash": "bf21a9e8fbc5a3846fb05b4fa0859e0917b2202f",
+            "isMetadataFile": false,
+            "state": "u"
+        }
+    ],
+    [
+        "C:\\Users\\DmytroPinchuk\\CTProjects\\DXFirst\\force-app\\main\\default\\staticresources",
+        {
+            "sourcePath": "C:\\Users\\DmytroPinchuk\\CTProjects\\DXFirst\\force-app\\main\\default\\staticresources",
+            "isDirectory": true,
+            "size": 0,
+            "modifiedTime": 1567759968150,
+            "changeTime": 1567759968150,
+            "contentHash": "94b65d41e40870e77f72cba72966f3bed8bd0800",
+            "isMetadataFile": false,
+            "state": "u"
+        }
+    ],
+    [
+        "C:\\Users\\DmytroPinchuk\\CTProjects\\DXFirst\\force-app\\main\\default\\staticresources\\SiteSamples\\img",
+        {
+            "sourcePath": "C:\\Users\\DmytroPinchuk\\CTProjects\\DXFirst\\force-app\\main\\default\\staticresources\\SiteSamples\\img",
+            "isDirectory": true,
+            "size": 0,
+            "modifiedTime": 1567759968172,
+            "changeTime": 1567759968172,
+            "contentHash": "ca36f65b7f8888bd595c26bba98c091a986284ab",
+            "isMetadataFile": false,
+            "state": "u"
+        }
+    ],
+    [
+        "C:\\Users\\DmytroPinchuk\\CTProjects\\DXFirst\\force-app\\main\\default\\staticresources\\SiteSamples",
+        {
+            "sourcePath": "C:\\Users\\DmytroPinchuk\\CTProjects\\DXFirst\\force-app\\main\\default\\staticresources\\SiteSamples",
+            "isDirectory": true,
+            "size": 0,
+            "modifiedTime": 1567759968175,
+            "changeTime": 1567759968175,
+            "contentHash": "bfc7b578cefd1230c8d14deafa0e6ea3053edc7e",
+            "isMetadataFile": false,
+            "state": "u"
+        }
+    ],
+    [
+        "C:\\Users\\DmytroPinchuk\\CTProjects\\DXFirst\\force-app\\main\\default\\settings",
+        {
+            "sourcePath": "C:\\Users\\DmytroPinchuk\\CTProjects\\DXFirst\\force-app\\main\\default\\settings",
+            "isDirectory": true,
+            "size": 0,
+            "modifiedTime": 1567759968192,
+            "changeTime": 1567759968192,
+            "contentHash": "0f0bd9abce0f1950f9e1fd5466ab1e7882f47cb6",
+            "isMetadataFile": false,
+            "state": "u"
+        }
+    ],
+    [
+        "C:\\Users\\DmytroPinchuk\\CTProjects\\DXFirst\\force-app\\main\\default\\aura\\loginForm",
+        {
+            "sourcePath": "C:\\Users\\DmytroPinchuk\\CTProjects\\DXFirst\\force-app\\main\\default\\aura\\loginForm",
+            "isDirectory": true,
+            "size": 0,
+            "modifiedTime": 1567759968221,
+            "changeTime": 1567759968221,
+            "contentHash": "fd718632c89a370e59634cc3aa2c6f67e9702b0c",
+            "isMetadataFile": false,
+            "state": "u"
+        }
+    ],
+    [
+        "C:\\Users\\DmytroPinchuk\\CTProjects\\DXFirst\\force-app\\main\\default\\aura\\selfRegister",
+        {
+            "sourcePath": "C:\\Users\\DmytroPinchuk\\CTProjects\\DXFirst\\force-app\\main\\default\\aura\\selfRegister",
+            "isDirectory": true,
+            "size": 0,
+            "modifiedTime": 1567759968248,
+            "changeTime": 1567759968248,
+            "contentHash": "8df7cfb5f48f3f00fcd4dd27c869c4cfdccd250c",
+            "isMetadataFile": false,
+            "state": "u"
+        }
+    ],
+    [
+        "C:\\Users\\DmytroPinchuk\\CTProjects\\DXFirst\\force-app\\main\\default\\aura\\forgotPassword",
+        {
+            "sourcePath": "C:\\Users\\DmytroPinchuk\\CTProjects\\DXFirst\\force-app\\main\\default\\aura\\forgotPassword",
+            "isDirectory": true,
+            "size": 0,
+            "modifiedTime": 1567759968280,
+            "changeTime": 1567759968280,
+            "contentHash": "6df7eaba9112e9d3d73be83929076ecdb37c6e02",
+            "isMetadataFile": false,
+            "state": "u"
+        }
+    ],
+    [
+        "C:\\Users\\DmytroPinchuk\\CTProjects\\DXFirst\\force-app\\main\\default\\aura\\setStartUrl",
+        {
+            "sourcePath": "C:\\Users\\DmytroPinchuk\\CTProjects\\DXFirst\\force-app\\main\\default\\aura\\setStartUrl",
+            "isDirectory": true,
+            "size": 0,
+            "modifiedTime": 1567759968293,
+            "changeTime": 1567759968293,
+            "contentHash": "932a38c2997891d2654c0893c0e1a4288e7c15ff",
+            "isMetadataFile": false,
+            "state": "u"
+        }
+    ],
+    [
+        "C:\\Users\\DmytroPinchuk\\CTProjects\\DXFirst\\force-app\\main\\default\\aura\\setExpId",
+        {
+            "sourcePath": "C:\\Users\\DmytroPinchuk\\CTProjects\\DXFirst\\force-app\\main\\default\\aura\\setExpId",
+            "isDirectory": true,
+            "size": 0,
+            "modifiedTime": 1567759968304,
+            "changeTime": 1567759968304,
+            "contentHash": "11feaa7814348a87d18c4891772d2ec32891466d",
+            "isMetadataFile": false,
+            "state": "u"
+        }
+    ],
+    [
+        "C:\\Users\\DmytroPinchuk\\CTProjects\\DXFirst\\force-app\\main\\default\\components",
+        {
+            "sourcePath": "C:\\Users\\DmytroPinchuk\\CTProjects\\DXFirst\\force-app\\main\\default\\components",
+            "isDirectory": true,
+            "size": 0,
+            "modifiedTime": 1567759968374,
+            "changeTime": 1567759968374,
+            "contentHash": "7e3b47b6f015d41da2682d23c08c6bd410b8f4bb",
+            "isMetadataFile": false,
+            "state": "u"
+        }
+    ],
+    [
+        "C:\\Users\\DmytroPinchuk\\CTProjects\\DXFirst\\force-app\\main\\default\\pages",
+        {
+            "sourcePath": "C:\\Users\\DmytroPinchuk\\CTProjects\\DXFirst\\force-app\\main\\default\\pages",
+            "isDirectory": true,
+            "size": 0,
+            "modifiedTime": 1567759968571,
+            "changeTime": 1567759968571,
+            "contentHash": "54a2cf26a57a9ce2c57e7c0f9e4e09990ad938cc",
+            "isMetadataFile": false,
+            "state": "u"
+        }
+    ],
+    [
+        "C:\\Users\\DmytroPinchuk\\CTProjects\\DXFirst\\force-app\\main\\default\\objects\\Account\\recordTypes",
+        {
+            "sourcePath": "C:\\Users\\DmytroPinchuk\\CTProjects\\DXFirst\\force-app\\main\\default\\objects\\Account\\recordTypes",
+            "isDirectory": true,
+            "size": 0,
+            "modifiedTime": 1567759968592,
+            "changeTime": 1567759968592,
+            "contentHash": "70f533f99cadbe84b9e0c57f44e8c926de4afd36",
+            "isMetadataFile": false,
+            "state": "u"
+        }
+    ],
+    [
+        "C:\\Users\\DmytroPinchuk\\CTProjects\\DXFirst\\force-app\\main\\default\\objects\\Account",
+        {
+            "sourcePath": "C:\\Users\\DmytroPinchuk\\CTProjects\\DXFirst\\force-app\\main\\default\\objects\\Account",
+            "isDirectory": true,
+            "size": 0,
+            "modifiedTime": 1567759968590,
+            "changeTime": 1567759968590,
+            "contentHash": "01e62e8f969d1224b9785ce9509e9b90b753394f",
+            "isMetadataFile": false,
+            "state": "u"
+        }
+    ],
+    [
+        "C:\\Users\\DmytroPinchuk\\CTProjects\\DXFirst\\force-app\\main\\default\\profilePasswordPolicies",
+        {
+            "sourcePath": "C:\\Users\\DmytroPinchuk\\CTProjects\\DXFirst\\force-app\\main\\default\\profilePasswordPolicies",
+            "isDirectory": true,
+            "size": 0,
+            "modifiedTime": 1567759969062,
+            "changeTime": 1567759969062,
+            "contentHash": "4d25a870dfd2128a0e5d66e3ed9c114da25c041a",
+            "isMetadataFile": false,
+            "state": "u"
+        }
+    ],
+    [
+        "C:\\Users\\DmytroPinchuk\\CTProjects\\DXFirst\\force-app\\main\\default\\profileSessionSettings",
+        {
+            "sourcePath": "C:\\Users\\DmytroPinchuk\\CTProjects\\DXFirst\\force-app\\main\\default\\profileSessionSettings",
+            "isDirectory": true,
+            "size": 0,
+            "modifiedTime": 1567759969066,
+            "changeTime": 1567759969066,
+            "contentHash": "625cb081aa461cab5082cba6d7ae9251d5df8d8b",
+            "isMetadataFile": false,
+            "state": "u"
+        }
+    ],
+    [
+        "C:\\Users\\DmytroPinchuk\\CTProjects\\DXFirst\\force-app\\main\\default\\sites",
+        {
+            "sourcePath": "C:\\Users\\DmytroPinchuk\\CTProjects\\DXFirst\\force-app\\main\\default\\sites",
+            "isDirectory": true,
+            "size": 0,
+            "modifiedTime": 1567759969070,
+            "changeTime": 1567759969070,
+            "contentHash": "8d9f664b4bbebe3dff5944e3ffa1d9db9e343df5",
+            "isMetadataFile": false,
+            "state": "u"
+        }
+    ],
+    [
+        "C:\\Users\\DmytroPinchuk\\CTProjects\\DXFirst\\force-app\\main\\default\\siteDotComSites",
+        {
+            "sourcePath": "C:\\Users\\DmytroPinchuk\\CTProjects\\DXFirst\\force-app\\main\\default\\siteDotComSites",
+            "isDirectory": true,
+            "size": 0,
+            "modifiedTime": 1567759969101,
+            "changeTime": 1567759969101,
+            "contentHash": "da3fbfe055052341b9d9fe0511b705c312c9857c",
+            "isMetadataFile": false,
+            "state": "u"
+        }
+    ],
+    [
+        "C:\\Users\\DmytroPinchuk\\CTProjects\\DXFirst\\force-app\\main\\default\\networks",
+        {
+            "sourcePath": "C:\\Users\\DmytroPinchuk\\CTProjects\\DXFirst\\force-app\\main\\default\\networks",
+            "isDirectory": true,
+            "size": 0,
+            "modifiedTime": 1567759969113,
+            "changeTime": 1567759969113,
+            "contentHash": "212be3144f0e089fcbd53f9a8272bec337dcca76",
+            "isMetadataFile": false,
+            "state": "u"
+        }
+    ],
+    [
+        "C:\\Users\\DmytroPinchuk\\CTProjects\\DXFirst\\force-app\\main\\default\\networkBranding",
+        {
+            "sourcePath": "C:\\Users\\DmytroPinchuk\\CTProjects\\DXFirst\\force-app\\main\\default\\networkBranding",
+            "isDirectory": true,
+            "size": 0,
+            "modifiedTime": 1567759969121,
+            "changeTime": 1567759969121,
+            "contentHash": "d8b724d6360ef96109a16db330c234bce3f3384f",
+            "isMetadataFile": false,
+            "state": "u"
+        }
+    ],
+    [
+        "C:\\Users\\DmytroPinchuk\\CTProjects\\DXFirst\\force-app\\main\\default\\aura\\ListCourses\\ListCourses.css",
+        {
+            "sourcePath": "C:\\Users\\DmytroPinchuk\\CTProjects\\DXFirst\\force-app\\main\\default\\aura\\ListCourses\\ListCourses.css",
+            "isDirectory": false,
+            "size": 66,
+            "modifiedTime": 1567766336922,
+            "changeTime": 1567766336922,
+            "contentHash": "af7378aa7d919c4d265d87bf66099e4fea2e128a",
+            "isMetadataFile": false,
+            "state": "u"
+        }
+    ],
+    [
+        "C:\\Users\\DmytroPinchuk\\CTProjects\\DXFirst\\force-app\\main\\default\\aura\\CoursesItem\\CoursesItem.css",
+        {
+            "sourcePath": "C:\\Users\\DmytroPinchuk\\CTProjects\\DXFirst\\force-app\\main\\default\\aura\\CoursesItem\\CoursesItem.css",
+            "isDirectory": false,
+            "size": 120,
+            "modifiedTime": 1567762164765,
+            "changeTime": 1567762164765,
+            "contentHash": "9ee3b12328752df0dcfe7d6a1b3f7774c51707a8",
+            "isMetadataFile": false,
+            "state": "u"
+        }
+    ],
+    [
+        "C:\\Users\\DmytroPinchuk\\CTProjects\\DXFirst\\force-app\\main\\default\\aura\\CourseThemeLayout",
+        {
+            "sourcePath": "C:\\Users\\DmytroPinchuk\\CTProjects\\DXFirst\\force-app\\main\\default\\aura\\CourseThemeLayout",
+            "isDirectory": true,
+            "size": 0,
+            "modifiedTime": 1567769895012,
+            "changeTime": 1567769895012,
+            "contentHash": "43879f39a3fd664a8edcd5811124a2b3a2ee9f2f",
+            "isMetadataFile": false,
+            "state": "u"
+        }
+    ],
+    [
+        "C:\\Users\\DmytroPinchuk\\CTProjects\\DXFirst\\force-app\\main\\default\\aura\\CourseThemeLayout\\CourseThemeLayout.cmp",
+        {
+            "sourcePath": "C:\\Users\\DmytroPinchuk\\CTProjects\\DXFirst\\force-app\\main\\default\\aura\\CourseThemeLayout\\CourseThemeLayout.cmp",
+            "isDirectory": false,
+            "size": 488,
+            "modifiedTime": 1567776989454,
+            "changeTime": 1567776989454,
+            "contentHash": "94a8ff4e95e9ca914d3e9ebfc47ebe7cea585e9a",
+            "isMetadataFile": false,
+            "state": "u"
+        }
+    ],
+    [
+        "C:\\Users\\DmytroPinchuk\\CTProjects\\DXFirst\\force-app\\main\\default\\aura\\CourseThemeLayout\\CourseThemeLayout.cmp-meta.xml",
+        {
+            "sourcePath": "C:\\Users\\DmytroPinchuk\\CTProjects\\DXFirst\\force-app\\main\\default\\aura\\CourseThemeLayout\\CourseThemeLayout.cmp-meta.xml",
+            "isDirectory": false,
+            "size": 222,
+            "modifiedTime": 1567767301525,
+            "changeTime": 1567767301525,
+            "contentHash": "d72416f9774da07c6b5231a0c97fb254b0390ecd",
+            "isMetadataFile": true,
+            "state": "u"
+        }
+    ],
+    [
+        "C:\\Users\\DmytroPinchuk\\CTProjects\\DXFirst\\force-app\\main\\default\\aura\\CourseThemeLayout\\CourseThemeLayout.design",
+        {
+            "sourcePath": "C:\\Users\\DmytroPinchuk\\CTProjects\\DXFirst\\force-app\\main\\default\\aura\\CourseThemeLayout\\CourseThemeLayout.design",
+            "isDirectory": false,
+            "size": 125,
+            "modifiedTime": 1567768959168,
+            "changeTime": 1567768959168,
+            "contentHash": "a083259c8a7f25baa18bda8eed8ac0761c6a62b4",
+            "isMetadataFile": false,
+            "state": "u"
+        }
+    ],
+    [
+        "C:\\Users\\DmytroPinchuk\\CTProjects\\DXFirst\\force-app\\main\\default\\aura\\CourseThemeLayout\\CourseThemeLayout.css",
+        {
+            "sourcePath": "C:\\Users\\DmytroPinchuk\\CTProjects\\DXFirst\\force-app\\main\\default\\aura\\CourseThemeLayout\\CourseThemeLayout.css",
+            "isDirectory": false,
+            "size": 311,
+            "modifiedTime": 1567774382981,
+            "changeTime": 1567774382981,
+            "contentHash": "db8598e4f5702460895f78412764d9136601131f",
+            "isMetadataFile": false,
+            "state": "u"
+        }
+    ],
+    [
+        "C:\\Users\\DmytroPinchuk\\CTProjects\\DXFirst\\force-app\\main\\default\\aura\\ContentLayout",
+        {
+            "sourcePath": "C:\\Users\\DmytroPinchuk\\CTProjects\\DXFirst\\force-app\\main\\default\\aura\\ContentLayout",
+            "isDirectory": true,
+            "size": 0,
+            "modifiedTime": 1567777369164,
+            "changeTime": 1567777369164,
+            "contentHash": "532f42c8526942fee8e3c6981a8526cab27112ab",
+            "isMetadataFile": false,
+            "state": "u"
+        }
+    ],
+    [
+        "C:\\Users\\DmytroPinchuk\\CTProjects\\DXFirst\\force-app\\main\\default\\aura\\ContentLayout\\ContentLayout.cmp",
+        {
+            "sourcePath": "C:\\Users\\DmytroPinchuk\\CTProjects\\DXFirst\\force-app\\main\\default\\aura\\ContentLayout\\ContentLayout.cmp",
+            "isDirectory": false,
+            "size": 1134,
+            "modifiedTime": 1567778524929,
+            "changeTime": 1567778524929,
+            "contentHash": "e2978c0e699556997ebb4f8196d69972760f8cb5",
+            "isMetadataFile": false,
+            "state": "u"
+        }
+    ],
+    [
+        "C:\\Users\\DmytroPinchuk\\CTProjects\\DXFirst\\force-app\\main\\default\\aura\\ContentLayout\\ContentLayout.cmp-meta.xml",
+        {
+            "sourcePath": "C:\\Users\\DmytroPinchuk\\CTProjects\\DXFirst\\force-app\\main\\default\\aura\\ContentLayout\\ContentLayout.cmp-meta.xml",
+            "isDirectory": false,
+            "size": 218,
+            "modifiedTime": 1567777107659,
+            "changeTime": 1567777107659,
+            "contentHash": "5116a8f80210126dd5c693226575e7b65534a4ac",
+            "isMetadataFile": true,
+            "state": "u"
+        }
+    ],
+    [
+        "C:\\Users\\DmytroPinchuk\\CTProjects\\DXFirst\\force-app\\main\\default\\aura\\ContentLayout\\ContentLayout.css",
+        {
+            "sourcePath": "C:\\Users\\DmytroPinchuk\\CTProjects\\DXFirst\\force-app\\main\\default\\aura\\ContentLayout\\ContentLayout.css",
+            "isDirectory": false,
+            "size": 682,
+            "modifiedTime": 1567778141846,
+            "changeTime": 1567778141846,
+            "contentHash": "398847549f440d7de1cd69041a031a79d9c4017b",
+            "isMetadataFile": false,
+            "state": "u"
+        }
+    ],
+    [
+        "C:\\Users\\DmytroPinchuk\\CTProjects\\DXFirst\\force-app\\main\\default\\aura\\CoursesFooter",
+        {
+            "sourcePath": "C:\\Users\\DmytroPinchuk\\CTProjects\\DXFirst\\force-app\\main\\default\\aura\\CoursesFooter",
+            "isDirectory": true,
+            "size": 0,
+            "modifiedTime": 1567782808322,
+            "changeTime": 1567782808322,
+            "contentHash": "d1a9d26c10c021f06447247b719fae5af9e52bc0",
+            "isMetadataFile": false,
+            "state": "u"
+        }
+    ],
+    [
+        "C:\\Users\\DmytroPinchuk\\CTProjects\\DXFirst\\force-app\\main\\default\\aura\\CoursesHeader",
+        {
+            "sourcePath": "C:\\Users\\DmytroPinchuk\\CTProjects\\DXFirst\\force-app\\main\\default\\aura\\CoursesHeader",
+            "isDirectory": true,
+            "size": 0,
+            "modifiedTime": 1567783052491,
+            "changeTime": 1567783052491,
+            "contentHash": "830446aa6de2f73446661ba015f4683ba6e4c5b7",
+            "isMetadataFile": false,
+            "state": "u"
+        }
+    ],
+    [
+        "C:\\Users\\DmytroPinchuk\\CTProjects\\DXFirst\\force-app\\main\\default\\aura\\CoursesFooter\\CoursesFooter.cmp",
+        {
+            "sourcePath": "C:\\Users\\DmytroPinchuk\\CTProjects\\DXFirst\\force-app\\main\\default\\aura\\CoursesFooter\\CoursesFooter.cmp",
+            "isDirectory": false,
+            "size": 404,
+            "modifiedTime": 1567783698508,
+            "changeTime": 1567783698508,
+            "contentHash": "6a7c7883138fd38cf45d0161584bf1971d14fdb1",
+            "isMetadataFile": false,
+            "state": "u"
+        }
+    ],
+    [
+        "C:\\Users\\DmytroPinchuk\\CTProjects\\DXFirst\\force-app\\main\\default\\aura\\CoursesFooter\\CoursesFooter.cmp-meta.xml",
+        {
+            "sourcePath": "C:\\Users\\DmytroPinchuk\\CTProjects\\DXFirst\\force-app\\main\\default\\aura\\CoursesFooter\\CoursesFooter.cmp-meta.xml",
+            "isDirectory": false,
+            "size": 218,
+            "modifiedTime": 1567782808332,
+            "changeTime": 1567782808332,
+            "contentHash": "681d44c9e7f5705bdca7ca0453e9292a2bc4f8e8",
+            "isMetadataFile": true,
+            "state": "u"
+        }
+    ],
+    [
+        "C:\\Users\\DmytroPinchuk\\CTProjects\\DXFirst\\force-app\\main\\default\\aura\\CoursesHeader\\CoursesHeader.cmp",
+        {
+            "sourcePath": "C:\\Users\\DmytroPinchuk\\CTProjects\\DXFirst\\force-app\\main\\default\\aura\\CoursesHeader\\CoursesHeader.cmp",
+            "isDirectory": false,
+            "size": 703,
+            "modifiedTime": 1567783400118,
+            "changeTime": 1567783400118,
+            "contentHash": "f0ef0269709b8fbe71a436066fb57ed9fcdc0338",
+            "isMetadataFile": false,
+            "state": "u"
+        }
+    ],
+    [
+        "C:\\Users\\DmytroPinchuk\\CTProjects\\DXFirst\\force-app\\main\\default\\aura\\CoursesHeader\\CoursesHeader.cmp-meta.xml",
+        {
+            "sourcePath": "C:\\Users\\DmytroPinchuk\\CTProjects\\DXFirst\\force-app\\main\\default\\aura\\CoursesHeader\\CoursesHeader.cmp-meta.xml",
+            "isDirectory": false,
+            "size": 218,
+            "modifiedTime": 1567780696866,
+            "changeTime": 1567780696866,
+            "contentHash": "82e6aed27fc9451b6f352144fd55a16e6fca6b04",
+            "isMetadataFile": true,
+            "state": "u"
+        }
+    ],
+    [
+        "C:\\Users\\DmytroPinchuk\\CTProjects\\DXFirst\\force-app\\main\\default\\aura\\CoursesHeader\\CoursesHeader.css",
+        {
+            "sourcePath": "C:\\Users\\DmytroPinchuk\\CTProjects\\DXFirst\\force-app\\main\\default\\aura\\CoursesHeader\\CoursesHeader.css",
+            "isDirectory": false,
+            "size": 120,
+            "modifiedTime": 1567783139161,
+            "changeTime": 1567783139161,
+            "contentHash": "fd5ed2621d37ac771bf54979daab07925647eaca",
+            "isMetadataFile": false,
+            "state": "u"
+        }
+    ],
+    [
+        "C:\\Users\\DmytroPinchuk\\CTProjects\\DXFirst\\force-app\\main\\default\\aura\\RequestForm",
+        {
+            "sourcePath": "C:\\Users\\DmytroPinchuk\\CTProjects\\DXFirst\\force-app\\main\\default\\aura\\RequestForm",
+            "isDirectory": true,
+            "size": 0,
+            "modifiedTime": 1567785327830,
+            "changeTime": 1567785327830,
+            "contentHash": "a8d0d10a0e5b77bac1bdbcd74102c3c83a1bbb60",
+            "isMetadataFile": false,
+            "state": "u"
+        }
+    ],
+    [
+        "C:\\Users\\DmytroPinchuk\\CTProjects\\DXFirst\\force-app\\main\\default\\aura\\RequestForm\\RequestForm.cmp",
+        {
+            "state": "u",
+            "sourcePath": "C:\\Users\\DmytroPinchuk\\CTProjects\\DXFirst\\force-app\\main\\default\\aura\\RequestForm\\RequestForm.cmp",
+            "isDirectory": false,
+            "isMetadataFile": false,
+            "size": 1930,
+            "modifiedTime": 1567786749014,
+            "changeTime": 1567786749014,
+            "contentHash": "cfccee65a69e1d2a19967696d215b20f11453612"
+        }
+    ],
+    [
+        "C:\\Users\\DmytroPinchuk\\CTProjects\\DXFirst\\force-app\\main\\default\\aura\\RequestForm\\RequestForm.cmp-meta.xml",
+        {
+            "sourcePath": "C:\\Users\\DmytroPinchuk\\CTProjects\\DXFirst\\force-app\\main\\default\\aura\\RequestForm\\RequestForm.cmp-meta.xml",
+            "isDirectory": false,
+            "size": 216,
+            "modifiedTime": 1567785327840,
+            "changeTime": 1567785327840,
+            "contentHash": "572ff643b484758b5dbdb9ee6f1fa3115f39df1f",
+            "isMetadataFile": true,
+            "state": "u"
+        }
+    ],
+    [
+        "C:\\Users\\DmytroPinchuk\\CTProjects\\DXFirst\\force-app\\main\\default\\classes\\RequestFormController.cls",
+        {
+            "sourcePath": "C:\\Users\\DmytroPinchuk\\CTProjects\\DXFirst\\force-app\\main\\default\\classes\\RequestFormController.cls",
+            "isDirectory": false,
+            "size": 110,
+            "modifiedTime": 1567785442457,
+            "changeTime": 1567785442457,
+            "contentHash": "051167e4a40414f8ed6a3e30412e70167377b2dc",
+            "isMetadataFile": false,
+            "state": "u"
+        }
+    ],
+    [
+        "C:\\Users\\DmytroPinchuk\\CTProjects\\DXFirst\\force-app\\main\\default\\classes\\RequestFormController.cls-meta.xml",
+        {
+            "sourcePath": "C:\\Users\\DmytroPinchuk\\CTProjects\\DXFirst\\force-app\\main\\default\\classes\\RequestFormController.cls-meta.xml",
+            "isDirectory": false,
+            "size": 179,
+            "modifiedTime": 1567785442542,
+            "changeTime": 1567785442542,
+            "contentHash": "463a780dc1b11f5d645b2a49558ed28551f48927",
+            "isMetadataFile": true,
             "state": "u"
         }
     ]

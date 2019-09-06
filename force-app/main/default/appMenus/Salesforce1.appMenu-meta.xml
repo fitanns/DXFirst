@@ -17,6 +17,10 @@
         <type>StandardAppMenuItem</type>
     </appMenuItems>
     <appMenuItems>
+        <name>Home</name>
+        <type>CustomTab</type>
+    </appMenuItems>
+    <appMenuItems>
         <name>Lessons_Calendar</name>
         <type>CustomTab</type>
     </appMenuItems>

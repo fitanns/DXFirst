@@ -4,4 +4,44 @@
 
 <aura:component description="CoursesInfo" implements="forceCommunity:availableForAllPageTypes" access="global">
     <aura:handler event="c:getCourseInfo" action="{!c.handleCourse}"/>
+    <aura:attribute name="course" type="Course__c"/>
+
+    <lightning:card variant="Narrow" title="Course" iconName="standard:dashboard" footer=" ">
+        <div class="slds-card__body">
+            <table class="slds-table slds-table_cell-buffer slds-no-row-hover slds-table_bordered slds-table_fixed-layout" role="grid">
+                <thead>
+                <tr class="slds-line-height_reset">
+                    <th class="" scope="col">
+                        <div class="slds-truncate" title="Name">Name</div>
+                    </th>
+                    <th class="" scope="col">
+                        <div class="slds-truncate" title="Start Date">Start Date</div>
+                    </th>
+                    <th class="" scope="col">
+                        <div class="slds-truncate" title="End Date">End Date</div>
+                    </th>
+                    <th class="" scope="col">
+                        <div class="slds-truncate" title="Subject">Subject</div>
+                    </th>
+                </tr>
+                </thead>
+                <tbody>
+                <tr class="slds-hint-parent">
+                    <td role="gridcell">
+                        <div class="slds-truncate">{!v.course.Name}</div>
+                    </td>
+                    <td role="gridcell">
+                        <div class="slds-truncate">{!v.course.Start_Date__c}</div>
+                    </td>
+                    <td role="gridcell">
+                        <div class="slds-truncate">{!v.course.End_Date__c}</div>
+                    </td>
+                    <td role="gridcell">
+                        <div class="slds-truncate">{!v.course.Subject__r.Name}</div>
+                    </td>
+                </tr>
+                </tbody>
+            </table>
+        </div>
+    </lightning:card>
 </aura:component>

@@ -48,9 +48,9 @@
             "sourcePath": "C:\\Users\\DmytroPinchuk\\CTProjects\\DXFirst\\force-app\\main\\default\\aura",
             "isDirectory": true,
             "size": 0,
-            "modifiedTime": 1567785327706,
-            "changeTime": 1567785327706,
-            "contentHash": "873abaad6f41b8d5a22424d1e76709d6e1fba22e",
+            "modifiedTime": 1568044815748,
+            "changeTime": 1568044815748,
+            "contentHash": "3639a28c92f4e65cc817dad1cb313ecc9ddf1e94",
             "isMetadataFile": false,
             "state": "u"
         }
@@ -3827,10 +3827,10 @@
         {
             "sourcePath": "C:\\Users\\DmytroPinchuk\\CTProjects\\DXFirst\\force-app\\main\\default\\aura\\CourseThemeLayout\\CourseThemeLayout.css",
             "isDirectory": false,
-            "size": 311,
-            "modifiedTime": 1567787086017,
-            "changeTime": 1567787086017,
-            "contentHash": "db8598e4f5702460895f78412764d9136601131f",
+            "size": 428,
+            "modifiedTime": 1568044086224,
+            "changeTime": 1568044086224,
+            "contentHash": "9bf4ccb8ea2e8e75ac248bd7dc020ba29e2b5de8",
             "isMetadataFile": false,
             "state": "u"
         }
@@ -3996,10 +3996,10 @@
         {
             "sourcePath": "C:\\Users\\DmytroPinchuk\\CTProjects\\DXFirst\\force-app\\main\\default\\aura\\RequestForm\\RequestForm.cmp",
             "isDirectory": false,
-            "size": 3748,
-            "modifiedTime": 1568033555637,
-            "changeTime": 1568033555637,
-            "contentHash": "26c2a803252d910c8414ead83ea8288ff95ffe97",
+            "size": 3742,
+            "modifiedTime": 1568040336391,
+            "changeTime": 1568040336391,
+            "contentHash": "eff4e036fdf80ba441ef1204fa8b9757062d06d4",
             "isMetadataFile": false,
             "state": "u"
         }
@@ -4020,14 +4020,14 @@
     [
         "C:\\Users\\DmytroPinchuk\\CTProjects\\DXFirst\\force-app\\main\\default\\classes\\RequestFormController.cls",
         {
-            "state": "u",
             "sourcePath": "C:\\Users\\DmytroPinchuk\\CTProjects\\DXFirst\\force-app\\main\\default\\classes\\RequestFormController.cls",
             "isDirectory": false,
+            "size": 348,
+            "modifiedTime": 1568038438743,
+            "changeTime": 1568038438743,
+            "contentHash": "082d4eda7f8119a500d8efa3c2f701e6be5dd200",
             "isMetadataFile": false,
-            "size": 401,
-            "modifiedTime": 1568038264425,
-            "changeTime": 1568038264425,
-            "contentHash": "496845fa332a9843e59dbe6d50a2253c72d8333a"
+            "state": "u"
         }
     ],
     [
@@ -4048,10 +4048,10 @@
         {
             "sourcePath": "C:\\Users\\DmytroPinchuk\\CTProjects\\DXFirst\\force-app\\main\\default\\aura\\RequestForm\\RequestFormController.js",
             "isDirectory": false,
-            "size": 1193,
-            "modifiedTime": 1568035912074,
-            "changeTime": 1568035912074,
-            "contentHash": "20277621b21ceb1c288e743b0e5ebee5d92dfaf8",
+            "size": 1153,
+            "modifiedTime": 1568038438727,
+            "changeTime": 1568038438727,
+            "contentHash": "4f5aefd8b9ea17a44ecd4807b123498d06898331",
             "isMetadataFile": false,
             "state": "u"
         }
@@ -4059,14 +4059,118 @@
     [
         "C:\\Users\\DmytroPinchuk\\CTProjects\\DXFirst\\force-app\\main\\default\\aura\\RequestForm\\RequestFormHelper.js",
         {
-            "state": "u",
             "sourcePath": "C:\\Users\\DmytroPinchuk\\CTProjects\\DXFirst\\force-app\\main\\default\\aura\\RequestForm\\RequestFormHelper.js",
             "isDirectory": false,
-            "isMetadataFile": false,
             "size": 820,
             "modifiedTime": 1568038106148,
             "changeTime": 1568038106148,
-            "contentHash": "e8ad269b4517f92ef68ec5c121e52145fe8455e6"
+            "contentHash": "e8ad269b4517f92ef68ec5c121e52145fe8455e6",
+            "isMetadataFile": false,
+            "state": "u"
+        }
+    ],
+    [
+        "C:\\Users\\DmytroPinchuk\\CTProjects\\DXFirst\\force-app\\main\\default\\aura\\TestLayoutTheme",
+        {
+            "sourcePath": "C:\\Users\\DmytroPinchuk\\CTProjects\\DXFirst\\force-app\\main\\default\\aura\\TestLayoutTheme",
+            "isDirectory": true,
+            "size": 0,
+            "modifiedTime": 1568038806144,
+            "changeTime": 1568038806144,
+            "contentHash": "7372fc6baab8ca4c2b41c3f32ce52ff365c129a5",
+            "isMetadataFile": false,
+            "state": "u"
+        }
+    ],
+    [
+        "C:\\Users\\DmytroPinchuk\\CTProjects\\DXFirst\\force-app\\main\\default\\aura\\TestLayoutTheme\\TestLayoutTheme.cmp",
+        {
+            "sourcePath": "C:\\Users\\DmytroPinchuk\\CTProjects\\DXFirst\\force-app\\main\\default\\aura\\TestLayoutTheme\\TestLayoutTheme.cmp",
+            "isDirectory": false,
+            "size": 232,
+            "modifiedTime": 1568043634662,
+            "changeTime": 1568043634662,
+            "contentHash": "509911f54be7d499d21f1324afb74e92906f7a33",
+            "isMetadataFile": false,
+            "state": "u"
+        }
+    ],
+    [
+        "C:\\Users\\DmytroPinchuk\\CTProjects\\DXFirst\\force-app\\main\\default\\aura\\TestLayoutTheme\\TestLayoutTheme.cmp-meta.xml",
+        {
+            "sourcePath": "C:\\Users\\DmytroPinchuk\\CTProjects\\DXFirst\\force-app\\main\\default\\aura\\TestLayoutTheme\\TestLayoutTheme.cmp-meta.xml",
+            "isDirectory": false,
+            "size": 220,
+            "modifiedTime": 1568038777168,
+            "changeTime": 1568038777168,
+            "contentHash": "4517128479feb67869d6e579916ba32466049823",
+            "isMetadataFile": true,
+            "state": "u"
+        }
+    ],
+    [
+        "C:\\Users\\DmytroPinchuk\\CTProjects\\DXFirst\\force-app\\main\\default\\aura\\TestLayoutTheme\\TestLayoutTheme.css",
+        {
+            "sourcePath": "C:\\Users\\DmytroPinchuk\\CTProjects\\DXFirst\\force-app\\main\\default\\aura\\TestLayoutTheme\\TestLayoutTheme.css",
+            "isDirectory": false,
+            "size": 965,
+            "modifiedTime": 1568045515553,
+            "changeTime": 1568045515553,
+            "contentHash": "df4fbe044a348e950e1983f29d9c61149d39ac25",
+            "isMetadataFile": false,
+            "state": "u"
+        }
+    ],
+    [
+        "C:\\Users\\DmytroPinchuk\\CTProjects\\DXFirst\\force-app\\main\\default\\aura\\TestCourse",
+        {
+            "sourcePath": "C:\\Users\\DmytroPinchuk\\CTProjects\\DXFirst\\force-app\\main\\default\\aura\\TestCourse",
+            "isDirectory": true,
+            "size": 0,
+            "modifiedTime": 1568045133442,
+            "changeTime": 1568045133442,
+            "contentHash": "498ae62d95bb12cc898ada223c39d994eb30b628",
+            "isMetadataFile": false,
+            "state": "u"
+        }
+    ],
+    [
+        "C:\\Users\\DmytroPinchuk\\CTProjects\\DXFirst\\force-app\\main\\default\\aura\\TestCourse\\TestCourse.cmp",
+        {
+            "state": "u",
+            "sourcePath": "C:\\Users\\DmytroPinchuk\\CTProjects\\DXFirst\\force-app\\main\\default\\aura\\TestCourse\\TestCourse.cmp",
+            "isDirectory": false,
+            "isMetadataFile": false,
+            "size": 2194,
+            "modifiedTime": 1568046550665,
+            "changeTime": 1568046550665,
+            "contentHash": "7521f9c5f24ee5130cdb7de2ecd88d49e1940843"
+        }
+    ],
+    [
+        "C:\\Users\\DmytroPinchuk\\CTProjects\\DXFirst\\force-app\\main\\default\\aura\\TestCourse\\TestCourse.cmp-meta.xml",
+        {
+            "sourcePath": "C:\\Users\\DmytroPinchuk\\CTProjects\\DXFirst\\force-app\\main\\default\\aura\\TestCourse\\TestCourse.cmp-meta.xml",
+            "isDirectory": false,
+            "size": 215,
+            "modifiedTime": 1568044815891,
+            "changeTime": 1568044815891,
+            "contentHash": "4a029dd62100762b7e1fd17e190d4a352caa5027",
+            "isMetadataFile": true,
+            "state": "u"
+        }
+    ],
+    [
+        "C:\\Users\\DmytroPinchuk\\CTProjects\\DXFirst\\force-app\\main\\default\\aura\\TestCourse\\TestCourseController.js",
+        {
+            "sourcePath": "C:\\Users\\DmytroPinchuk\\CTProjects\\DXFirst\\force-app\\main\\default\\aura\\TestCourse\\TestCourseController.js",
+            "isDirectory": false,
+            "size": 219,
+            "modifiedTime": 1568045374224,
+            "changeTime": 1568045374224,
+            "contentHash": "c286d294cbffdb1c1757c617cc652a8503af90b4",
+            "isMetadataFile": false,
+            "state": "u"
         }
     ]
 ]

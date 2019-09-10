@@ -6,7 +6,7 @@
     <aura:handler event="c:getCourseInfo" action="{!c.handleCourse}"/>
     <aura:attribute name="course" type="Course__c"/>
 
-    <lightning:card variant="Narrow" title="Course" iconName="standard:dashboard" footer=" ">
+    <lightning:card variant="Narrow" title="{!$Label.c.Course}" iconName="standard:dashboard" footer=" ">
         <div class="slds-card__body">
             <table class="slds-table slds-table_cell-buffer slds-no-row-hover slds-table_bordered slds-table_fixed-layout " role="grid">
                 <thead>

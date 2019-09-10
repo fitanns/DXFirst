@@ -10,9 +10,9 @@
     <div class="slds-card">
         <nav class="slds-nav-vertical">
             <lightning:verticalNavigation>
-                <lightning:verticalNavigationSection label="Courses">
+                <lightning:verticalNavigationSection label="{!$Label.c.Courses}">
                     <aura:iteration items="{!v.courses}" var="course">
-                        <c:CoursesItem course="{!course}"/>
+                        <c:CoursesItem course="{#course}"/>
                     </aura:iteration>
                 </lightning:verticalNavigationSection>
             </lightning:verticalNavigation>

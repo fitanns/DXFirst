@@ -1485,14 +1485,14 @@
     [
         "C:\\Users\\DmytroPinchuk\\CTProjects\\DXFirst\\force-app\\main\\default\\aura\\CoursesInfo\\CoursesInfo.cmp",
         {
+            "state": "u",
             "sourcePath": "C:\\Users\\DmytroPinchuk\\CTProjects\\DXFirst\\force-app\\main\\default\\aura\\CoursesInfo\\CoursesInfo.cmp",
             "isDirectory": false,
-            "size": 2004,
-            "modifiedTime": 1568307464326,
-            "changeTime": 1568307464326,
-            "contentHash": "473224ef75d237a66f92c131ee6195e340485d5c",
             "isMetadataFile": false,
-            "state": "u"
+            "size": 2094,
+            "modifiedTime": 1568365841565,
+            "changeTime": 1568365841565,
+            "contentHash": "f3520aaaff3f8c3aece33514838ed7fb23945768"
         }
     ],
     [
@@ -1576,14 +1576,14 @@
     [
         "C:\\Users\\DmytroPinchuk\\CTProjects\\DXFirst\\force-app\\main\\default\\aura\\CoursesInfo\\CoursesInfoController.js",
         {
+            "state": "u",
             "sourcePath": "C:\\Users\\DmytroPinchuk\\CTProjects\\DXFirst\\force-app\\main\\default\\aura\\CoursesInfo\\CoursesInfoController.js",
             "isDirectory": false,
-            "size": 315,
-            "modifiedTime": 1568311383415,
-            "changeTime": 1568311383415,
-            "contentHash": "5903e2cde14dfd4cd1879b8dfa6a573997ae36fd",
             "isMetadataFile": false,
-            "state": "u"
+            "size": 414,
+            "modifiedTime": 1568365630402,
+            "changeTime": 1568365630402,
+            "contentHash": "edd0e74091e295f7bb0ecd5689f4f69c12dcf370"
         }
     ],
     [
@@ -3827,10 +3827,10 @@
         {
             "sourcePath": "C:\\Users\\DmytroPinchuk\\CTProjects\\DXFirst\\force-app\\main\\default\\aura\\CourseThemeLayout\\CourseThemeLayout.css",
             "isDirectory": false,
-            "size": 423,
-            "modifiedTime": 1568289262109,
-            "changeTime": 1568289262109,
-            "contentHash": "fe7dc1f23dbb2fd2ffc2374765f4856daca867c0",
+            "size": 446,
+            "modifiedTime": 1568359968102,
+            "changeTime": 1568359968102,
+            "contentHash": "524a3d3eb4e011af7666ccb66096e90f44114887",
             "isMetadataFile": false,
             "state": "u"
         }
@@ -3996,10 +3996,10 @@
         {
             "sourcePath": "C:\\Users\\DmytroPinchuk\\CTProjects\\DXFirst\\force-app\\main\\default\\aura\\RequestForm\\RequestForm.cmp",
             "isDirectory": false,
-            "size": 4475,
-            "modifiedTime": 1568311383490,
-            "changeTime": 1568311383490,
-            "contentHash": "86302a5897e7d72b22d141edde2b972ce337e322",
+            "size": 4485,
+            "modifiedTime": 1568360218078,
+            "changeTime": 1568360218078,
+            "contentHash": "55aeade0a0057ca9f6c58e894a0b863f1410a61b",
             "isMetadataFile": false,
             "state": "u"
         }
@@ -4023,9 +4023,9 @@
             "sourcePath": "C:\\Users\\DmytroPinchuk\\CTProjects\\DXFirst\\force-app\\main\\default\\classes\\RequestFormController.cls",
             "isDirectory": false,
             "size": 811,
-            "modifiedTime": 1568118511626,
-            "changeTime": 1568118511626,
-            "contentHash": "8a5e1497056a45451b4686de08aaa5b4bbe65307",
+            "modifiedTime": 1568360705485,
+            "changeTime": 1568360705485,
+            "contentHash": "d75a5d4745422465d85f410e4136d1391f31949e",
             "isMetadataFile": false,
             "state": "u"
         }
@@ -4063,10 +4063,10 @@
             "sourcePath": "C:\\Users\\DmytroPinchuk\\CTProjects\\DXFirst\\force-app\\main\\default\\aura\\RequestForm\\RequestFormHelper.js",
             "isDirectory": false,
             "isMetadataFile": false,
-            "size": 4319,
-            "modifiedTime": 1568312595240,
-            "changeTime": 1568312595240,
-            "contentHash": "1d3d04cd7ee89a872a6a99d83ead4db5304b2e5d"
+            "size": 1982,
+            "modifiedTime": 1568362382056,
+            "changeTime": 1568362382056,
+            "contentHash": "70354015c3793f1fd738f6cb1cec840141c663ce"
         }
     ],
     [
@@ -4215,14 +4215,14 @@
     [
         "C:\\Users\\DmytroPinchuk\\CTProjects\\DXFirst\\force-app\\main\\default\\classes\\CourseInfoController.cls",
         {
+            "state": "u",
             "sourcePath": "C:\\Users\\DmytroPinchuk\\CTProjects\\DXFirst\\force-app\\main\\default\\classes\\CourseInfoController.cls",
             "isDirectory": false,
-            "size": 1354,
-            "modifiedTime": 1568311383462,
-            "changeTime": 1568311383462,
-            "contentHash": "cd9833c8cc0e7a13e35862f03caf4c3f723aeaba",
             "isMetadataFile": false,
-            "state": "u"
+            "size": 1535,
+            "modifiedTime": 1568365841544,
+            "changeTime": 1568365841544,
+            "contentHash": "21009263ddbc5d2accdf024ed379c2e5294e1484"
         }
     ],
     [
@@ -4241,14 +4241,14 @@
     [
         "C:\\Users\\DmytroPinchuk\\CTProjects\\DXFirst\\force-app\\main\\default\\aura\\CoursesInfo\\CoursesInfoHelper.js",
         {
+            "state": "u",
             "sourcePath": "C:\\Users\\DmytroPinchuk\\CTProjects\\DXFirst\\force-app\\main\\default\\aura\\CoursesInfo\\CoursesInfoHelper.js",
             "isDirectory": false,
-            "size": 2371,
-            "modifiedTime": 1568311383396,
-            "changeTime": 1568311383396,
-            "contentHash": "4853450ec90858a8a2b6d5529041fb7c89c86f5f",
             "isMetadataFile": false,
-            "state": "u"
+            "size": 1468,
+            "modifiedTime": 1568365630383,
+            "changeTime": 1568365630383,
+            "contentHash": "3cd9e10971ea420c9056865b0877f332ea33b841"
         }
     ],
     [
@@ -4399,10 +4399,10 @@
         {
             "sourcePath": "C:\\Users\\DmytroPinchuk\\CTProjects\\DXFirst\\force-app\\main\\default\\aura\\RequestCmp\\RequestCmpHelper.js",
             "isDirectory": false,
-            "size": 767,
-            "modifiedTime": 1568312269608,
-            "changeTime": 1568312269608,
-            "contentHash": "5cdb708290c57791283c751e8018e53f47b6c4c4",
+            "size": 698,
+            "modifiedTime": 1568360705502,
+            "changeTime": 1568360705502,
+            "contentHash": "621c014386811e32eb239cb85f9a12a4d96e3106",
             "isMetadataFile": false,
             "state": "u"
         }

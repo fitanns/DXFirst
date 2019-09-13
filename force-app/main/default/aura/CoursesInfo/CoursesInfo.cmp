@@ -5,18 +5,20 @@
 <aura:component description="CoursesInfo" implements="forceCommunity:availableForAllPageTypes" access="global"
                 controller="CourseInfoController">
     <aura:handler event="c:getCourseInfo" action="{!c.handleCourse}"/>
+    <aura:handler name="init" value="{!this}" action="{!c.doInit}"/>
+    <aura:attribute name="communityURL" type="String"/>
     <aura:attribute name="course" type="Course__c"/>
     <aura:attribute name="courseLabels" type="Object"/>
     <aura:attribute name="contents" type="List" default="[]"/>
     <aura:attribute name="prefixURL" type="String"
-                    default="https://connect-energy-7396-dev-ed.lightning.force.com/sfc/servlet.shepherd/version/download/"/>
+                    default="/sfc/servlet.shepherd/version/download/"/>
 
     <c:RequestCmp aura:id="requestCall" context="{!this}"/>
 
     <div class="course-inform slds-card slds-box slds-box_small">
         <lightning:carousel scrollDuration="5" class="somecarousel">
             <lightning:carouselImage
-                    src="{!v.prefixURL + v.contents[0].Id}"
+                    src="{!v.communityURL + v.prefixURL + v.contents[0].Id}"
                     header="{!v.course.Name}"
                     description="{!(v.courseLabels.Subject) +' : '+ (v.course.Subject__r.Name) + '; ' + (v.courseLabels.StartDate) + ' : '
                     + (v.course.Start_Date__c)+ '; ' + (v.courseLabels.EndDate) + ' : ' + (v.course.End_Date__c) + '.'}"

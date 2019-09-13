@@ -3827,10 +3827,10 @@
         {
             "sourcePath": "C:\\Users\\DmytroPinchuk\\CTProjects\\DXFirst\\force-app\\main\\default\\aura\\CourseThemeLayout\\CourseThemeLayout.css",
             "isDirectory": false,
-            "size": 423,
-            "modifiedTime": 1568289262109,
-            "changeTime": 1568289262109,
-            "contentHash": "fe7dc1f23dbb2fd2ffc2374765f4856daca867c0",
+            "size": 446,
+            "modifiedTime": 1568359968102,
+            "changeTime": 1568359968102,
+            "contentHash": "524a3d3eb4e011af7666ccb66096e90f44114887",
             "isMetadataFile": false,
             "state": "u"
         }
@@ -3996,10 +3996,10 @@
         {
             "sourcePath": "C:\\Users\\DmytroPinchuk\\CTProjects\\DXFirst\\force-app\\main\\default\\aura\\RequestForm\\RequestForm.cmp",
             "isDirectory": false,
-            "size": 4475,
-            "modifiedTime": 1568311383490,
-            "changeTime": 1568311383490,
-            "contentHash": "86302a5897e7d72b22d141edde2b972ce337e322",
+            "size": 4485,
+            "modifiedTime": 1568360218078,
+            "changeTime": 1568360218078,
+            "contentHash": "55aeade0a0057ca9f6c58e894a0b863f1410a61b",
             "isMetadataFile": false,
             "state": "u"
         }
@@ -4020,14 +4020,14 @@
     [
         "C:\\Users\\DmytroPinchuk\\CTProjects\\DXFirst\\force-app\\main\\default\\classes\\RequestFormController.cls",
         {
+            "state": "u",
             "sourcePath": "C:\\Users\\DmytroPinchuk\\CTProjects\\DXFirst\\force-app\\main\\default\\classes\\RequestFormController.cls",
             "isDirectory": false,
-            "size": 811,
-            "modifiedTime": 1568118511626,
-            "changeTime": 1568118511626,
-            "contentHash": "8a5e1497056a45451b4686de08aaa5b4bbe65307",
             "isMetadataFile": false,
-            "state": "u"
+            "size": 811,
+            "modifiedTime": 1568360705485,
+            "changeTime": 1568360705485,
+            "contentHash": "d75a5d4745422465d85f410e4136d1391f31949e"
         }
     ],
     [
@@ -4059,14 +4059,14 @@
     [
         "C:\\Users\\DmytroPinchuk\\CTProjects\\DXFirst\\force-app\\main\\default\\aura\\RequestForm\\RequestFormHelper.js",
         {
-            "state": "u",
             "sourcePath": "C:\\Users\\DmytroPinchuk\\CTProjects\\DXFirst\\force-app\\main\\default\\aura\\RequestForm\\RequestFormHelper.js",
             "isDirectory": false,
+            "size": 4321,
+            "modifiedTime": 1568313079278,
+            "changeTime": 1568313079278,
+            "contentHash": "e4edb8bc1d1ea8420f122454508aa2af02d97dda",
             "isMetadataFile": false,
-            "size": 4517,
-            "modifiedTime": 1568312533267,
-            "changeTime": 1568312533267,
-            "contentHash": "9538ce55c7adbe8196154c9e15368ec9157bbf65"
+            "state": "u"
         }
     ],
     [
@@ -4215,14 +4215,14 @@
     [
         "C:\\Users\\DmytroPinchuk\\CTProjects\\DXFirst\\force-app\\main\\default\\classes\\CourseInfoController.cls",
         {
+            "state": "u",
             "sourcePath": "C:\\Users\\DmytroPinchuk\\CTProjects\\DXFirst\\force-app\\main\\default\\classes\\CourseInfoController.cls",
             "isDirectory": false,
-            "size": 1354,
-            "modifiedTime": 1568311383462,
-            "changeTime": 1568311383462,
-            "contentHash": "cd9833c8cc0e7a13e35862f03caf4c3f723aeaba",
             "isMetadataFile": false,
-            "state": "u"
+            "size": 1354,
+            "modifiedTime": 1568360705512,
+            "changeTime": 1568360705512,
+            "contentHash": "2eba6e749779af4e2895ef0e2e341f1ad3b77040"
         }
     ],
     [
@@ -4397,14 +4397,14 @@
     [
         "C:\\Users\\DmytroPinchuk\\CTProjects\\DXFirst\\force-app\\main\\default\\aura\\RequestCmp\\RequestCmpHelper.js",
         {
+            "state": "u",
             "sourcePath": "C:\\Users\\DmytroPinchuk\\CTProjects\\DXFirst\\force-app\\main\\default\\aura\\RequestCmp\\RequestCmpHelper.js",
             "isDirectory": false,
-            "size": 767,
-            "modifiedTime": 1568312269608,
-            "changeTime": 1568312269608,
-            "contentHash": "5cdb708290c57791283c751e8018e53f47b6c4c4",
             "isMetadataFile": false,
-            "state": "u"
+            "size": 698,
+            "modifiedTime": 1568360705502,
+            "changeTime": 1568360705502,
+            "contentHash": "621c014386811e32eb239cb85f9a12a4d96e3106"
         }
     ]
 ]

@@ -27,7 +27,7 @@
             </lightning:carouselImage>
             <lightning:carouselImage
                     class="somecarousel"
-                    src="{!v.prefixURL + v.contents[1].Id}"
+                    src="{!v.communityURL + v.prefixURL + v.contents[1].Id}"
                     header="{!v.course.Name}"
                     description="{!(v.courseLabels.Subject) +' : '+ (v.course.Subject__r.Name) + '; ' + (v.courseLabels.StartDate) + ' : '
                     + (v.course.Start_Date__c)+ '; ' + (v.courseLabels.EndDate) + ' : ' + (v.course.End_Date__c) + '.'}"

@@ -48,9 +48,9 @@
             "sourcePath": "C:\\Users\\DmytroPinchuk\\CTProjects\\DXFirst\\force-app\\main\\default\\aura",
             "isDirectory": true,
             "size": 0,
-            "modifiedTime": 1568307626895,
-            "changeTime": 1568307626895,
-            "contentHash": "e6135fa696a36b0ab63e321c9b55400a37c3c04f",
+            "modifiedTime": 1568369504874,
+            "changeTime": 1568369504874,
+            "contentHash": "19bdf37166279cc44159d865bb543f69b4e51748",
             "isMetadataFile": false,
             "state": "u"
         }
@@ -175,9 +175,9 @@
             "sourcePath": "C:\\Users\\DmytroPinchuk\\CTProjects\\DXFirst\\force-app\\main\\default\\classes",
             "isDirectory": true,
             "size": 0,
-            "modifiedTime": 1568213574423,
-            "changeTime": 1568213574423,
-            "contentHash": "d3d5ff4cfe85ce576c3d251c659396362c45a689",
+            "modifiedTime": 1568389095262,
+            "changeTime": 1568389095262,
+            "contentHash": "dd4dd51c15fe0054e7ded1c0286396457d2c170e",
             "isMetadataFile": false,
             "state": "u"
         }
@@ -1436,9 +1436,9 @@
             "sourcePath": "C:\\Users\\DmytroPinchuk\\CTProjects\\DXFirst\\force-app\\main\\default\\classes\\ListCoursesController.cls",
             "isDirectory": false,
             "size": 323,
-            "modifiedTime": 1567757785966,
-            "changeTime": 1567757785966,
-            "contentHash": "cde78b363e28611d2e8ed2b56a67b781c80f8d61",
+            "modifiedTime": 1568366103526,
+            "changeTime": 1568366103526,
+            "contentHash": "3067e1d075a4c6b7c6cad671140aa2e5991d69e4",
             "isMetadataFile": false,
             "state": "u"
         }
@@ -1487,10 +1487,10 @@
         {
             "sourcePath": "C:\\Users\\DmytroPinchuk\\CTProjects\\DXFirst\\force-app\\main\\default\\aura\\CoursesInfo\\CoursesInfo.cmp",
             "isDirectory": false,
-            "size": 2004,
-            "modifiedTime": 1568307464326,
-            "changeTime": 1568307464326,
-            "contentHash": "473224ef75d237a66f92c131ee6195e340485d5c",
+            "size": 2111,
+            "modifiedTime": 1568368416645,
+            "changeTime": 1568368416645,
+            "contentHash": "5636207d758b4c3a22fa006090f11a6c3c4166d0",
             "isMetadataFile": false,
             "state": "u"
         }
@@ -1578,10 +1578,10 @@
         {
             "sourcePath": "C:\\Users\\DmytroPinchuk\\CTProjects\\DXFirst\\force-app\\main\\default\\aura\\CoursesInfo\\CoursesInfoController.js",
             "isDirectory": false,
-            "size": 315,
-            "modifiedTime": 1568311383415,
-            "changeTime": 1568311383415,
-            "contentHash": "5903e2cde14dfd4cd1879b8dfa6a573997ae36fd",
+            "size": 413,
+            "modifiedTime": 1568368293372,
+            "changeTime": 1568368293372,
+            "contentHash": "286dae97a0a403c1c36164cf1e268c08104497e3",
             "isMetadataFile": false,
             "state": "u"
         }
@@ -3996,10 +3996,10 @@
         {
             "sourcePath": "C:\\Users\\DmytroPinchuk\\CTProjects\\DXFirst\\force-app\\main\\default\\aura\\RequestForm\\RequestForm.cmp",
             "isDirectory": false,
-            "size": 4485,
-            "modifiedTime": 1568360218078,
-            "changeTime": 1568360218078,
-            "contentHash": "55aeade0a0057ca9f6c58e894a0b863f1410a61b",
+            "size": 2767,
+            "modifiedTime": 1568395207935,
+            "changeTime": 1568395207935,
+            "contentHash": "b121e86e7869a52311b02e5b5a54f67c948e0e92",
             "isMetadataFile": false,
             "state": "u"
         }
@@ -4024,10 +4024,10 @@
             "sourcePath": "C:\\Users\\DmytroPinchuk\\CTProjects\\DXFirst\\force-app\\main\\default\\classes\\RequestFormController.cls",
             "isDirectory": false,
             "isMetadataFile": false,
-            "size": 811,
-            "modifiedTime": 1568360705485,
-            "changeTime": 1568360705485,
-            "contentHash": "d75a5d4745422465d85f410e4136d1391f31949e"
+            "size": 1574,
+            "modifiedTime": 1568395523758,
+            "changeTime": 1568395523758,
+            "contentHash": "0d503bdb91f74973c1678a0d87465438fa5ecc4f"
         }
     ],
     [
@@ -4048,10 +4048,10 @@
         {
             "sourcePath": "C:\\Users\\DmytroPinchuk\\CTProjects\\DXFirst\\force-app\\main\\default\\aura\\RequestForm\\RequestFormController.js",
             "isDirectory": false,
-            "size": 1009,
-            "modifiedTime": 1568311383440,
-            "changeTime": 1568311383440,
-            "contentHash": "cb4d48cededc43909f581b476bf4d9ae88072e5c",
+            "size": 816,
+            "modifiedTime": 1568391095948,
+            "changeTime": 1568391095948,
+            "contentHash": "46ed7dfbae3c4ff84462f638b42652949ae2110b",
             "isMetadataFile": false,
             "state": "u"
         }
@@ -4061,10 +4061,10 @@
         {
             "sourcePath": "C:\\Users\\DmytroPinchuk\\CTProjects\\DXFirst\\force-app\\main\\default\\aura\\RequestForm\\RequestFormHelper.js",
             "isDirectory": false,
-            "size": 4321,
-            "modifiedTime": 1568313079278,
-            "changeTime": 1568313079278,
-            "contentHash": "e4edb8bc1d1ea8420f122454508aa2af02d97dda",
+            "size": 1694,
+            "modifiedTime": 1568395400129,
+            "changeTime": 1568395400129,
+            "contentHash": "97d8ba1a3854d286f37c0a339b06609517c61097",
             "isMetadataFile": false,
             "state": "u"
         }
@@ -4215,14 +4215,14 @@
     [
         "C:\\Users\\DmytroPinchuk\\CTProjects\\DXFirst\\force-app\\main\\default\\classes\\CourseInfoController.cls",
         {
-            "state": "u",
             "sourcePath": "C:\\Users\\DmytroPinchuk\\CTProjects\\DXFirst\\force-app\\main\\default\\classes\\CourseInfoController.cls",
             "isDirectory": false,
+            "size": 1537,
+            "modifiedTime": 1568392381522,
+            "changeTime": 1568392381522,
+            "contentHash": "1349d659f519e4754a1fc2fc144ad4c8ca7e80ba",
             "isMetadataFile": false,
-            "size": 1354,
-            "modifiedTime": 1568360705512,
-            "changeTime": 1568360705512,
-            "contentHash": "2eba6e749779af4e2895ef0e2e341f1ad3b77040"
+            "state": "u"
         }
     ],
     [
@@ -4243,10 +4243,10 @@
         {
             "sourcePath": "C:\\Users\\DmytroPinchuk\\CTProjects\\DXFirst\\force-app\\main\\default\\aura\\CoursesInfo\\CoursesInfoHelper.js",
             "isDirectory": false,
-            "size": 2371,
-            "modifiedTime": 1568311383396,
-            "changeTime": 1568311383396,
-            "contentHash": "4853450ec90858a8a2b6d5529041fb7c89c86f5f",
+            "size": 1467,
+            "modifiedTime": 1568373422621,
+            "changeTime": 1568373422621,
+            "contentHash": "64e512ac8e7227d6e0819b0c361671cd7489f6cc",
             "isMetadataFile": false,
             "state": "u"
         }
@@ -4360,10 +4360,10 @@
         {
             "sourcePath": "C:\\Users\\DmytroPinchuk\\CTProjects\\DXFirst\\force-app\\main\\default\\aura\\RequestCmp\\RequestCmp.cmp",
             "isDirectory": false,
-            "size": 504,
-            "modifiedTime": 1568308345661,
-            "changeTime": 1568308345661,
-            "contentHash": "4d76c847caecc132c325a4e6f70030c114f090fb",
+            "size": 764,
+            "modifiedTime": 1568368416649,
+            "changeTime": 1568368416649,
+            "contentHash": "9ecff44212c967e02f433ede579b72e9e4537a34",
             "isMetadataFile": false,
             "state": "u"
         }
@@ -4387,9 +4387,9 @@
             "sourcePath": "C:\\Users\\DmytroPinchuk\\CTProjects\\DXFirst\\force-app\\main\\default\\aura\\RequestCmp\\RequestCmpController.js",
             "isDirectory": false,
             "size": 174,
-            "modifiedTime": 1568305915083,
-            "changeTime": 1568305915083,
-            "contentHash": "c4150d1ceffd69c02c78bfcad6b7a25a5bdfa4e3",
+            "modifiedTime": 1568373422717,
+            "changeTime": 1568373422717,
+            "contentHash": "f2bbf282d244d70fcd9db796db98139d96d0a52c",
             "isMetadataFile": false,
             "state": "u"
         }
@@ -4397,14 +4397,105 @@
     [
         "C:\\Users\\DmytroPinchuk\\CTProjects\\DXFirst\\force-app\\main\\default\\aura\\RequestCmp\\RequestCmpHelper.js",
         {
-            "state": "u",
             "sourcePath": "C:\\Users\\DmytroPinchuk\\CTProjects\\DXFirst\\force-app\\main\\default\\aura\\RequestCmp\\RequestCmpHelper.js",
             "isDirectory": false,
+            "size": 799,
+            "modifiedTime": 1568373422676,
+            "changeTime": 1568373422676,
+            "contentHash": "0d0d78ae1d7a9c2614b7168e61af82e9ebdf5c12",
             "isMetadataFile": false,
-            "size": 698,
-            "modifiedTime": 1568360705502,
-            "changeTime": 1568360705502,
-            "contentHash": "621c014386811e32eb239cb85f9a12a4d96e3106"
+            "state": "u"
+        }
+    ],
+    [
+        "C:\\Users\\DmytroPinchuk\\CTProjects\\DXFirst\\force-app\\main\\default\\aura\\AlertUtility",
+        {
+            "sourcePath": "C:\\Users\\DmytroPinchuk\\CTProjects\\DXFirst\\force-app\\main\\default\\aura\\AlertUtility",
+            "isDirectory": true,
+            "size": 0,
+            "modifiedTime": 1568370137591,
+            "changeTime": 1568370137591,
+            "contentHash": "2fd236c46e86ae25255b472072c7ad1396742e83",
+            "isMetadataFile": false,
+            "state": "u"
+        }
+    ],
+    [
+        "C:\\Users\\DmytroPinchuk\\CTProjects\\DXFirst\\force-app\\main\\default\\aura\\AlertUtility\\AlertUtility.cmp",
+        {
+            "sourcePath": "C:\\Users\\DmytroPinchuk\\CTProjects\\DXFirst\\force-app\\main\\default\\aura\\AlertUtility\\AlertUtility.cmp",
+            "isDirectory": false,
+            "size": 2863,
+            "modifiedTime": 1568373422694,
+            "changeTime": 1568373422694,
+            "contentHash": "e9596a69b694e09f422eb1a0f205f255672b90ed",
+            "isMetadataFile": false,
+            "state": "u"
+        }
+    ],
+    [
+        "C:\\Users\\DmytroPinchuk\\CTProjects\\DXFirst\\force-app\\main\\default\\aura\\AlertUtility\\AlertUtility.cmp-meta.xml",
+        {
+            "sourcePath": "C:\\Users\\DmytroPinchuk\\CTProjects\\DXFirst\\force-app\\main\\default\\aura\\AlertUtility\\AlertUtility.cmp-meta.xml",
+            "isDirectory": false,
+            "size": 217,
+            "modifiedTime": 1568369505001,
+            "changeTime": 1568369505001,
+            "contentHash": "45bd27add7226cba72636a9d30818b2d41c4022a",
+            "isMetadataFile": true,
+            "state": "u"
+        }
+    ],
+    [
+        "C:\\Users\\DmytroPinchuk\\CTProjects\\DXFirst\\force-app\\main\\default\\aura\\AlertUtility\\AlertUtilityController.js",
+        {
+            "sourcePath": "C:\\Users\\DmytroPinchuk\\CTProjects\\DXFirst\\force-app\\main\\default\\aura\\AlertUtility\\AlertUtilityController.js",
+            "isDirectory": false,
+            "size": 528,
+            "modifiedTime": 1568373422733,
+            "changeTime": 1568373422733,
+            "contentHash": "2292859403f7aaa45295c164fe9fb46b6c6d1117",
+            "isMetadataFile": false,
+            "state": "u"
+        }
+    ],
+    [
+        "C:\\Users\\DmytroPinchuk\\CTProjects\\DXFirst\\force-app\\main\\default\\aura\\AlertUtility\\AlertUtilityHelper.js",
+        {
+            "sourcePath": "C:\\Users\\DmytroPinchuk\\CTProjects\\DXFirst\\force-app\\main\\default\\aura\\AlertUtility\\AlertUtilityHelper.js",
+            "isDirectory": false,
+            "size": 878,
+            "modifiedTime": 1568373422746,
+            "changeTime": 1568373422746,
+            "contentHash": "d7e1f2ea0be8a1be3447a1707e71caf26f771b9b",
+            "isMetadataFile": false,
+            "state": "u"
+        }
+    ],
+    [
+        "C:\\Users\\DmytroPinchuk\\CTProjects\\DXFirst\\force-app\\main\\default\\classes\\FieldSetFields.cls",
+        {
+            "sourcePath": "C:\\Users\\DmytroPinchuk\\CTProjects\\DXFirst\\force-app\\main\\default\\classes\\FieldSetFields.cls",
+            "isDirectory": false,
+            "size": 851,
+            "modifiedTime": 1568390215332,
+            "changeTime": 1568390215332,
+            "contentHash": "09a3b11fffe3196c9dd1794fdb1a8287f356e411",
+            "isMetadataFile": false,
+            "state": "u"
+        }
+    ],
+    [
+        "C:\\Users\\DmytroPinchuk\\CTProjects\\DXFirst\\force-app\\main\\default\\classes\\FieldSetFields.cls-meta.xml",
+        {
+            "sourcePath": "C:\\Users\\DmytroPinchuk\\CTProjects\\DXFirst\\force-app\\main\\default\\classes\\FieldSetFields.cls-meta.xml",
+            "isDirectory": false,
+            "size": 179,
+            "modifiedTime": 1568389095270,
+            "changeTime": 1568389095270,
+            "contentHash": "463a780dc1b11f5d645b2a49558ed28551f48927",
+            "isMetadataFile": true,
+            "state": "u"
         }
     ]
 ]

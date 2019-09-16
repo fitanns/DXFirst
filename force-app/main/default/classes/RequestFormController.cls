@@ -7,9 +7,10 @@ public with sharing class RequestFormController {
     @AuraEnabled
     public static void saveRequestLead(String newLead){
 
-        Lead futureLead = (Lead)JSON.deserialize(newLead,Lead.class);
+        LeadService.insertSingleLead((Lead)JSON.deserialize(newLead,Lead.class));
+/*        Lead futureLead = (Lead)JSON.deserialize(newLead,Lead.class);
         futureLead.Status = 'Open - Not Contacted';
-        insert futureLead;
+        insert futureLead;*/
     }
 
     @AuraEnabled

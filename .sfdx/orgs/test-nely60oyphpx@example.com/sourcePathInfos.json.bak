@@ -175,9 +175,9 @@
             "sourcePath": "C:\\Users\\DmytroPinchuk\\CTProjects\\DXFirst\\force-app\\main\\default\\classes",
             "isDirectory": true,
             "size": 0,
-            "modifiedTime": 1568389095262,
-            "changeTime": 1568389095262,
-            "contentHash": "dd4dd51c15fe0054e7ded1c0286396457d2c170e",
+            "modifiedTime": 1568653535448,
+            "changeTime": 1568653535448,
+            "contentHash": "b7c2e47a6baddf05f1b4dda58e7d92472805f7ee",
             "isMetadataFile": false,
             "state": "u"
         }
@@ -453,9 +453,9 @@
             "sourcePath": "C:\\Users\\DmytroPinchuk\\CTProjects\\DXFirst\\force-app\\main\\Utilities",
             "isDirectory": true,
             "size": 0,
-            "modifiedTime": 1567363627196,
-            "changeTime": 1567152551315,
-            "contentHash": "85763dc775bb1ea8d4e2de8f1c3a99d432324e13",
+            "modifiedTime": 1568654817082,
+            "changeTime": 1568654817082,
+            "contentHash": "9f7f3c1be0c888cb9ee1a04fc7624db7066d3e86",
             "isMetadataFile": false,
             "state": "u",
             "isWorkspace": false
@@ -3994,14 +3994,14 @@
     [
         "C:\\Users\\DmytroPinchuk\\CTProjects\\DXFirst\\force-app\\main\\default\\aura\\RequestForm\\RequestForm.cmp",
         {
-            "state": "u",
             "sourcePath": "C:\\Users\\DmytroPinchuk\\CTProjects\\DXFirst\\force-app\\main\\default\\aura\\RequestForm\\RequestForm.cmp",
             "isDirectory": false,
+            "size": 3913,
+            "modifiedTime": 1568652995879,
+            "changeTime": 1568652995879,
+            "contentHash": "8bb7904d40c046f6bf595afaa7ca1b103403da2f",
             "isMetadataFile": false,
-            "size": 3909,
-            "modifiedTime": 1568652906423,
-            "changeTime": 1568652906423,
-            "contentHash": "95b9edd9a987c1f8bbda593ccf3fef9b66460b7f"
+            "state": "u"
         }
     ],
     [
@@ -4022,10 +4022,10 @@
         {
             "sourcePath": "C:\\Users\\DmytroPinchuk\\CTProjects\\DXFirst\\force-app\\main\\default\\classes\\RequestFormController.cls",
             "isDirectory": false,
-            "size": 1574,
-            "modifiedTime": 1568649540229,
-            "changeTime": 1568649540229,
-            "contentHash": "0d503bdb91f74973c1678a0d87465438fa5ecc4f",
+            "size": 1661,
+            "modifiedTime": 1568654750679,
+            "changeTime": 1568654750679,
+            "contentHash": "64072e4ee5b3ac6e76b524a23c79dc217d8eaea7",
             "isMetadataFile": false,
             "state": "u"
         }
@@ -4061,10 +4061,10 @@
         {
             "sourcePath": "C:\\Users\\DmytroPinchuk\\CTProjects\\DXFirst\\force-app\\main\\default\\aura\\RequestForm\\RequestFormHelper.js",
             "isDirectory": false,
-            "size": 1658,
-            "modifiedTime": 1568651413664,
-            "changeTime": 1568651413664,
-            "contentHash": "24417903fa68beb2ed5c64cd16d02c39150a111c",
+            "size": 1590,
+            "modifiedTime": 1568653303755,
+            "changeTime": 1568653303755,
+            "contentHash": "6228dade8bb824792bd326b774ac19b72324c635",
             "isMetadataFile": false,
             "state": "u"
         }
@@ -4494,6 +4494,84 @@
             "modifiedTime": 1568389095270,
             "changeTime": 1568389095270,
             "contentHash": "463a780dc1b11f5d645b2a49558ed28551f48927",
+            "isMetadataFile": true,
+            "state": "u"
+        }
+    ],
+    [
+        "C:\\Users\\DmytroPinchuk\\CTProjects\\DXFirst\\force-app\\main\\default\\classes\\LeadService.cls",
+        {
+            "state": "u",
+            "sourcePath": "C:\\Users\\DmytroPinchuk\\CTProjects\\DXFirst\\force-app\\main\\default\\classes\\LeadService.cls",
+            "isDirectory": false,
+            "isMetadataFile": false,
+            "size": 765,
+            "modifiedTime": 1568655646599,
+            "changeTime": 1568655646599,
+            "contentHash": "e2956ac42fef68a1228dd625307335318c34fbb2"
+        }
+    ],
+    [
+        "C:\\Users\\DmytroPinchuk\\CTProjects\\DXFirst\\force-app\\main\\default\\classes\\LeadService.cls-meta.xml",
+        {
+            "sourcePath": "C:\\Users\\DmytroPinchuk\\CTProjects\\DXFirst\\force-app\\main\\default\\classes\\LeadService.cls-meta.xml",
+            "isDirectory": false,
+            "size": 179,
+            "modifiedTime": 1568653535456,
+            "changeTime": 1568653535456,
+            "contentHash": "463a780dc1b11f5d645b2a49558ed28551f48927",
+            "isMetadataFile": true,
+            "state": "u"
+        }
+    ],
+    [
+        "C:\\Users\\DmytroPinchuk\\CTProjects\\DXFirst\\force-app\\main\\Utilities\\fflib_ISObjectUnitOfWork.cls",
+        {
+            "sourcePath": "C:\\Users\\DmytroPinchuk\\CTProjects\\DXFirst\\force-app\\main\\Utilities\\fflib_ISObjectUnitOfWork.cls",
+            "isDirectory": false,
+            "size": 8575,
+            "modifiedTime": 1568654817077,
+            "changeTime": 1568654817077,
+            "contentHash": "a154bfb069cb65dce24285bb9d360ae51f45cd0e",
+            "isMetadataFile": false,
+            "state": "u"
+        }
+    ],
+    [
+        "C:\\Users\\DmytroPinchuk\\CTProjects\\DXFirst\\force-app\\main\\Utilities\\fflib_ISObjectUnitOfWork.cls-meta.xml",
+        {
+            "sourcePath": "C:\\Users\\DmytroPinchuk\\CTProjects\\DXFirst\\force-app\\main\\Utilities\\fflib_ISObjectUnitOfWork.cls-meta.xml",
+            "isDirectory": false,
+            "size": 174,
+            "modifiedTime": 1568654817104,
+            "changeTime": 1568654817104,
+            "contentHash": "7c5945136a59f83dacd1f358b3f57ec242ee7bbe",
+            "isMetadataFile": true,
+            "state": "u"
+        }
+    ],
+    [
+        "C:\\Users\\DmytroPinchuk\\CTProjects\\DXFirst\\force-app\\main\\Utilities\\fflib_SObjectUnitOfWork.cls",
+        {
+            "sourcePath": "C:\\Users\\DmytroPinchuk\\CTProjects\\DXFirst\\force-app\\main\\Utilities\\fflib_SObjectUnitOfWork.cls",
+            "isDirectory": false,
+            "size": 30032,
+            "modifiedTime": 1568653848095,
+            "changeTime": 1568653848095,
+            "contentHash": "bfa5019e22851d27af67ab068fcc82e89fb73cba",
+            "isMetadataFile": false,
+            "state": "u"
+        }
+    ],
+    [
+        "C:\\Users\\DmytroPinchuk\\CTProjects\\DXFirst\\force-app\\main\\Utilities\\fflib_SObjectUnitOfWork.cls-meta.xml",
+        {
+            "sourcePath": "C:\\Users\\DmytroPinchuk\\CTProjects\\DXFirst\\force-app\\main\\Utilities\\fflib_SObjectUnitOfWork.cls-meta.xml",
+            "isDirectory": false,
+            "size": 174,
+            "modifiedTime": 1568653848057,
+            "changeTime": 1568653848057,
+            "contentHash": "7c5945136a59f83dacd1f358b3f57ec242ee7bbe",
             "isMetadataFile": true,
             "state": "u"
         }

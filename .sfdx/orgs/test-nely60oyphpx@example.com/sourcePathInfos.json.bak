@@ -3994,14 +3994,14 @@
     [
         "C:\\Users\\DmytroPinchuk\\CTProjects\\DXFirst\\force-app\\main\\default\\aura\\RequestForm\\RequestForm.cmp",
         {
+            "state": "u",
             "sourcePath": "C:\\Users\\DmytroPinchuk\\CTProjects\\DXFirst\\force-app\\main\\default\\aura\\RequestForm\\RequestForm.cmp",
             "isDirectory": false,
-            "size": 2767,
-            "modifiedTime": 1568395207935,
-            "changeTime": 1568395207935,
-            "contentHash": "b121e86e7869a52311b02e5b5a54f67c948e0e92",
             "isMetadataFile": false,
-            "state": "u"
+            "size": 3909,
+            "modifiedTime": 1568652906423,
+            "changeTime": 1568652906423,
+            "contentHash": "95b9edd9a987c1f8bbda593ccf3fef9b66460b7f"
         }
     ],
     [
@@ -4020,14 +4020,14 @@
     [
         "C:\\Users\\DmytroPinchuk\\CTProjects\\DXFirst\\force-app\\main\\default\\classes\\RequestFormController.cls",
         {
-            "state": "u",
             "sourcePath": "C:\\Users\\DmytroPinchuk\\CTProjects\\DXFirst\\force-app\\main\\default\\classes\\RequestFormController.cls",
             "isDirectory": false,
-            "isMetadataFile": false,
             "size": 1574,
-            "modifiedTime": 1568395523758,
-            "changeTime": 1568395523758,
-            "contentHash": "0d503bdb91f74973c1678a0d87465438fa5ecc4f"
+            "modifiedTime": 1568649540229,
+            "changeTime": 1568649540229,
+            "contentHash": "0d503bdb91f74973c1678a0d87465438fa5ecc4f",
+            "isMetadataFile": false,
+            "state": "u"
         }
     ],
     [
@@ -4048,10 +4048,10 @@
         {
             "sourcePath": "C:\\Users\\DmytroPinchuk\\CTProjects\\DXFirst\\force-app\\main\\default\\aura\\RequestForm\\RequestFormController.js",
             "isDirectory": false,
-            "size": 816,
-            "modifiedTime": 1568391095948,
-            "changeTime": 1568391095948,
-            "contentHash": "46ed7dfbae3c4ff84462f638b42652949ae2110b",
+            "size": 819,
+            "modifiedTime": 1568652825206,
+            "changeTime": 1568652825206,
+            "contentHash": "5d1bfe54705828517b0978440751280ba513206d",
             "isMetadataFile": false,
             "state": "u"
         }
@@ -4061,10 +4061,10 @@
         {
             "sourcePath": "C:\\Users\\DmytroPinchuk\\CTProjects\\DXFirst\\force-app\\main\\default\\aura\\RequestForm\\RequestFormHelper.js",
             "isDirectory": false,
-            "size": 1694,
-            "modifiedTime": 1568395400129,
-            "changeTime": 1568395400129,
-            "contentHash": "97d8ba1a3854d286f37c0a339b06609517c61097",
+            "size": 1658,
+            "modifiedTime": 1568651413664,
+            "changeTime": 1568651413664,
+            "contentHash": "24417903fa68beb2ed5c64cd16d02c39150a111c",
             "isMetadataFile": false,
             "state": "u"
         }

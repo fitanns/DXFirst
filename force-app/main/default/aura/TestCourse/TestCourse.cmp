@@ -1,0 +1,62 @@
+<!--
+ - Created by DmytroPinchuk on 09.09.2019.
+ -->
+
+<aura:component description="TestCourse" implements="forceCommunity:availableForAllPageTypes,flexipage:availableForAllPageTypes" access="global" controller="TestCtrl">
+    <aura:handler event="c:getCourseInfo" action="{!c.handleCourse}"/>
+    <aura:attribute name="course" type="Course__c"/>
+<!--    <aura:handler name="init" value="{!this}" action="{!c.doInit}" />-->
+    <aura:attribute name="contents" type="List" default="[]"/>
+    <aura:attribute name="prefixURL" type="String" default="https://connect-energy-7396-dev-ed.lightning.force.com/sfc/servlet.shepherd/version/download/"/>
+<!--    <aura:unescapedHtml value="{!v.auraBr}"/>-->
+
+<div class="slds-carousel__image">
+    <lightning:carousel scrollDuration="5">
+        <lightning:carouselImage
+        src = "{!v.prefixURL + v.contents[0].Id}"
+        header = "{!v.course.Name}"
+        description = "{!'Subject : '+ (v.course.Subject__r.Name) + ' Course Start : '  + (v.course.Start_Date__c)+ ' Course End : ' + (v.course.End_Date__c)}"
+        alternativeText = "First card accessible description."
+        href = "https://connect-energy-7396-dev-ed.cs100.my.salesforce.com/sfc/p/1x0000000TAH/a/1x0000008RZf/V3jsnkr7JEndNfajvCQJPSRsoqdAJyocHBiRA9Yl_58">
+        </lightning:carouselImage>
+        <lightning:carouselImage
+                src = "{!v.prefixURL + v.contents[1].Id}"
+                header = "{!v.course.Name}"
+                description = ""
+                alternativeText = "First card accessible description."
+                href = "https://www.salesforce.com">
+        </lightning:carouselImage>
+    </lightning:carousel>
+    <div class="demo-only" style="width:30rem">
+        <article class="slds-tile slds-media">
+            <div class="slds-media__figure">
+                <lightning:icon iconName="standard:dashboard" size="small" alternativeText="Course"/>
+            </div>
+            <div class="slds-media__body">
+                <h3 class="slds-tile__title slds-truncate" title="Salesforce UX">
+                </h3>
+                <div class="slds-tile__detail">
+                    <dl class="slds-list_horizontal slds-wrap">
+                        <dt class="slds-item_label slds-text-color_weak slds-truncate" title="First Label">Name
+                        </dt>
+                        <dd class="slds-item_detail slds-truncate"
+                            title="Description for first label">{!v.course.Name}</dd>
+                        <dt class="slds-item_label slds-text-color_weak slds-truncate" title="Second Label">Start Date
+                        </dt>
+                        <dd class="slds-item_detail slds-truncate"
+                            title="Description for second label">{!v.course.Start_Date__c}</dd>
+                        <dt class="slds-item_label slds-text-color_weak slds-truncate" title="Second Label">End Date
+                        </dt>
+                        <dd class="slds-item_detail slds-truncate"
+                            title="Description for second label">{!v.course.End_Date__c}</dd>
+                        <dt class="slds-item_label slds-text-color_weak slds-truncate" title="Second Label">Subject
+                        </dt>
+                        <dd class="slds-item_detail slds-truncate"
+                            title="Description for second label">{!v.course.Subject__r.Name}</dd>
+                    </dl>
+                </div>
+            </div>
+        </article>
+    </div>
+</div>
+</aura:component>

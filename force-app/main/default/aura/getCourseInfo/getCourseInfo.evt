@@ -1,0 +1,7 @@
+<!--
+ - Created by DmytroPinchuk on 05.09.2019.
+ -->
+
+<aura:event type="APPLICATION" description="getCourseInfo">
+    <aura:attribute name="course" type="Course__c"/>
+</aura:event>

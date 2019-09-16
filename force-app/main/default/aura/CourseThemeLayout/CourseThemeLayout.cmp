@@ -1,0 +1,9 @@
+<!--
+ - Created by DmytroPinchuk on 06.09.2019.
+ -->
+
+<aura:component description="CourseThemeLayout" implements="forceCommunity:themeLayout" access="global">
+    <div class="container">
+        {!v.body}
+    </div>
+</aura:component>

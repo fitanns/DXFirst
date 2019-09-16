@@ -1,0 +1,9 @@
+<!--
+ - Created by DmytroPinchuk on 09.09.2019.
+ -->
+
+<aura:component description="TestLayoutTheme"  implements="forceCommunity:themeLayout">
+    <div class="container">
+            {!v.body}
+    </div>
+</aura:component>

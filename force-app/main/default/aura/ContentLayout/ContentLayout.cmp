@@ -1,0 +1,31 @@
+<!--
+ - Created by DmytroPinchuk on 06.09.2019.
+ -->
+
+<aura:component description="ContentLayout" implements="forceCommunity:layout" access="global">
+    <aura:attribute name="nav" type="Aura.Component[]" required="false"></aura:attribute>
+    <aura:attribute name="header" type="Aura.Component[]" required="false"></aura:attribute>
+    <aura:attribute name="footer" type="Aura.Component[]" required="false"></aura:attribute>
+    <aura:attribute name="content" type="Aura.Component[]" required="false"></aura:attribute>
+    <aura:attribute name="basket" type="Aura.Component[]" required="false"></aura:attribute>
+
+    <div class="container">
+        <header class="header">
+            {!v.header}
+        </header>
+        <div class="main">
+            <div class="categories">
+                {!v.nav}
+            </div>
+            <div class="products">
+                {!v.content}
+            </div>
+            <div class="cart">
+                {!v.basket}
+            </div>
+        </div>
+        <footer class="footer">
+            {!v.footer}
+        </footer>
+    </div>
+</aura:component>

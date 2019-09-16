@@ -1,0 +1,10 @@
+<!--
+ - Created by DmytroPinchuk on 06.09.2019.
+ -->
+
+<aura:component description="CoursesFooter" implements="forceCommunity:availableForAllPageTypes" access="global">
+    <div class="slds-card slds-text-align--center">
+        <h2 class="slds-text-heading--small">Course Management</h2>
+        <h2 class="slds-text-heading--small">&copy; Customer Times 2019</h2>
+    </div>
+</aura:component>

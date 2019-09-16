@@ -1,0 +1,16 @@
+<!--
+ - Created by DmytroPinchuk on 06.09.2019.
+ -->
+
+<aura:component description="CoursesHeader" implements="forceCommunity:availableForAllPageTypes" access="global">
+    <lightning:layout class="slds-page-header slds-page-header--object-home">
+        <lightning:layoutItem>
+            <lightning:icon iconName="standard:proposition" alternativeText="Course Management" />
+        </lightning:layoutItem>
+        <lightning:layoutItem padding="horizontal-small">
+            <div class="page-section page-header">
+                <h2 class="slds-text-heading--medium">{!$Label.c.CourseManagement}</h2>
+            </div>
+        </lightning:layoutItem>
+    </lightning:layout>
+</aura:component>

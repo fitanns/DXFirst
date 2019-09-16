@@ -1,0 +1,43 @@
+/**
+ * Created by DmytroPinchuk on 09.09.2019.
+ */
+
+/*.THIS {*/
+/*    position: relative;*/
+/*    z-index: 1;*/
+/*    background: url("https://ca-cdn4.selceducation.com/canada/wp-content/uploads/2016/02/background-search-courses.jpg") no-repeat center;*/
+/*    -webkit-background-size: cover;*/
+/*    -moz-background-size: cover;*/
+/*    -o-background-size: cover;*/
+/*    background-size: cover;*/
+/*}*/
+
+/*.THIS.header {*/
+/*    height: 100px;*/
+/*    max-height: 100px;*/
+/*}*/
+
+/*.THIS.footer {*/
+/*    height: 100px;*/
+/*    max-height: 100px;*/
+/*}*/
+
+/*.THIS.container {*/
+/*    margin-left: 10%;*/
+/*    margin-right: 10%;*/
+/*}*/
+
+/*.THIS.forceCommunityGlobalNavigation {*/
+/*    background-color: white;*/
+/*    color: black;*/
+/*}*/
+
+
+.THIS {
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-color: white;
+}
+

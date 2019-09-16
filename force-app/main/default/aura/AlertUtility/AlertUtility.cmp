@@ -1,0 +1,54 @@
+<!--
+ - Created by DmytroPinchuk on 13.09.2019.
+ -->
+
+<aura:component description="AlertUtility" extensible="true">
+    <aura:attribute name="context" type="Object" required="true"/>
+    <aura:attribute name="showSuccess" type="boolean" default="false"/>
+    <aura:attribute name="showError" type="boolean" default="false"/>
+    <aura:attribute name="errorMessage" type="String"/>
+    <aura:attribute name="successMessage" type="String"/>
+
+    <aura:method name="success" action="{!c.handleSuccess}">
+        <aura:attribute name="params" type="String" description="Params for success alert if it need"/>
+    </aura:method>
+
+    <aura:method name="error" action="{!c.handleError}">
+        <aura:attribute name="params" type="Object" description="Params for error alert"/>
+    </aura:method>
+
+    <div>
+        {!v.body}
+
+        <aura:if isTrue="{!v.showSuccess}">
+            <div class="slds-notify slds-notify_alert slds-theme_alert-texture slds-theme_success" role="alert">
+                <lightning:icon class="slds-icon-utility-warning slds-m-right_xx-small" size="xx-small"
+                                aria-hidden="true"
+                                iconName="action:check" title="Done!" alternativeText="Done!"/>
+                <h2>Your request successfully saved!{!v.successMessage}</h2>
+                <div class="slds-notify__close">
+                    <button class="slds-button slds-button_icon slds-button_icon-small slds-button_icon-inverse"
+                            onclick="{!c.closeSuccessWindow}">
+                        <lightning:icon class="slds-notify__close " size="xx-small" aria-hidden="true"
+                                        iconName="action:remove" alternativeText="Close"/>
+                    </button>
+                </div>
+            </div>
+        </aura:if>
+
+        <aura:if isTrue="{!v.showError}">
+            <div class="slds-notify slds-notify_alert slds-theme_alert-texture slds-theme_error" role="alert">
+                <lightning:icon class="white-icon slds-icon_container slds-m-right_xx-small " size="x-small"
+                                aria-hidden="true" iconName="utility:error" title="Error!" alternativeText="Error!"/>
+                <h2>Your course have not saved by : {!v.errorMessage}</h2>
+                <div class="slds-notify__close">
+                    <button class="slds-button slds-button_icon slds-button_icon-small slds-button_icon-inverse"
+                            onclick="{!c.closeErrorWindow}">
+                        <lightning:icon class="slds-notify__close" size="xx-small" aria-hidden="true"
+                                        iconName="action:remove" alternativeText="Close"/>
+                    </button>
+                </div>
+            </div>
+        </aura:if>
+    </div>
+</aura:component>

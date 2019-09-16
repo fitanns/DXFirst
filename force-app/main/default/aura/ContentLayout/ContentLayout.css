@@ -1,0 +1,43 @@
+/**
+ * Created by DmytroPinchuk on 06.09.2019.
+ */
+
+.THIS {
+    padding: 0;
+    margin: 0;
+}
+
+.THIS body {
+    font-family: Arial;
+}
+
+.THIS .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.THIS header, .THIS .categories, .THIS .products, .THIS .cart, .THIS .footer {
+    padding: 10px;
+}
+
+.THIS .categories, .THIS .products,.THIS .cart {
+    width: calc(33.33334% - 20px);
+}
+
+.THIS .categories,.THIS .cart {
+    width: calc(25% - 20px);
+}
+
+.THIS .products {
+    width: calc(50% - 20px);
+}
+
+.THIS .categories, .THIS .products {
+    margin-right: 30px;
+}
+
+.THIS .main {
+    display: flex;
+    margin: 30px 0;
+}

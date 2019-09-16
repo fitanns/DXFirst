@@ -1,0 +1,9 @@
+/**
+ * Created by DmytroPinchuk on 12.09.2019.
+ */
+
+.THIS img{
+    height: 100%;
+    max-height: 500px;
+    max-width: 100%;
+}

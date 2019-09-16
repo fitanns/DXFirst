@@ -1,0 +1,10 @@
+/**
+ * Created by Shokhanul Khok on 30.11.2018.
+ */
+.THIS{
+    position: relative;
+}
+
+.THIS .slds-spinner_container{
+    background-color: rgba(255, 255, 255, 1);
+}

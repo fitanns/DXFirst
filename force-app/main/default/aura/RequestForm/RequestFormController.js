@@ -10,21 +10,30 @@
     },
     createRequest: function (component, event, helper) {
 
-        let requestForm = component.find('requestform'),
-            values = {
-                FirstName: "",
-                LastName: "",
-                MobilePhone: "",
-                Email: "",
-                Company: "",
-            };
+        let requestForm = component.find('requestform');
+    /*    let asd = event.currentTarget;
+        let resa = asd.getAttribute('data-api-name');
+        console.log('data : ' + resa);*/
 
-        let counter = 0;
-        for (let key in values) {
-            values[key] = requestForm[counter].get('v.value');
-            counter++;
+
+        let lead = {};
+        for (let i = 0; ; i++) {
+            if (requestForm[i] === undefined) {
+                break;
+            } else {
+                let key = requestForm[i].get('v.label'),
+                    value = requestForm[i].get('v.value');
+
+                lead[key] = value;
+            }
         }
-        console.log(values);
-        helper.createRequestLead(component, values);
+        console.log(JSON.stringify(lead));
+        helper.createRequestLead(component, lead);
     },
+    handleSubjectName : function (component, event, helper) {
+        let courseName = event.getParam("name");
+        component.set("v.showCourse",true);
+        component.set("v.selectedCourse", courseName);
+        console.log('courseName : ' + courseName);
+    }
 });

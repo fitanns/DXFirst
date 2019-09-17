@@ -11,7 +11,6 @@
         }
         component.set("v.successMessage", params);
         component.set("v.showSuccess", true);
-        setTimeout(() => component.set("v.showSuccess", false), 5000);
     },
     showErrorAlert: function (component, event) {
         let args = event.getParam("arguments"),
@@ -22,6 +21,5 @@
         console.log(error);
         component.set("v.errorMessage", error);
         component.set("v.showError", true);
-        setTimeout(() => component.set("v.showError", false), 5000);
     }
 });

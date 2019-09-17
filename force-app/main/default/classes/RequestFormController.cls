@@ -6,14 +6,10 @@ public with sharing class RequestFormController {
 
     @AuraEnabled
     public static void saveRequestLead(String newLead){
-
         LeadService.insertSingleLead((Lead)JSON.deserialize(newLead,Lead.class));
-/*        Lead futureLead = (Lead)JSON.deserialize(newLead,Lead.class);
-        futureLead.Status = 'Open - Not Contacted';
-        insert futureLead;*/
     }
 
-    @AuraEnabled
+    @AuraEnabled(cacheable = true)
     public static List<String> getLeadFields(){
         Map<String, Schema.SObjectField> fieldMap = Schema.SObjectType.Lead.fields.getMap();
         List<String> leadFields = new List<String>();
@@ -25,7 +21,7 @@ public with sharing class RequestFormController {
         return leadFields;
     }
 
-    @AuraEnabled
+    @AuraEnabled(cacheable = true)
     public static List<FieldSetFields> getFieldSetField(){
 
         List<FieldSetFields> fieldsList = new List<FieldSetFields>();

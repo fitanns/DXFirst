@@ -2,10 +2,10 @@
  * Created by DmytroPinchuk on 21.08.2019.
  */
 
-global with sharing class LessonsController {
+public with sharing class LessonsController {
 
     @AuraEnabled
-    global static Map<String, String> getLessonsTimes(String ourDate) {
+    public static Map<String, String> getLessonsTimes(String ourDate) {
         Date newDate = Date.valueOf(ourDate);
         List<Lesson__c> lessons = [SELECT Id,Name, Date__c, Time__c,Course__r.Name FROM Lesson__c WHERE Date__c = :newDate];
         Map<String, String> courseAndLessonTime = new Map<String, String>();

@@ -13,6 +13,7 @@
     <aura:attribute name="prefixURL" type="String"
                     default="/sfc/servlet.shepherd/version/download/"/>
 
+
     <c:RequestCmp aura:id="requestCall" context="{!this}"/>
 
     <div class="course-inform slds-card slds-box slds-box_small">

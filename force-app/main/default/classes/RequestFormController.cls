@@ -5,15 +5,16 @@
 public with sharing class RequestFormController {
 
     @AuraEnabled
-    public static void saveRequestLead(String newLead){
-        LeadService.insertSingleLead((Lead)JSON.deserialize(newLead,Lead.class));
+    public static void saveRequestLead(String newLead) {
+        LeadService leadService = new LeadService();
+        leadService.insertSingleLead((Lead) JSON.deserialize(newLead, Lead.class));
     }
 
     @AuraEnabled(cacheable = true)
-    public static List<String> getLeadFields(){
+    public static List<String> getLeadFields() {
         Map<String, Schema.SObjectField> fieldMap = Schema.SObjectType.Lead.fields.getMap();
         List<String> leadFields = new List<String>();
-        for(SObjectField field : fieldMap.values()){
+        for (SObjectField field : fieldMap.values()) {
             DescribeFieldResult dfr = field.getDescribe();
             String fieldName = dfr.getName();
             leadFields.add(fieldName);
@@ -22,7 +23,7 @@ public with sharing class RequestFormController {
     }
 
     @AuraEnabled(cacheable = true)
-    public static List<FieldSetFields> getFieldSetField(){
+    public static List<FieldSetFields> getFieldSetField() {
 
         List<FieldSetFields> fieldsList = new List<FieldSetFields>();
         String objectName = 'Lead';
@@ -30,7 +31,7 @@ public with sharing class RequestFormController {
         Map<String, Schema.FieldSet> fieldSetNameRecord = sObjType.getDescribe().fieldsets.getMap();
         Schema.FieldSet fieldSet = fieldSetNameRecord.get('FieldSetRegister');
         List<Schema.FieldSetMember>fieldSetMembers = fieldSet.getFields();
-        for(Schema.FieldSetMember fieldSetMember : fieldSetMembers){
+        for (Schema.FieldSetMember fieldSetMember : fieldSetMembers) {
             FieldSetFields fieldsFS = new FieldSetFields(fieldSetMember);
             fieldsList.add(fieldsFS);
         }

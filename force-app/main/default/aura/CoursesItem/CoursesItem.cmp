@@ -2,7 +2,7 @@
  - Created by DmytroPinchuk on 05.09.2019.
  -->
 
-<aura:component description="CoursesItem" implements="forceCommunity:availableForAllPageTypes" access="global">
+<aura:component description="CoursesItem" implements="forceCommunity:availableForAllPageTypes">
     <aura:registerEvent name="courseInfo" type="c:getCourseInfo"/>
     <aura:attribute name="course" type="Course__c"/>
 

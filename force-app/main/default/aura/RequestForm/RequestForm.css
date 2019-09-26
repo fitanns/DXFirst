@@ -2,6 +2,15 @@
  * Created by DmytroPinchuk on 10.09.2019.
  */
 
+.THIS{
+    margin-left: 5px;
+}
 .THIS .white-icon svg {
     fill : white;
+}
+.THIS .chosen-course {
+    color: white;
+    background-color: #2574a9;
+    border: 1px solid transparent;
+    border-radius: 2px;
 }

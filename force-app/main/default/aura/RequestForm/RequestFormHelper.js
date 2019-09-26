@@ -19,7 +19,7 @@
         );
     },
 
-    getFieldSet : function(component){
+    getFieldSet: function (component) {
         const request = component.find("requestCall");
         const requestMethodResult = request.enqueue("c.getFieldSetField", {});
         requestMethodResult.then(
@@ -34,7 +34,7 @@
 
         const request = component.find("requestCall");
         const requestMethodResult = request.enqueue("c.saveRequestLead", {
-            newLead: JSON.stringify(newLead)
+            newLead: newLead
         });
         requestMethodResult.then(
             result => {

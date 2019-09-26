@@ -30,4 +30,16 @@ public with sharing class MapUtility {
         return groupRecordsByIdField;
     }
 
+    public static Map<Id, sObject> groupRecordToMapByIds (SObjectField idField, List<sObject> records, Type mapType, Type sObjectType){
+        Map<Id,sObject> groupRecordsByIdField = (Map<Id, SObject>) mapType.newInstance();
+
+        for (sObject record : records) {
+            Id mappingId = (Id)record.get(idField);
+            if (!groupRecordsByIdField.containsKey(mappingId)) {
+                groupRecordsByIdField.put(mappingId, (SObject)sObjectType.newInstance());
+            }
+            groupRecordsByIdField.put(mappingId,record);
+        }
+        return groupRecordsByIdField;
+    }
 }

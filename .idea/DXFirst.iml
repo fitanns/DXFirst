@@ -3,7 +3,7 @@
   <component name="FacetManager">
     <facet type="IlluminatedCloud" name="Illuminated Cloud">
       <configuration>
-        <option name="connectionName" value="SecondScratch" />
+        <option name="connectionName" value="ThirdScratch" />
         <option name="connectionType" value="SFDX" />
       </configuration>
     </facet>
@@ -17,7 +17,7 @@
       <excludeFolder url="file://$MODULE_DIR$/temp" />
       <excludeFolder url="file://$MODULE_DIR$/tmp" />
     </content>
-    <orderEntry type="jdk" jdkName="IlluminatedCloud (DXFirst/SecondScratch)" jdkType="IlluminatedCloud" />
+    <orderEntry type="jdk" jdkName="IlluminatedCloud (DXFirst/ThirdScratch)" jdkType="IlluminatedCloud" />
     <orderEntry type="sourceFolder" forTests="false" />
   </component>
 </module>

@@ -1,4 +1,4 @@
-<aura:component description="LessonsDate" implements="flexipage:availableForAllPageTypes" access="global"
+<aura:component description="LessonsDate" implements="flexipage:availableForAllPageTypes"
                 controller="LessonsController">
 
     <aura:attribute name="currentDate" type="Date" default="2019-09-02"/>

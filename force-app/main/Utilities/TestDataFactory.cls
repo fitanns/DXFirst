@@ -23,4 +23,39 @@ public with sharing class TestDataFactory {
         return timeSlots;
     }
 
+    public static List<Lead> insertLeads(Integer numberOfLeads) {
+        List<Lead> leads = new List<Lead>();
+        for (Integer i = 1; i <= numberOfLeads; i++) {
+            leads.add(new Lead(FirstName = 'TestName' + i, LastName = 'LastTestName' + i,
+                    Company = 'TestCompanyName' + i, Status = 'Open - Not Contacted', Email = 'somtestemail'+ i + '@gmail.com'));
+        }
+        insert leads;
+        return leads;
+    }
+    public static List<Lead> formPotentialLeads(Integer numberOfLeads) {
+        List<Lead> leads = new List<Lead>();
+        for (Integer i = 1; i <= numberOfLeads; i++) {
+            leads.add(new Lead(FirstName = 'TestName' + i, LastName = 'LastTestName' + i,
+                    Company = 'TestCompanyName' + i,Email = 'somtestemail'+ i + '@gmail.com'));
+        }
+        return leads;
+    }
+    public static List<Lead> updateToApproval(List<Lead> leads){
+        List<Lead> approvedLeads = new List<Lead>();
+        for(Lead lead : leads){
+            lead.ApprovalStatus__c = 'Approved';
+            approvedLeads.add(lead);
+        }
+        update approvedLeads;
+        return approvedLeads;
+    }
+    public static List<Lead> updateToRejected(List<Lead> leads){
+        List<Lead> rejectedLeads = new List<Lead>();
+        for(Lead lead : leads){
+            lead.ApprovalStatus__c = 'Rejected';
+            rejectedLeads.add(lead);
+        }
+        update rejectedLeads;
+        return rejectedLeads;
+    }
 }

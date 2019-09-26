@@ -2,7 +2,7 @@
  - Created by DmytroPinchuk on 06.09.2019.
  -->
 
-<aura:component description="RequestForm" implements="forceCommunity:availableForAllPageTypes" access="global"
+<aura:component description="RequestForm" implements="forceCommunity:availableForAllPageTypes"
                 controller="RequestFormController">
     <aura:handler name="init" value="{!this}" action="{!c.doInit}"/>
     <aura:handler event="c:getSelectedCourse" action="{!c.handleSubjectName}"/>
@@ -11,10 +11,8 @@
     <aura:attribute name="selectedCourse" type="String"/>
     <aura:attribute name="showCourse" type="Boolean" default="false"/>
 
-
     <c:RequestCmp aura:id="requestCall" context="{!this}"/>
     <c:AlertUtility aura:id="showAlert" context="{!this}"/>
-
 
     <div class="slds-card slds-box slds-theme--default" aria-labelledby="requestform">
         <fieldset class="slds-box slds-theme--default slds-container--small">
@@ -25,7 +23,7 @@
             <form class="slds-form--stacked">
                 <aura:if isTrue="{!v.showCourse}">
                     <div class="slds-text-align_center slds-text">
-                        <p>You choose Course : {!v.selectedCourse}</p>
+                        <p class="chosen-course">You have chosen Course : {!v.selectedCourse}</p>
                     </div>
                 </aura:if>
                 <aura:iteration items="{!v.fieldSet}" var="field">
@@ -45,38 +43,4 @@
             </form>
         </fieldset>
     </div>
-    <!--    <div class="slds-card slds-box slds-theme&#45;&#45;default" aria-labelledby="requestform">
-            <fieldset class="slds-box slds-theme&#45;&#45;default slds-container&#45;&#45;small">
-                <legend id="requestform" class="slds-text-heading&#45;&#45;small
-              slds-p-vertical&#45;&#45;medium">
-                    {!$Label.c.RegisterToCourse}
-                </legend>
-                <form class="slds-form&#45;&#45;stacked">
-                    <lightning:input type="text" aura:id="requestform" label="{!v.someLead.FirstName}"
-                                     name="username"
-                                     required="true"/>
-                    <lightning:input type="text" aura:id="requestform" label="{!v.someLead.LastName}"
-                                     name="userlastname"
-                                     required="true"/>
-                    <lightning:input type="tel" aura:id="requestform" label="{!v.someLead.MobilePhone}"
-                                     name="usertelephone"
-                                     placeholder="+380739554455"
-                                     minlength="10"
-                                     required="true"/>
-                    <lightning:input type="email" aura:id="requestform" label="{!v.someLead.Email}"
-                                     name="useremail"/>
-                    <lightning:input type="text" aura:id="requestform" label="{!v.someLead.Company}"
-                                     name="usercompany"
-                                     required="true"/>
-                    <lightning:input type="checkbox" aura:id="requestform" label="{!$Label.c.AgreeYourData}"
-                                     name="checkdata"
-                                     required="true"
-                                     checked="false"/>
-                    <lightning:button label="{!$Label.c.CreateRequest}"
-                                      class="slds-m-top&#45;&#45;medium"
-                                      variant="brand"
-                                      onclick="{!c.createRequest}"/>
-                </form>
-            </fieldset>
-        </div>-->
 </aura:component>

@@ -27,13 +27,12 @@
                 lead[key] = value;
             }
         }
-        console.log(JSON.stringify(lead));
+        lead.sObjectType = 'Lead';
         helper.createRequestLead(component, lead);
     },
     handleSubjectName : function (component, event, helper) {
         let courseName = event.getParam("name");
         component.set("v.showCourse",true);
         component.set("v.selectedCourse", courseName);
-        console.log('courseName : ' + courseName);
     }
 });

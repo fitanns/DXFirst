@@ -3,6 +3,9 @@
 #
 
 package.xml
+force-app\main\Utilities\labels\CustomLabels.labels-meta.xml
+
+**objectTranslations
 
 # LWC configuration files
 **/jsconfig.json

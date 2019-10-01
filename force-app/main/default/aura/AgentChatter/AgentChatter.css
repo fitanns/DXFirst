@@ -5,14 +5,12 @@
 .THIS {
     font-family: Arial, sans-serif;
     font-size: 10px;
-    height: 500px;
     width: 500px;
     display: block;
     margin-right: 0px;
     margin-bottom: 0px;
     background-color: white;
     color: black;
-    position: fixed;
 }
 
 

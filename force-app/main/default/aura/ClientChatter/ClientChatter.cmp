@@ -2,17 +2,16 @@
  - Created by DmytroPinchuk on 22.09.2019.
  -->
 
-<aura:component description="ClientChatter" implements="forceCommunity:availableForAllPageTypes"
+<aura:component description="ClientChatter" implements="forceCommunity:availableForAllPageTypes,flexipage:availableForAllPageTypes"
                 controller="ClientChatterController">
-    <aura:handler name="init" value="{!this}" action="{!c.doInit}"/>
+<!--    <aura:handler name="init" value="{!this}" action="{!c.doInit}"/>-->
     <aura:attribute name="clientMessages" type="List" default="[]"/>
     <aura:attribute name="agentMessages" type="List" default="[]"/>
     <aura:attribute name="eventName" type="String" default="Chat_Message__e"/>
-    <aura:attribute name="subsCometD" type="Map"/>
+ <!--   <aura:attribute name="subsCometD" type="Map"/>
     <aura:attribute name="cometd" type="Object"/>
-    <aura:attribute name="sessionId" type="String"/>
-    <ltng:require scripts="{!$Resource.cometd}" afterScriptsLoaded="{!c.loadedComet}"/>
-
+    <aura:attribute name="sessionId" type="String"/>-->
+    <c:streaming channel="/event/Chat_Message__e" onMessage="{!c.handleMessage}"/>
 
     <c:RequestCmp aura:id="requestCall" context="{!this}"/>
     <div class="chatter-content-wrapper">

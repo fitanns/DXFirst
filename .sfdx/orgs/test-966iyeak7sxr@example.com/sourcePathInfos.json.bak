@@ -180,13 +180,12 @@
             "sourcePath": "C:\\Users\\DmytroPinchuk\\CTProjects\\DXFirst\\force-app\\main\\default\\aura",
             "isDirectory": true,
             "size": 0,
-            "modifiedTime": 1569493571455,
-            "changeTime": 1569493571455,
-            "contentHash": "2b42f0a3a06100d4d2c0b1f7ce0adc654f4e55a6",
+            "modifiedTime": 1569924000015,
+            "changeTime": 1569924000015,
+            "contentHash": "2a1f9e0db4b6a5766ad836d7794b6a64b029229b",
             "isMetadataFile": false,
             "state": "u",
-            "isWorkspace": false,
-            "isArtifactRoot": false
+            "isWorkspace": false
         }
     ],
     [
@@ -207,15 +206,15 @@
     [
         "C:\\Users\\DmytroPinchuk\\CTProjects\\DXFirst\\force-app\\main\\default\\aura\\AgentChatter\\AgentChatter.cmp",
         {
-            "state": "u",
             "sourcePath": "C:\\Users\\DmytroPinchuk\\CTProjects\\DXFirst\\force-app\\main\\default\\aura\\AgentChatter\\AgentChatter.cmp",
             "isDirectory": false,
-            "isMetadataFile": false,
             "size": 2603,
             "modifiedTime": 1569860466442,
             "changeTime": 1569860466442,
-            "isWorkspace": false,
-            "contentHash": "8798affbf5547460a20cbd9e1ae6b00a71168090"
+            "contentHash": "8798affbf5547460a20cbd9e1ae6b00a71168090",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": false
         }
     ],
     [
@@ -236,30 +235,29 @@
     [
         "C:\\Users\\DmytroPinchuk\\CTProjects\\DXFirst\\force-app\\main\\default\\aura\\AgentChatter\\AgentChatter.css",
         {
+            "state": "u",
             "sourcePath": "C:\\Users\\DmytroPinchuk\\CTProjects\\DXFirst\\force-app\\main\\default\\aura\\AgentChatter\\AgentChatter.css",
             "isDirectory": false,
-            "size": 1503,
-            "modifiedTime": 1569259829906,
-            "changeTime": 1569259829906,
-            "contentHash": "77123a7d042a71c857f21be3c7aaba3453367a34",
             "isMetadataFile": false,
-            "state": "u",
+            "size": 1481,
+            "modifiedTime": 1569927976783,
+            "changeTime": 1569927976783,
             "isWorkspace": false,
-            "isArtifactRoot": false
+            "contentHash": "11ca8d69f7b2eeb0bb6a49d63a741bb12f7b8078"
         }
     ],
     [
         "C:\\Users\\DmytroPinchuk\\CTProjects\\DXFirst\\force-app\\main\\default\\aura\\AgentChatter\\AgentChatterController.js",
         {
-            "state": "u",
             "sourcePath": "C:\\Users\\DmytroPinchuk\\CTProjects\\DXFirst\\force-app\\main\\default\\aura\\AgentChatter\\AgentChatterController.js",
             "isDirectory": false,
-            "isMetadataFile": false,
             "size": 1245,
             "modifiedTime": 1569860466471,
             "changeTime": 1569860466471,
-            "isWorkspace": false,
-            "contentHash": "dbc7b58ab71ae3f5fc565f5de89afec37a182e4c"
+            "contentHash": "dbc7b58ab71ae3f5fc565f5de89afec37a182e4c",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": false
         }
     ],
     [
@@ -371,10 +369,10 @@
         {
             "sourcePath": "C:\\Users\\DmytroPinchuk\\CTProjects\\DXFirst\\force-app\\main\\default\\aura\\ClientChatter\\ClientChatter.cmp",
             "isDirectory": false,
-            "size": 2917,
-            "modifiedTime": 1569856625771,
-            "changeTime": 1569856625771,
-            "contentHash": "ef3c345e825ec8fb50df17c02f16ed520fd84ecc",
+            "size": 2959,
+            "modifiedTime": 1569926052647,
+            "changeTime": 1569926052647,
+            "contentHash": "2f8eb3e677cc38a1eb725974d3aab4d259f6fabc",
             "isMetadataFile": false,
             "state": "u",
             "isWorkspace": false
@@ -400,14 +398,13 @@
         {
             "sourcePath": "C:\\Users\\DmytroPinchuk\\CTProjects\\DXFirst\\force-app\\main\\default\\aura\\ClientChatter\\ClientChatter.css",
             "isDirectory": false,
-            "size": 1517,
-            "modifiedTime": 1569259829896,
-            "changeTime": 1569259829896,
-            "contentHash": "2b590db253c5235c373be17bab47d2195875e20e",
+            "size": 1441,
+            "modifiedTime": 1569927894535,
+            "changeTime": 1569927894535,
+            "contentHash": "b4ffe8973afdbdb9940a5e9d50a7a3d47a61fa0b",
             "isMetadataFile": false,
             "state": "u",
-            "isWorkspace": false,
-            "isArtifactRoot": false
+            "isWorkspace": false
         }
     ],
     [
@@ -415,10 +412,10 @@
         {
             "sourcePath": "C:\\Users\\DmytroPinchuk\\CTProjects\\DXFirst\\force-app\\main\\default\\aura\\ClientChatter\\ClientChatterController.js",
             "isDirectory": false,
-            "size": 1095,
-            "modifiedTime": 1569858234344,
-            "changeTime": 1569858234344,
-            "contentHash": "f660bc39cd73da0aa115750f41c29fed12b260cc",
+            "size": 1539,
+            "modifiedTime": 1569926615386,
+            "changeTime": 1569926615386,
+            "contentHash": "bceb35cddbb9722ca88d21f8fc95cd4df146524c",
             "isMetadataFile": false,
             "state": "u",
             "isWorkspace": false
@@ -429,10 +426,10 @@
         {
             "sourcePath": "C:\\Users\\DmytroPinchuk\\CTProjects\\DXFirst\\force-app\\main\\default\\aura\\ClientChatter\\ClientChatterHelper.js",
             "isDirectory": false,
-            "size": 3219,
-            "modifiedTime": 1569860058604,
-            "changeTime": 1569860058604,
-            "contentHash": "38a4d865d82f7260761d5aaeafccd40d1cd9a744",
+            "size": 3267,
+            "modifiedTime": 1569925797143,
+            "changeTime": 1569925797143,
+            "contentHash": "7fc8402f4818b62e53f67245ea73d40605d5aedf",
             "isMetadataFile": false,
             "state": "u",
             "isWorkspace": false
@@ -6449,13 +6446,12 @@
             "sourcePath": "C:\\Users\\DmytroPinchuk\\CTProjects\\DXFirst\\force-app\\main\\default\\staticresources",
             "isDirectory": true,
             "size": 0,
-            "modifiedTime": 1569500555298,
-            "changeTime": 1569230690875,
-            "contentHash": "94b65d41e40870e77f72cba72966f3bed8bd0800",
+            "modifiedTime": 1569924367446,
+            "changeTime": 1569924367446,
+            "contentHash": "fccc15a4d121a50d30ef125e0dd0cd50f8f2ee5c",
             "isMetadataFile": false,
             "state": "u",
-            "isWorkspace": false,
-            "isArtifactRoot": false
+            "isWorkspace": false
         }
     ],
     [
@@ -6854,7 +6850,7 @@
             "sourcePath": "C:\\Users\\DmytroPinchuk\\CTProjects\\DXFirst\\force-app\\main\\Utilities",
             "isDirectory": true,
             "size": 0,
-            "modifiedTime": 1569503473018,
+            "modifiedTime": 1569924593979,
             "changeTime": 1569503473018,
             "contentHash": "12d10823d5128a9df3ddaac2167312ffb097685e",
             "isMetadataFile": false,
@@ -6868,13 +6864,12 @@
             "sourcePath": "C:\\Users\\DmytroPinchuk\\CTProjects\\DXFirst\\force-app\\main\\Utilities\\classes",
             "isDirectory": true,
             "size": 0,
-            "modifiedTime": 1569503473018,
-            "changeTime": 1569489916705,
-            "contentHash": "a443050a6054890befeaeff2084629c8427bd043",
+            "modifiedTime": 1569922551523,
+            "changeTime": 1569922551523,
+            "contentHash": "4a77048bca313d09ce75396527891eab3369c5f8",
             "isMetadataFile": false,
             "state": "u",
-            "isWorkspace": false,
-            "isArtifactRoot": false
+            "isWorkspace": false
         }
     ],
     [
@@ -7793,6 +7788,266 @@
             "modifiedTime": 1569519073154,
             "changeTime": 1569519073154,
             "contentHash": "463a780dc1b11f5d645b2a49558ed28551f48927",
+            "isMetadataFile": true,
+            "state": "u"
+        }
+    ],
+    [
+        "C:\\Users\\DmytroPinchuk\\CTProjects\\DXFirst\\force-app\\main\\default\\aura\\streaming",
+        {
+            "sourcePath": "C:\\Users\\DmytroPinchuk\\CTProjects\\DXFirst\\force-app\\main\\default\\aura\\streaming",
+            "isDirectory": true,
+            "size": 0,
+            "modifiedTime": 1569923999955,
+            "changeTime": 1569923999955,
+            "contentHash": "063f2c760905f33625e6edd873a571ac70aeb65b",
+            "isMetadataFile": false,
+            "state": "u"
+        }
+    ],
+    [
+        "C:\\Users\\DmytroPinchuk\\CTProjects\\DXFirst\\force-app\\main\\default\\aura\\streamingDemo",
+        {
+            "sourcePath": "C:\\Users\\DmytroPinchuk\\CTProjects\\DXFirst\\force-app\\main\\default\\aura\\streamingDemo",
+            "isDirectory": true,
+            "size": 0,
+            "modifiedTime": 1569924000001,
+            "changeTime": 1569924000001,
+            "contentHash": "41405f6f8d2a0dd9634a0f531191a37812adee47",
+            "isMetadataFile": false,
+            "state": "u"
+        }
+    ],
+    [
+        "C:\\Users\\DmytroPinchuk\\CTProjects\\DXFirst\\force-app\\main\\default\\aura\\streamingEvent",
+        {
+            "sourcePath": "C:\\Users\\DmytroPinchuk\\CTProjects\\DXFirst\\force-app\\main\\default\\aura\\streamingEvent",
+            "isDirectory": true,
+            "size": 0,
+            "modifiedTime": 1569924000023,
+            "changeTime": 1569924000023,
+            "contentHash": "82c2b4e5f39c8d266f1d2f0f063bea8c15778b97",
+            "isMetadataFile": false,
+            "state": "u"
+        }
+    ],
+    [
+        "C:\\Users\\DmytroPinchuk\\CTProjects\\DXFirst\\force-app\\main\\default\\aura\\streaming\\streaming.cmp",
+        {
+            "sourcePath": "C:\\Users\\DmytroPinchuk\\CTProjects\\DXFirst\\force-app\\main\\default\\aura\\streaming\\streaming.cmp",
+            "isDirectory": false,
+            "size": 503,
+            "modifiedTime": 1569922551134,
+            "changeTime": 1569923999928,
+            "contentHash": "d3e2155042a3151ef087ca1af15bab414456068d",
+            "isMetadataFile": false,
+            "state": "u"
+        }
+    ],
+    [
+        "C:\\Users\\DmytroPinchuk\\CTProjects\\DXFirst\\force-app\\main\\default\\aura\\streaming\\streaming.cmp-meta.xml",
+        {
+            "sourcePath": "C:\\Users\\DmytroPinchuk\\CTProjects\\DXFirst\\force-app\\main\\default\\aura\\streaming\\streaming.cmp-meta.xml",
+            "isDirectory": false,
+            "size": 211,
+            "modifiedTime": 1569922551163,
+            "changeTime": 1569923999953,
+            "contentHash": "921542d360856699a08d788b63a3a1ea04876d93",
+            "isMetadataFile": true,
+            "state": "u"
+        }
+    ],
+    [
+        "C:\\Users\\DmytroPinchuk\\CTProjects\\DXFirst\\force-app\\main\\default\\aura\\streaming\\streaming.css",
+        {
+            "sourcePath": "C:\\Users\\DmytroPinchuk\\CTProjects\\DXFirst\\force-app\\main\\default\\aura\\streaming\\streaming.css",
+            "isDirectory": false,
+            "size": 33,
+            "modifiedTime": 1569922551190,
+            "changeTime": 1569923999934,
+            "contentHash": "73be5ee461b3eaa40bc2d3a165263f6ada4b4577",
+            "isMetadataFile": false,
+            "state": "u"
+        }
+    ],
+    [
+        "C:\\Users\\DmytroPinchuk\\CTProjects\\DXFirst\\force-app\\main\\default\\aura\\streaming\\streamingController.js",
+        {
+            "sourcePath": "C:\\Users\\DmytroPinchuk\\CTProjects\\DXFirst\\force-app\\main\\default\\aura\\streaming\\streamingController.js",
+            "isDirectory": false,
+            "size": 2670,
+            "modifiedTime": 1569926964773,
+            "changeTime": 1569926964773,
+            "contentHash": "11ec9705159bdaa4795c262072027574ac2a5004",
+            "isMetadataFile": false,
+            "state": "u"
+        }
+    ],
+    [
+        "C:\\Users\\DmytroPinchuk\\CTProjects\\DXFirst\\force-app\\main\\default\\aura\\streaming\\streamingHelper.js",
+        {
+            "sourcePath": "C:\\Users\\DmytroPinchuk\\CTProjects\\DXFirst\\force-app\\main\\default\\aura\\streaming\\streamingHelper.js",
+            "isDirectory": false,
+            "size": 5,
+            "modifiedTime": 1569922551245,
+            "changeTime": 1569923999944,
+            "contentHash": "82be1d8a61502a7584b9255940873d4327e226f6",
+            "isMetadataFile": false,
+            "state": "u"
+        }
+    ],
+    [
+        "C:\\Users\\DmytroPinchuk\\CTProjects\\DXFirst\\force-app\\main\\default\\aura\\streamingDemo\\streamingDemo.cmp",
+        {
+            "sourcePath": "C:\\Users\\DmytroPinchuk\\CTProjects\\DXFirst\\force-app\\main\\default\\aura\\streamingDemo\\streamingDemo.cmp",
+            "isDirectory": false,
+            "size": 398,
+            "modifiedTime": 1569925557396,
+            "changeTime": 1569925557396,
+            "contentHash": "634c7347d1164bb9f40c3ab3501012e1d439b42e",
+            "isMetadataFile": false,
+            "state": "u"
+        }
+    ],
+    [
+        "C:\\Users\\DmytroPinchuk\\CTProjects\\DXFirst\\force-app\\main\\default\\aura\\streamingDemo\\streamingDemo.cmp-meta.xml",
+        {
+            "sourcePath": "C:\\Users\\DmytroPinchuk\\CTProjects\\DXFirst\\force-app\\main\\default\\aura\\streamingDemo\\streamingDemo.cmp-meta.xml",
+            "isDirectory": false,
+            "size": 228,
+            "modifiedTime": 1569922551308,
+            "changeTime": 1569923999997,
+            "contentHash": "379d947ebfaf249a903d8b860a7dcc5904e5d4aa",
+            "isMetadataFile": true,
+            "state": "u"
+        }
+    ],
+    [
+        "C:\\Users\\DmytroPinchuk\\CTProjects\\DXFirst\\force-app\\main\\default\\aura\\streamingDemo\\streamingDemo.css",
+        {
+            "sourcePath": "C:\\Users\\DmytroPinchuk\\CTProjects\\DXFirst\\force-app\\main\\default\\aura\\streamingDemo\\streamingDemo.css",
+            "isDirectory": false,
+            "size": 78,
+            "modifiedTime": 1569922551337,
+            "changeTime": 1569923999973,
+            "contentHash": "30dc895f29023117666bc4c045d617e245191383",
+            "isMetadataFile": false,
+            "state": "u"
+        }
+    ],
+    [
+        "C:\\Users\\DmytroPinchuk\\CTProjects\\DXFirst\\force-app\\main\\default\\aura\\streamingDemo\\streamingDemoController.js",
+        {
+            "sourcePath": "C:\\Users\\DmytroPinchuk\\CTProjects\\DXFirst\\force-app\\main\\default\\aura\\streamingDemo\\streamingDemoController.js",
+            "isDirectory": false,
+            "size": 570,
+            "modifiedTime": 1569922551365,
+            "changeTime": 1569924000012,
+            "contentHash": "ed73b0fcb1e7b0e0d2e586a099292bb0b5b2a134",
+            "isMetadataFile": false,
+            "state": "u"
+        }
+    ],
+    [
+        "C:\\Users\\DmytroPinchuk\\CTProjects\\DXFirst\\force-app\\main\\default\\aura\\streamingDemo\\streamingDemoHelper.js",
+        {
+            "sourcePath": "C:\\Users\\DmytroPinchuk\\CTProjects\\DXFirst\\force-app\\main\\default\\aura\\streamingDemo\\streamingDemoHelper.js",
+            "isDirectory": false,
+            "size": 40,
+            "modifiedTime": 1569922551392,
+            "changeTime": 1569923999978,
+            "contentHash": "c3c6efda41de64b759982510d6a2c72226aa087f",
+            "isMetadataFile": false,
+            "state": "u"
+        }
+    ],
+    [
+        "C:\\Users\\DmytroPinchuk\\CTProjects\\DXFirst\\force-app\\main\\default\\aura\\streamingDemo\\streamingDemoRenderer.js",
+        {
+            "sourcePath": "C:\\Users\\DmytroPinchuk\\CTProjects\\DXFirst\\force-app\\main\\default\\aura\\streamingDemo\\streamingDemoRenderer.js",
+            "isDirectory": false,
+            "size": 51,
+            "modifiedTime": 1569922551421,
+            "changeTime": 1569923999988,
+            "contentHash": "4b05ecdc8f3f57da0afd6f29b6da1a62b4d6788a",
+            "isMetadataFile": false,
+            "state": "u"
+        }
+    ],
+    [
+        "C:\\Users\\DmytroPinchuk\\CTProjects\\DXFirst\\force-app\\main\\default\\aura\\streamingEvent\\streamingEvent.evt",
+        {
+            "sourcePath": "C:\\Users\\DmytroPinchuk\\CTProjects\\DXFirst\\force-app\\main\\default\\aura\\streamingEvent\\streamingEvent.evt",
+            "isDirectory": false,
+            "size": 94,
+            "modifiedTime": 1569922551456,
+            "changeTime": 1569924000020,
+            "contentHash": "2ef8dec22a0b74a1c4004832f68ca7903e623aa2",
+            "isMetadataFile": false,
+            "state": "u"
+        }
+    ],
+    [
+        "C:\\Users\\DmytroPinchuk\\CTProjects\\DXFirst\\force-app\\main\\default\\aura\\streamingEvent\\streamingEvent.evt-meta.xml",
+        {
+            "sourcePath": "C:\\Users\\DmytroPinchuk\\CTProjects\\DXFirst\\force-app\\main\\default\\aura\\streamingEvent\\streamingEvent.evt-meta.xml",
+            "isDirectory": false,
+            "size": 211,
+            "modifiedTime": 1569922551484,
+            "changeTime": 1569924000025,
+            "contentHash": "921542d360856699a08d788b63a3a1ea04876d93",
+            "isMetadataFile": true,
+            "state": "u"
+        }
+    ],
+    [
+        "C:\\Users\\DmytroPinchuk\\CTProjects\\DXFirst\\force-app\\main\\default\\staticresources\\cometd.resource",
+        {
+            "sourcePath": "C:\\Users\\DmytroPinchuk\\CTProjects\\DXFirst\\force-app\\main\\default\\staticresources\\cometd.resource",
+            "isDirectory": false,
+            "size": 33627,
+            "modifiedTime": 1569922551588,
+            "changeTime": 1569924367446,
+            "contentHash": "e8ef29f94eb40eabea1af35b2446d5428b756ed0",
+            "isMetadataFile": false,
+            "state": "u"
+        }
+    ],
+    [
+        "C:\\Users\\DmytroPinchuk\\CTProjects\\DXFirst\\force-app\\main\\default\\staticresources\\cometd.resource-meta.xml",
+        {
+            "sourcePath": "C:\\Users\\DmytroPinchuk\\CTProjects\\DXFirst\\force-app\\main\\default\\staticresources\\cometd.resource-meta.xml",
+            "isDirectory": false,
+            "size": 209,
+            "modifiedTime": 1569922551620,
+            "changeTime": 1569924367428,
+            "contentHash": "a26956096455c1ad8f2625a5a817d45b35678b07",
+            "isMetadataFile": true,
+            "state": "u"
+        }
+    ],
+    [
+        "C:\\Users\\DmytroPinchuk\\CTProjects\\DXFirst\\force-app\\main\\Utilities\\classes\\SessionController.cls",
+        {
+            "sourcePath": "C:\\Users\\DmytroPinchuk\\CTProjects\\DXFirst\\force-app\\main\\Utilities\\classes\\SessionController.cls",
+            "isDirectory": false,
+            "size": 145,
+            "modifiedTime": 1569922551519,
+            "changeTime": 1569922551519,
+            "contentHash": "c4198c8cabe839223d921cd73b978bf09f986d30",
+            "isMetadataFile": false,
+            "state": "u"
+        }
+    ],
+    [
+        "C:\\Users\\DmytroPinchuk\\CTProjects\\DXFirst\\force-app\\main\\Utilities\\classes\\SessionController.cls-meta.xml",
+        {
+            "sourcePath": "C:\\Users\\DmytroPinchuk\\CTProjects\\DXFirst\\force-app\\main\\Utilities\\classes\\SessionController.cls-meta.xml",
+            "isDirectory": false,
+            "size": 174,
+            "modifiedTime": 1569922551552,
+            "changeTime": 1569922551552,
+            "contentHash": "ec29c6f2ff617299f8e53d0ea63d440cd27207eb",
             "isMetadataFile": true,
             "state": "u"
         }

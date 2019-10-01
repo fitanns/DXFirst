@@ -5,16 +5,12 @@
 .THIS {
     font-family: Arial, sans-serif;
     font-size: 10px;
-    height: 430px;
     width: 330px;
     display: block;
-    top: auto;
-    right: 20px;
     margin-right: 0px;
     margin-bottom: 0px;
     background-color: white;
     color: black;
-    position: fixed;
 }
 
 

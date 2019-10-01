@@ -34,7 +34,7 @@
         let cometD = new window.org.cometd.CometD(),
             sessionId = component.get("v.sessionId");
         cometD.configure({
-            url: 'https://force-fun-1627-dev-ed.lightning.force.com/cometd/45.0/',
+            url: window.location.protocol + '//' + window.location.hostname + '/cometd/41.0/',
             requestHeaders: { Authorization: 'OAuth' + sessionId},
             appendMessageTypeToURL : false
         });

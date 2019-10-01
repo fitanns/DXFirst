@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomLabels xmlns="http://soap.sforce.com/2006/04/metadata">
+    <labels>
+        <fullName>AgreeYourData</fullName>
+        <categories>Checkbox</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Agree your data</shortDescription>
+        <value>Agree your data</value>
+    </labels>
+    <labels>
+        <fullName>Course</fullName>
+        <categories>Course</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Course</shortDescription>
+        <value>Course</value>
+    </labels>
+    <labels>
+        <fullName>CourseManagement</fullName>
+        <categories>Course Management</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>CourseManagement</shortDescription>
+        <value>Course Management</value>
+    </labels>
+    <labels>
+        <fullName>Courses</fullName>
+        <categories>Courses</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Courses</shortDescription>
+        <value>Courses</value>
+    </labels>
+    <labels>
+        <fullName>CreateRequest</fullName>
+        <categories>ButtonsValue</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Create Request</shortDescription>
+        <value>Create Request</value>
+    </labels>
+    <labels>
+        <fullName>RegisterToCourse</fullName>
+        <categories>RegisterToCourse</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>RegisterToCourse</shortDescription>
+        <value>Register to Course</value>
+    </labels>
+    <labels>
+        <fullName>Subjects</fullName>
+        <categories>Subjects</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Subjects</shortDescription>
+        <value>Subjects</value>
+    </labels>
+</CustomLabels>

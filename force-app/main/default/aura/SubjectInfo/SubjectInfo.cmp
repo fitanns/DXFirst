@@ -1,0 +1,59 @@
+<!--
+ - Created by DmytroPinchuk on 17.09.2019.
+ -->
+
+<aura:component description="SubjectInfo" implements="forceCommunity:availableForAllPageTypes"
+                controller="SubjectInfoController">
+    <aura:handler name="init" value="{!this}" action="{!c.doInit}"/>
+    <aura:handler event="c:getSubjectInfo" action="{!c.handleSubject}"/>
+    <aura:registerEvent name="courseName" type="c:getSelectedCourse"/>
+    <aura:attribute name="communityURL" type="String"/>
+    <aura:attribute name="data" type="Object"/>
+    <aura:attribute name="columns" type="List"/>
+    <aura:attribute name="subjectLabels" type="Object"/>
+    <aura:attribute name="contents" type="List" default="[]"/>
+    <aura:attribute name="subject" type="Subject__c"/>
+    <aura:attribute name="prefixURL" type="String"
+                    default="https://force-fun-1627-dev-ed.lightning.force.com/sfc/servlet.shepherd/version/download/"/>
+
+
+
+    <c:getObjectLabels aura:id="sObjectLabels" context="{!this}"/>
+
+    <c:getObjectLabels context="{!this}"/>
+    <c:RequestCmp aura:id="requestCall" context="{!this}"/>
+    <div class="selected-subject slds-card">
+        <div class="subject-inform slds-card slds-box slds-box_small">
+            <lightning:carousel scrollDuration="5" class="somecarousel">
+                <lightning:carouselImage
+                        src="{!v.prefixURL + v.contents[0].Id}"
+                        header="{!v.subject.Name}"
+                        description="{!(v.subjectLabels.SubjectName) +' : '+ (v.subject.Name) + '; ' + (v.subjectLabels.NumberofLessons) + ' : '
+                    + (v.subject.Number_of_Lessons__c)+ '; ' + (v.subjectLabels.LessonDuration) + ' : ' + (v.subject.Lesson_Duration__c) + '.'}"
+                        alternativeText="Subject"
+                        href="">
+                </lightning:carouselImage>
+                <lightning:carouselImage
+                        class="somecarousel"
+                        src="{!v.prefixURL + v.contents[1].Id}"
+                        header="{!v.subject.Name}"
+                        description="{!(v.subjectLabels.SubjectName) +' : '+ (v.subject.Name) + '; ' + (v.subjectLabels.NumberofLessons) + ' : '
+                    + (v.subject.Number_of_Lessons__c)+ '; ' + (v.subjectLabels.LessonDuration) + ' : ' + (v.subject.Lesson_Duration__c) + '.'}"
+                        alternativeText="Subject"
+                        href="">
+                </lightning:carouselImage>
+            </lightning:carousel>
+        </div>
+        <div class="table-courses-of-subject">
+            <lightning:datatable
+                    keyField="id"
+                    data="{! v.data }"
+                    columns="{! v.columns }"
+                    hideCheckboxColumn="false"
+                    maxRowSelection="1"
+                    showRowNumberColumn="true"
+                    onrowselection="{!c.getSelectedName}"/>
+
+        </div>
+    </div>
+</aura:component>

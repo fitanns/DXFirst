@@ -1,0 +1,60 @@
+<!--
+ - Created by DmytroPinchuk on 22.09.2019.
+ -->
+
+<aura:component description="ClientChatter" implements="forceCommunity:availableForAllPageTypes"
+                controller="ClientChatterController">
+    <aura:handler name="init" value="{!this}" action="{!c.doInit}"/>
+    <aura:attribute name="clientMessages" type="List" default="[]"/>
+    <aura:attribute name="agentMessages" type="List" default="[]"/>
+    <aura:attribute name="eventName" type="String" default="Chat_Message__e"/>
+    <aura:attribute name="subsCometD" type="Map"/>
+    <aura:attribute name="cometd" type="Object"/>
+    <aura:attribute name="sessionId" type="String"/>
+    <ltng:require scripts="{!$Resource.cometd}" afterScriptsLoaded="{!c.loadedComet}"/>
+
+
+    <c:RequestCmp aura:id="requestCall" context="{!this}"/>
+    <div class="chatter-content-wrapper">
+        <div class="chatter-header slds-text-align_center">
+            <div>
+                <lightning:buttonIcon alternativeText="Close" variant="bare" iconName="utility:close"
+                                      class="slds-button slds-button_icon slds-button_icon-small slds-button_icon-inverse slds-m-right_xx-small
+                                       slds-float_right"/>
+            </div>
+            <p>Send us a message</p>
+        </div>
+        <div class="chatter-content">
+            <div class="slds-chat-message chatter-agent-message slds-chat-list">
+                <div class="slds-chat-message__body">
+                    <aura:iteration items="{!v.agentMessages}" var="agentM">
+                        <div class="slds-chat-message__text slds-chat-message__text_inbound">
+                            <div>{!agentM}</div>
+                        </div>
+                    </aura:iteration>
+                </div>
+            </div>
+
+            <div class="chatter-client-message slds-chat-list slds-chat-message">
+                <div class="slds-chat-message__body">
+                    <aura:iteration items="{!v.clientMessages}" var="message">
+                        <div class="slds-chat-message__text slds-chat-message__text_outbound">
+                            <div>{!message}</div>
+                        </div>
+                    </aura:iteration>
+                </div>
+            </div>
+        </div>
+        <div class="client-input-form">
+            <form class="slds-form--stacked">
+                <lightning:input type="text"
+                                 aura:id="client-text"
+                                 class="client-text"
+                                 placeholder="Enter your message"/>
+                <lightning:button iconName="standard:output"
+                                  class="button-send-message slds-m-top--medium"
+                                  onclick="{!c.sendMessage}"/>
+            </form>
+        </div>
+    </div>
+</aura:component>

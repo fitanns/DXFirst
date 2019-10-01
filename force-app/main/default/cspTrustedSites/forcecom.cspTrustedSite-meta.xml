@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CspTrustedSite xmlns="http://soap.sforce.com/2006/04/metadata">
+    <context>All</context>
+    <description>asd</description>
+    <endpointUrl>https://connect-energy-7396-dev-ed.content.force.com</endpointUrl>
+    <isActive>true</isActive>
+</CspTrustedSite>

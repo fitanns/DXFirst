@@ -1,0 +1,35 @@
+/**
+ * Created by DmytroPinchuk on 18.09.2019.
+ */
+
+.THIS body {
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+.THIS img {
+    height: 500px;
+    max-height: 500px;
+    max-width: 100%;
+}
+
+.THIS .selected-subject {
+    max-width: 100%;
+}
+
+.THIS .subject-inform {
+    width: 100%;
+}
+
+.THIS .table-courses-of-subject {
+    width: 100%;
+}
+
+.THIS .name {
+    color: black;
+}
+
+.THIS .name:active {
+    color: red;
+    text-decoration: none;
+}

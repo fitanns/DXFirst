@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Registration Failed</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>RegisteredRequest</letterhead>
+    <name>RejectedRequest</name>
+    <style>freeForm</style>
+    <subject>Registration to Course Rejected!</subject>
+    <textOnly>Registration to Course Rejected
+
+
+
+Dear, {!Lead.FirstName} {!Lead.LastName}.
+
+Thank you for taking time to choose Course Management.
+
+Unfortunately, your request to take a courses has been rejected.
+
+One of our managers will contact you as soon as possible to tell you about it.
+
+
+
+
+
+Best wishes,
+Course Management Team</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

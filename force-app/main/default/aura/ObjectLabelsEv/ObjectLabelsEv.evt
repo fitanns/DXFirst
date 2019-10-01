@@ -1,0 +1,7 @@
+<!--
+ - Created by DmytroPinchuk on 25.09.2019.
+ -->
+
+<aura:event type="COMPONENT" description="ObjectLabelsEv">
+    <aura:attribute name="labels" type="Object"/>
+</aura:event>

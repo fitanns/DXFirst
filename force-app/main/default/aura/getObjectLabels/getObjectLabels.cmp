@@ -1,0 +1,15 @@
+<!--
+ - Created by DmytroPinchuk on 24.09.2019.
+ -->
+
+<aura:component description="getObjectLabels"
+                implements="forceCommunity:availableForAllPageTypes,flexipage:availableForAllPageTypes"
+                controller="getObjectLabelsController">
+    <aura:attribute name="context" type="Object" required="true"/>
+
+    <c:RequestCmp aura:id="requestCall" context="{!this}"/>
+
+    <aura:method name="getLabels" action="{!c.handleLabels}">
+        <aura:attribute name="objectName" type="String" description="Params for get labels by Object Name"/>
+    </aura:method>
+</aura:component>

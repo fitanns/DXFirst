@@ -1,0 +1,17 @@
+<!--
+ - Created by DmytroPinchuk on 24.09.2019.
+ -->
+
+<aura:component description="EmpApi"
+                implements="forceCommunity:availableForAllPageTypes,flexipage:availableForAllPageTypes">
+    <aura:attribute name="context" type="Object" required="true"/>
+    <aura:attribute name="streamingChannel" type="String" required="true"/>
+    <aura:attribute name="channelName" type="String" default="/event/Test__e"/>
+    <aura:handler name="init" value="{!this}" action="{!c.onInit}"/>
+    <aura:attribute name="subscription" type="Map"/>
+
+    <lightning:empApi aura:id="empApi"/>
+    <aura:method name="unsubscribe" action="{!c.unsubscribe}"/>
+    <aura:method name="subscribe" action="{!c.subscribe}"/>
+
+</aura:component>

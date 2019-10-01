@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CspTrustedSite xmlns="http://soap.sforce.com/2006/04/metadata">
+    <context>Communities</context>
+    <description>connect_energy_7396_dev_ed_cs100_my_salesforce_com Trusted Site Added Via Community Builder</description>
+    <endpointUrl>https://connect-energy-7396-dev-ed.cs100.my.salesforce.com</endpointUrl>
+    <isActive>true</isActive>
+</CspTrustedSite>

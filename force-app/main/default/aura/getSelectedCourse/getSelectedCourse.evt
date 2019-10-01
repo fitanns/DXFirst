@@ -1,0 +1,7 @@
+<!--
+ - Created by DmytroPinchuk on 17.09.2019.
+ -->
+
+<aura:event type="APPLICATION" description="getSelectedCourse">
+    <aura:attribute name="name" type="String"/>
+</aura:event>

@@ -1,0 +1,23 @@
+<!--
+ - Created by DmytroPinchuk on 17.09.2019.
+ -->
+
+<aura:component description="SubjectList" implements="forceCommunity:availableForAllPageTypes"
+                controller="SubjectListController">
+    <aura:handler name="init" value="{!this}" action="{!c.doInit}"/>
+    <aura:attribute name="subjects" type="List"/>
+
+    <c:RequestCmp aura:id="requestCall" context="{!this}"/>
+
+    <lightning:card title="">
+        <nav class="slds-nav-vertical">
+            <lightning:verticalNavigation>
+                <lightning:verticalNavigationSection label="{#$Label.c.Subjects}">
+                    <aura:iteration items="{!v.subjects}" var="subject">
+                        <c:SubjectItem subject="{#subject}"/>
+                    </aura:iteration>
+                </lightning:verticalNavigationSection>
+            </lightning:verticalNavigation>
+        </nav>
+    </lightning:card>
+</aura:component>

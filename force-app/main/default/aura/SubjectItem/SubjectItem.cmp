@@ -1,0 +1,13 @@
+<!--
+ - Created by DmytroPinchuk on 17.09.2019.
+ -->
+
+<aura:component description="SubjectItem" implements="forceCommunity:availableForAllPageTypes">
+
+    <aura:registerEvent name="subjectInfo" type="c:getSubjectInfo"/>
+    <aura:attribute name="subject" type="Subject__c"/>
+
+    <lightning:verticalNavigationItem class="slds-nav-vertical__item" label="{!v.subject.Name}"
+                                      name="{!v.subject.Name}" onclick="{!c.subjectClick}">
+    </lightning:verticalNavigationItem>
+</aura:component>

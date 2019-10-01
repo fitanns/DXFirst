@@ -1,0 +1,78 @@
+/**
+ * Created by DmytroPinchuk on 22.09.2019.
+ */
+
+.THIS {
+    font-family: Arial, sans-serif;
+    font-size: 10px;
+    height: 430px;
+    width: 330px;
+    display: block;
+    top: auto;
+    right: 20px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    background-color: white;
+    color: black;
+    position: fixed;
+}
+
+
+.THIS .chatter-header {
+    margin-top: auto;
+    margin-bottom: auto;
+    height: 50px;
+    width: 100%;
+    font-family: inherit;
+    font-size: 15px;
+    color: white;
+    background-color: crimson;
+    border: 8px solid crimson;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+}
+
+.THIS .chatter-content {
+    height: 350px;
+    width: 100%;
+    background-color: inherit;
+
+}
+
+.THIS .chatter-agent-message {
+    box-sizing: border-box;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.THIS .chatter-client-message {
+    float: right;
+    box-sizing: border-box;
+
+}
+
+.THIS .client-input-form {
+    border-top: 1px solid lightgray;
+    background-color: white;
+    width: 100%;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+}
+
+.THIS .client-input-form .slds-form--stacked .client-text {
+    width: 80%;
+    height: 100%;
+    float: left;
+    margin-right: 10px;
+    padding-left: 5px;
+}
+
+.THIS .client-input-form .slds-form--stacked.button-send-message {
+    height: 100%;
+    width: 40%;
+    float: right;
+}
+.THIS .slds-chat-message__text {
+    margin-top: 2px;
+    margin-bottom: 2px;
+}

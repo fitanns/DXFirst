@@ -1,0 +1,57 @@
+<!--
+ - Created by DmytroPinchuk on 22.09.2019.
+ -->
+
+<aura:component description="AgentChatter"
+                implements="forceCommunity:availableForAllPageTypes,flexipage:availableForAllPageTypes"
+                controller="AgentChatterController">
+    <aura:attribute name="agentMessages" type="List" default="[]"/>
+    <aura:attribute name="clientMessages" type="List" default="[]"/>
+    <aura:attribute name="channelName" type="String" default="/event/Chat_Message__e"/>
+    <aura:handler name="init" value="{!this}" action="{!c.doInit}"/>
+    <aura:attribute name="results" type="Object"/>
+    <aura:attribute name="subscription" type="Map"/>
+
+    <lightning:empApi aura:id="empApi"/>
+
+    <c:RequestCmp aura:id="requestCall" context="{!this}"/>
+    <div class="chatter-content-wrapper">
+        <div class="chatter-header slds-color__background_gray-4 slds-text-align_center">
+            <p>Client</p>
+        </div>
+        <div class="chatter-content">
+            <div class="chatter-client-message slds-chat-list slds-chat-message">
+                <div class="slds-chat-message__body">
+                    <aura:iteration items="{!v.clientMessages}" var="clientM">
+                        <div class="slds-chat-message__text slds-chat-message__text_inbound">
+                            <div>{!clientM}</div>
+                        </div>
+                    </aura:iteration>
+                </div>
+            </div>
+
+            <div class="chatter-agent-message slds-chat-list slds-chat-message">
+                <div class="slds-chat-message__body">
+                    <aura:iteration items="{!v.agentMessages}" var="message">
+                        <div class="slds-chat-message__text slds-chat-message__text_outbound">
+                            <div>{!message}</div>
+                        </div>
+                    </aura:iteration>
+                </div>
+            </div>
+
+        </div>
+        <div class="client-input-form">
+            <form class="slds-form--stacked">
+                <lightning:input type="text"
+                                 aura:id="agent-text"
+                                 class="agent-text"
+                                 placeholder="Enter your message"/>
+                <lightning:button iconName="standard:output"
+                                  variant="brand"
+                                  class="button-send-message slds-m-top--medium"
+                                  onclick="{!c.sendMessage}"/>
+            </form>
+        </div>
+    </div>
+</aura:component>

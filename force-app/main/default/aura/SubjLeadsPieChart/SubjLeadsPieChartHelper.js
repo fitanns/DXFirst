@@ -57,7 +57,6 @@
             }
         };
 
-
         let context = document.getElementById("pie-chart");
         new Chart(context, config);
     }

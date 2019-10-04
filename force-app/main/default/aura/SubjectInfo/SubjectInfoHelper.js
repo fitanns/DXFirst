@@ -29,25 +29,12 @@
         requestMethodResult.then(
             result => {
                 component.set("v.data", result);
+                component.set("v.subject", subject);
             },
             error => console.log("Errors", error)
         );
     },
     getCourseLabel: function (component) {
-        /*        const request = component.find("requestCall");
-                const requestMethodResult = request.enqueue("c.getCourseLabels", {});
-                requestMethodResult.then(
-                    result => {
-                        let course = {};
-                        for (let i = 0; i < result.length; i++) {
-                            let str = result[i],
-                                courseLabelKey = str.split(' ').join('');
-                            course[courseLabelKey] = result[i];
-                        }
-                        component.set("v.courseLabels", course);
-                    },
-                    error => console.log("Errors", error)
-                );*/
         const request = component.find("sObjectLabels");
         const labels = request.getLabels("Course__c");
 
@@ -59,7 +46,7 @@
                         sObjectKey = str.split(' ').join('');
                     sObjectLabels[sObjectKey] = result[i];
                 }
-                this.setCourseLabels(component,sObjectLabels);
+                this.setCourseLabels(component, sObjectLabels);
             },
             error => {
                 console.log('Error : ' + error);
@@ -68,20 +55,6 @@
 
     },
     getSubjectLabel: function (component) {
-        /*        const request = component.find("requestCall");
-                const requestMethodResult = request.enqueue("c.getSubjectLabels", {});
-                requestMethodResult.then(
-                    result => {
-                        let subject = {};
-                        for (let i = 0; i < result.length; i++) {
-                            let str = result[i],
-                                subjectLabelKey = str.split(' ').join('');
-                            subject[subjectLabelKey] = result[i];
-                        }
-                        component.set("v.subjectLabels", subject);
-                    },
-                    error => console.log("Errors", error)
-                );*/
         const request = component.find("sObjectLabels");
         const labels = request.getLabels("Subject__c");
 
@@ -101,7 +74,7 @@
         );
     },
 
-    setCourseLabels : function (component, courseLabels) {
+    setCourseLabels: function (component, courseLabels) {
         component.set('v.columns', [
             {label: courseLabels.CourseName, fieldName: 'Name', type: 'text'},
             {label: courseLabels.StartDate, fieldName: 'Start_Date__c', type: 'date'},

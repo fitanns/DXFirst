@@ -50,6 +50,7 @@
 .THIS .client-input-form {
     border-top: 1px solid lightgray;
     background-color: white;
+    height: 55px;
     width: 100%;
     box-sizing: border-box;
     margin-bottom: 10px;
@@ -67,6 +68,7 @@
     height: 100%;
     width: 40%;
     float: right;
+    margin-right: 5px;
 }
 .THIS .slds-chat-message__text {
     margin-top: 2px;

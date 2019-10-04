@@ -11,10 +11,9 @@
     createRequest: function (component, event, helper) {
 
         let requestForm = component.find('requestform');
-    /*    let asd = event.currentTarget;
-        let resa = asd.getAttribute('data-api-name');
-        console.log('data : ' + resa);*/
-
+        /*    let asd = event.currentTarget;
+            let resa = asd.getAttribute('data-api-name');
+            console.log('data : ' + resa);*/
 
         let lead = {};
         for (let i = 0; ; i++) {
@@ -28,11 +27,17 @@
             }
         }
         lead.sObjectType = 'Lead';
+        lead.Subject__c = component.get("v.subjectId");
+        console.log('dsub : ' + component.get("v.subjectId"));
+        console.log('dsuasdb : ' + lead.Subject__c);
+
         helper.createRequestLead(component, lead);
     },
-    handleSubjectName : function (component, event, helper) {
-        let courseName = event.getParam("name");
-        component.set("v.showCourse",true);
+    handleSubjectName: function (component, event, helper) {
+        let courseName = event.getParam("name"),
+            subjectId = event.getParam("subjectId");
+        component.set("v.showCourse", true);
         component.set("v.selectedCourse", courseName);
+        component.set("v.subjectId", subjectId);
     }
 });

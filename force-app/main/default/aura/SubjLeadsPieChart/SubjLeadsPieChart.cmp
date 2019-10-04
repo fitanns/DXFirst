@@ -1,0 +1,16 @@
+<!--
+ - Created by DmytroPinchuk on 04.10.2019.
+ -->
+
+<aura:component description="SubjLeadsPieChart" implements="flexipage:availableForAllPageTypes"
+                controller="SubjLeadsChartController">
+    <ltng:require scripts="{!$Resource.ChartJs}"
+                  afterScriptsLoaded="{!c.chartLoaded}"/>
+
+    <c:RequestCmp aura:id="requestCall" context="{!this}"/>
+    <div style="width: 500px; height: 500px;">
+    <lightning:card title="Leads of Subject">
+        <canvas id="pie-chart" ></canvas>
+    </lightning:card>
+    </div>
+</aura:component>

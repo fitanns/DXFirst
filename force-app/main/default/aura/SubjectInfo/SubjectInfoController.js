@@ -17,16 +17,17 @@
         helper.getCourseLabel(component);
         helper.getSubjectLabel(component);
     },
-/*    clickCourse: function (component, event, helper) {
-        let courseName = component.get("v.courses")[event.currentTarget.dataset.record];
-        let subjectEvent = $A.get("e.c:getSelectedCourse");
-        subjectEvent.setParams({"name": courseName.Name});
-        subjectEvent.fire();
-    },*/
-    getSelectedName : function (component, event) {
-        let selectedRows = event.getParam('selectedRows');
-        let subjectEvent = $A.get("e.c:getSelectedCourse");
-        subjectEvent.setParams({"name": selectedRows[0].Name});
+    /*    clickCourse: function (component, event, helper) {
+            let courseName = component.get("v.courses")[event.currentTarget.dataset.record];
+            let subjectEvent = $A.get("e.c:getSelectedCourse");
+            subjectEvent.setParams({"name": courseName.Name});
+            subjectEvent.fire();
+        },*/
+    getSelectedName: function (component, event) {
+        let selectedRows = event.getParam('selectedRows'),
+            subject = component.get("v.subject"),
+            subjectEvent = $A.get("e.c:getSelectedCourse");
+        subjectEvent.setParams({"name": selectedRows[0].Name, "subjectId": subject.Id});
         subjectEvent.fire();
     }
 });

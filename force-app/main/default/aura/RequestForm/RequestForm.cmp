@@ -9,6 +9,7 @@
     <aura:attribute name="someLead" type="Object"/>
     <aura:attribute name="fieldSet" type="List"/>
     <aura:attribute name="selectedCourse" type="String"/>
+    <aura:attribute name="subjectId" type="Id"/>
     <aura:attribute name="showCourse" type="Boolean" default="false"/>
 
     <c:RequestCmp aura:id="requestCall" context="{!this}"/>

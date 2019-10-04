@@ -5,9 +5,6 @@
 ({
 /*    doInit: function (component, event, helper) {
         helper.getSessionId(component);
-/!*        if (component.get("v.cometd") != null) {
-            helper.connectCometD(component);
-        }*!/
     },*/
     sendMessage: function (component, event, helper) {
         let clientText = component.find('client-text'),

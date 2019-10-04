@@ -4,4 +4,5 @@
 
 <aura:event type="APPLICATION" description="getSelectedCourse">
     <aura:attribute name="name" type="String"/>
+    <aura:attribute name="subjectId" type="Id"/>
 </aura:event>

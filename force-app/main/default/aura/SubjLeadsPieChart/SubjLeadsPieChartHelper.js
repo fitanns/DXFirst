@@ -49,8 +49,8 @@
                                 total = dataset.data.reduce(function (prevValue, currentValue, currentIndex, array) {
                                 return prevValue + currentValue;
                             });
-                            let currentValue = dataset.data[tooltipItem.index];
-                            let percentage = Math.floor(((currentValue / total) * 100) + 0.5);
+                            let currentValue = dataset.data[tooltipItem.index],
+                                percentage = Math.floor(((currentValue / total) * 100) + 0.5);
                             return percentage + "%";
                         }
                     }
@@ -59,7 +59,7 @@
         };
 
 
-        let ctx = document.getElementById("pie-chart").getContext("2d");
-        window.myDoughnut = new Chart(ctx, config);
+        let context = document.getElementById("pie-chart").getContext("2d");
+        window.myDoughnut = new Chart(context, config);
     }
 });

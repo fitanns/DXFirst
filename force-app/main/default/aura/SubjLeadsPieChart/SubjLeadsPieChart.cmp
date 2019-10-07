@@ -4,13 +4,16 @@
 
 <aura:component description="SubjLeadsPieChart" implements="flexipage:availableForAllPageTypes"
                 controller="SubjLeadsChartController">
+    <aura:handler name="init" value="{!this}" action="{!c.doInit}"/>
+    <aura:attribute name="subscription" type="Map"/>
     <ltng:require scripts="{!$Resource.ChartJs}"
                   afterScriptsLoaded="{!c.chartLoaded}"/>
 
+    <lightning:empApi aura:id="empApi"/>
     <c:RequestCmp aura:id="requestCall" context="{!this}"/>
     <div class="pie-canvas">
-    <lightning:card title="Leads of Subject">
-        <canvas id="pie-chart" ></canvas>
-    </lightning:card>
+        <lightning:card title="Leads of Subject">
+            <canvas id="pie-chart"></canvas>
+        </lightning:card>
     </div>
 </aura:component>

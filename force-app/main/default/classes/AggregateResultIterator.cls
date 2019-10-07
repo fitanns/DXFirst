@@ -1,0 +1,22 @@
+/**
+ * Created by DmytroPinchuk on 07.10.2019.
+ */
+
+public class AggregateResultIterator implements Iterator<AggregateResult> {
+
+    AggregateResult [] results {get;set;}
+    Integer index {get; set;}
+
+    public AggregateResultIterator(String query) {
+        index = 0;
+        results = Database.query(query);
+    }
+
+    public boolean hasNext(){
+        return results != null && !results.isEmpty() && index < results.size();
+    }
+
+    public AggregateResult next(){
+        return results[index++];
+    }
+}

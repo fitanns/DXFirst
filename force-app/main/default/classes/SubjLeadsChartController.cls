@@ -15,6 +15,20 @@ public with sharing class SubjLeadsChartController {
         }
         return data;
     }
+    @AuraEnabled
+    public static void fireBatchToFormData() {
+        LeadsBySubjectsBatch batch = new LeadsBySubjectsBatch();
+        Id batchId = Database.executeBatch(batch);
+    }
+
+    @AuraEnabled
+    public static List<SubjectsLeadsData__c> getSubjectsLeadsData() {
+        LeadsBySubjectSelector leadsBySubjectSelector = new LeadsBySubjectSelector();
+        List<SubjectsLeadsData__c> subjectsLeads = leadsBySubjectSelector.subjectsLeadsData();
+        return subjectsLeads;
+    }
+
+
     public class Data {
         public Data(String label, Integer quantity) {
             this.label = label;

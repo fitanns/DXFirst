@@ -8171,14 +8171,14 @@
     [
         "C:\\Users\\DmytroPinchuk\\CTProjects\\DXFirst\\force-app\\main\\default\\classes\\LeadsBySubjectSelector.cls",
         {
+            "state": "u",
             "sourcePath": "C:\\Users\\DmytroPinchuk\\CTProjects\\DXFirst\\force-app\\main\\default\\classes\\LeadsBySubjectSelector.cls",
             "isDirectory": false,
-            "size": 798,
-            "modifiedTime": 1570466859187,
-            "changeTime": 1570466804095,
-            "contentHash": "e5a63461bda67ee35843d1580ba0d303a5edc6de",
             "isMetadataFile": false,
-            "state": "u"
+            "size": 798,
+            "modifiedTime": 1570466804095,
+            "changeTime": 1570466804095,
+            "contentHash": "e5a63461bda67ee35843d1580ba0d303a5edc6de"
         }
     ],
     [
@@ -8288,14 +8288,14 @@
     [
         "C:\\Users\\DmytroPinchuk\\CTProjects\\DXFirst\\force-app\\main\\default\\classes\\LeadsBySubjectsBatch.cls",
         {
-            "state": "u",
             "sourcePath": "C:\\Users\\DmytroPinchuk\\CTProjects\\DXFirst\\force-app\\main\\default\\classes\\LeadsBySubjectsBatch.cls",
             "isDirectory": false,
+            "size": 2591,
+            "modifiedTime": 1570464213058,
+            "changeTime": 1570464213058,
+            "contentHash": "96252eb775d0220cf27e95011525927e152a7144",
             "isMetadataFile": false,
-            "size": 3042,
-            "modifiedTime": 1570467839707,
-            "changeTime": 1570467839707,
-            "contentHash": "5fe7192c0c994c71f4361c3b71a527b62c7f0d3d"
+            "state": "u"
         }
     ],
     [

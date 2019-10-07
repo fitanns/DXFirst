@@ -3,7 +3,11 @@
  */
 
 ({
-    chartLoaded : function (component, event, helper) {
-        helper.getLeadsBySubjects(component);
+    doInit: function (component, event, helper) {
+        helper.subscribeToEvent(component);
+    },
+    chartLoaded: function (component, event, helper) {
+        // helper.getLeadsBySubjects(component);
+        helper.fireFormData(component);
     }
 });

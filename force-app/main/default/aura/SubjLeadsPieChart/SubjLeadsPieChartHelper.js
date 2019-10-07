@@ -3,6 +3,17 @@
  */
 
 ({
+    subscribeToEvent: function (component) {
+        let empApi = component.find('empApi');
+        empApi.subscribe("/event/Batch_Completed__e", -1, $A.getCallback(searchResult => {
+            this.handleEventAndGetData(component);
+            console.log('asd :');
+        })).then(subscription => {
+            component.set('v.subscription', subscription);
+        }).catch(error => {
+            console.log(JSON.stringify(error));
+        });
+    },
     getLeadsBySubjects: function (component) {
         const request = component.find("requestCall");
         const requestMethodResult = request.enqueue("c.getLeadsBySubject", {});
@@ -59,5 +70,39 @@
 
         let context = document.getElementById("pie-chart");
         new Chart(context, config);
+    },
+    fireFormData: function (component) {
+        const request = component.find("requestCall");
+        const requestMethodResult = request.enqueue("c.fireBatchToFormData", {});
+        requestMethodResult.then(
+            result => {
+                console.log('success fire');
+            },
+            error => {
+                console.log('err fire');
+            }
+        );
+    },
+    handleEventAndGetData: function (component) {
+        const request = component.find("requestCall");
+        const requestMethodResult = request.enqueue("c.getLeadsBySubject", {});
+        requestMethodResult.then(
+            result => {
+                console.log('result : ' + JSON.stringify(result));
+                let labels = [],
+                    data = [];
+                result.forEach(function (element) {
+                    labels.push(element.Name);
+                    data.push(element.Quantity__c);
+                });
+                console.log('labels : ' + labels);
+                console.log('data : ' + data);
+                this.formChart(labels, data);
+            },
+            error => {
+            }
+        );
     }
+
+
 });

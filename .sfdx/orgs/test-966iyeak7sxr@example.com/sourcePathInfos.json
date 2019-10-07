@@ -2366,9 +2366,9 @@
             "sourcePath": "C:\\Users\\DmytroPinchuk\\CTProjects\\DXFirst\\force-app\\main\\default\\classes",
             "isDirectory": true,
             "size": 0,
-            "modifiedTime": 1570197505477,
-            "changeTime": 1570197505477,
-            "contentHash": "936090b27aed8e4a909cae3a9d2c2eb4d4e231b3",
+            "modifiedTime": 1570437905954,
+            "changeTime": 1570437905954,
+            "contentHash": "f073b3192e1118ec2f9e0f4a25a4ba71abcc31a1",
             "isMetadataFile": false,
             "state": "u",
             "isWorkspace": false
@@ -6863,9 +6863,9 @@
             "sourcePath": "C:\\Users\\DmytroPinchuk\\CTProjects\\DXFirst\\force-app\\main\\Utilities\\classes",
             "isDirectory": true,
             "size": 0,
-            "modifiedTime": 1569922551523,
-            "changeTime": 1569922551523,
-            "contentHash": "4a77048bca313d09ce75396527891eab3369c5f8",
+            "modifiedTime": 1570432533971,
+            "changeTime": 1570432533971,
+            "contentHash": "528a12273ec0b703e3432ed786bec738ad33c034",
             "isMetadataFile": false,
             "state": "u",
             "isWorkspace": false
@@ -7503,15 +7503,15 @@
     [
         "C:\\Users\\DmytroPinchuk\\CTProjects\\DXFirst\\force-app\\main\\Utilities\\TestDataFactory.cls",
         {
+            "state": "u",
             "sourcePath": "C:\\Users\\DmytroPinchuk\\CTProjects\\DXFirst\\force-app\\main\\Utilities\\TestDataFactory.cls",
             "isDirectory": false,
-            "size": 2902,
-            "modifiedTime": 1569518616140,
-            "changeTime": 1569518616140,
-            "contentHash": "65f857e6352e34564148f28a13368a5d1e2b86f6",
             "isMetadataFile": false,
-            "state": "u",
-            "isWorkspace": false
+            "size": 2945,
+            "modifiedTime": 1570438942393,
+            "changeTime": 1570438942393,
+            "isWorkspace": false,
+            "contentHash": "52f3e86495eab70b82e4edc999c28a912ba5eee5"
         }
     ],
     [
@@ -8057,9 +8057,9 @@
             "sourcePath": "C:\\Users\\DmytroPinchuk\\CTProjects\\DXFirst\\force-app\\main\\default\\aura\\SubjLeadsPieChart",
             "isDirectory": true,
             "size": 0,
-            "modifiedTime": 1570196866543,
-            "changeTime": 1570196866543,
-            "contentHash": "774ac551b1a4703912b958028ccb675cafe656ac",
+            "modifiedTime": 1570438742776,
+            "changeTime": 1570438742776,
+            "contentHash": "b34974c40842da0dd313d8fea72dde5203be51e2",
             "isMetadataFile": false,
             "state": "u"
         }
@@ -8069,10 +8069,10 @@
         {
             "sourcePath": "C:\\Users\\DmytroPinchuk\\CTProjects\\DXFirst\\force-app\\main\\default\\aura\\SubjLeadsPieChart\\SubjLeadsPieChart.cmp",
             "isDirectory": false,
-            "size": 575,
-            "modifiedTime": 1570205053182,
-            "changeTime": 1570205053182,
-            "contentHash": "ca3b2cb8f78207c37a49852c72acbb6234f5eb1f",
+            "size": 557,
+            "modifiedTime": 1570438774658,
+            "changeTime": 1570438774658,
+            "contentHash": "cf992cc6bb1e943e847dfc4c4ea83e9c55b3f6c2",
             "isMetadataFile": false,
             "state": "u"
         }
@@ -8106,14 +8106,14 @@
     [
         "C:\\Users\\DmytroPinchuk\\CTProjects\\DXFirst\\force-app\\main\\default\\aura\\SubjLeadsPieChart\\SubjLeadsPieChartHelper.js",
         {
-            "state": "u",
             "sourcePath": "C:\\Users\\DmytroPinchuk\\CTProjects\\DXFirst\\force-app\\main\\default\\aura\\SubjLeadsPieChart\\SubjLeadsPieChartHelper.js",
             "isDirectory": false,
+            "size": 2196,
+            "modifiedTime": 1570210237321,
+            "changeTime": 1570210237321,
+            "contentHash": "080601f270c3e6a2525e112a100b58f2d5bda4c1",
             "isMetadataFile": false,
-            "size": 2474,
-            "modifiedTime": 1570210174611,
-            "changeTime": 1570210174611,
-            "contentHash": "383ff84c5fb1256a439aa2c0b1eb027064a54e61"
+            "state": "u"
         }
     ],
     [
@@ -8147,10 +8147,10 @@
         {
             "sourcePath": "C:\\Users\\DmytroPinchuk\\CTProjects\\DXFirst\\force-app\\main\\default\\classes\\SubjLeadsChartController.cls",
             "isDirectory": false,
-            "size": 1067,
-            "modifiedTime": 1570203596295,
-            "changeTime": 1570203596295,
-            "contentHash": "5452c6f718253b3af123760141a0b0db396fa605",
+            "size": 993,
+            "modifiedTime": 1570437348810,
+            "changeTime": 1570437348810,
+            "contentHash": "4fc9561f8fde8e1b1e4a324d32104a5f73601586",
             "isMetadataFile": false,
             "state": "u"
         }
@@ -8165,6 +8165,123 @@
             "changeTime": 1570196599017,
             "contentHash": "463a780dc1b11f5d645b2a49558ed28551f48927",
             "isMetadataFile": true,
+            "state": "u"
+        }
+    ],
+    [
+        "C:\\Users\\DmytroPinchuk\\CTProjects\\DXFirst\\force-app\\main\\default\\classes\\LeadsBySubjectSelector.cls",
+        {
+            "sourcePath": "C:\\Users\\DmytroPinchuk\\CTProjects\\DXFirst\\force-app\\main\\default\\classes\\LeadsBySubjectSelector.cls",
+            "isDirectory": false,
+            "size": 538,
+            "modifiedTime": 1570437117704,
+            "changeTime": 1570437117704,
+            "contentHash": "e6cc689830b83247b0e3335aa88b078e3d7f5e99",
+            "isMetadataFile": false,
+            "state": "u"
+        }
+    ],
+    [
+        "C:\\Users\\DmytroPinchuk\\CTProjects\\DXFirst\\force-app\\main\\default\\classes\\LeadsBySubjectSelector.cls-meta.xml",
+        {
+            "sourcePath": "C:\\Users\\DmytroPinchuk\\CTProjects\\DXFirst\\force-app\\main\\default\\classes\\LeadsBySubjectSelector.cls-meta.xml",
+            "isDirectory": false,
+            "size": 179,
+            "modifiedTime": 1570432763395,
+            "changeTime": 1570432763395,
+            "contentHash": "463a780dc1b11f5d645b2a49558ed28551f48927",
+            "isMetadataFile": true,
+            "state": "u"
+        }
+    ],
+    [
+        "C:\\Users\\DmytroPinchuk\\CTProjects\\DXFirst\\force-app\\main\\Utilities\\classes\\QueryBuilder.cls",
+        {
+            "sourcePath": "C:\\Users\\DmytroPinchuk\\CTProjects\\DXFirst\\force-app\\main\\Utilities\\classes\\QueryBuilder.cls",
+            "isDirectory": false,
+            "size": 78041,
+            "modifiedTime": 1570437117680,
+            "changeTime": 1570437117680,
+            "contentHash": "21c3bcaa00e40e8900450bbbb7718ad046318e0f",
+            "isMetadataFile": false,
+            "state": "u"
+        }
+    ],
+    [
+        "C:\\Users\\DmytroPinchuk\\CTProjects\\DXFirst\\force-app\\main\\Utilities\\classes\\QueryBuilder.cls-meta.xml",
+        {
+            "sourcePath": "C:\\Users\\DmytroPinchuk\\CTProjects\\DXFirst\\force-app\\main\\Utilities\\classes\\QueryBuilder.cls-meta.xml",
+            "isDirectory": false,
+            "size": 174,
+            "modifiedTime": 1570432533917,
+            "changeTime": 1570432533917,
+            "contentHash": "ab3ac94968e57930b88820ab5438fa820ed36730",
+            "isMetadataFile": true,
+            "state": "u"
+        }
+    ],
+    [
+        "C:\\Users\\DmytroPinchuk\\CTProjects\\DXFirst\\force-app\\main\\Utilities\\classes\\QueryBuilderTest.cls",
+        {
+            "sourcePath": "C:\\Users\\DmytroPinchuk\\CTProjects\\DXFirst\\force-app\\main\\Utilities\\classes\\QueryBuilderTest.cls",
+            "isDirectory": false,
+            "size": 29268,
+            "modifiedTime": 1570432533965,
+            "changeTime": 1570432533965,
+            "contentHash": "79c505174244b0180bb4430be615e7e687adf5aa",
+            "isMetadataFile": false,
+            "state": "u"
+        }
+    ],
+    [
+        "C:\\Users\\DmytroPinchuk\\CTProjects\\DXFirst\\force-app\\main\\Utilities\\classes\\QueryBuilderTest.cls-meta.xml",
+        {
+            "sourcePath": "C:\\Users\\DmytroPinchuk\\CTProjects\\DXFirst\\force-app\\main\\Utilities\\classes\\QueryBuilderTest.cls-meta.xml",
+            "isDirectory": false,
+            "size": 174,
+            "modifiedTime": 1570432533994,
+            "changeTime": 1570432533994,
+            "contentHash": "ab3ac94968e57930b88820ab5438fa820ed36730",
+            "isMetadataFile": true,
+            "state": "u"
+        }
+    ],
+    [
+        "C:\\Users\\DmytroPinchuk\\CTProjects\\DXFirst\\force-app\\main\\default\\classes\\SubjLeadsChartControllerTest.cls",
+        {
+            "state": "u",
+            "sourcePath": "C:\\Users\\DmytroPinchuk\\CTProjects\\DXFirst\\force-app\\main\\default\\classes\\SubjLeadsChartControllerTest.cls",
+            "isDirectory": false,
+            "isMetadataFile": false,
+            "size": 727,
+            "modifiedTime": 1570438942405,
+            "changeTime": 1570438942405,
+            "contentHash": "b8429e9d376e617ace60ac95547bcbe7978bd71e"
+        }
+    ],
+    [
+        "C:\\Users\\DmytroPinchuk\\CTProjects\\DXFirst\\force-app\\main\\default\\classes\\SubjLeadsChartControllerTest.cls-meta.xml",
+        {
+            "sourcePath": "C:\\Users\\DmytroPinchuk\\CTProjects\\DXFirst\\force-app\\main\\default\\classes\\SubjLeadsChartControllerTest.cls-meta.xml",
+            "isDirectory": false,
+            "size": 179,
+            "modifiedTime": 1570437905962,
+            "changeTime": 1570437905962,
+            "contentHash": "463a780dc1b11f5d645b2a49558ed28551f48927",
+            "isMetadataFile": true,
+            "state": "u"
+        }
+    ],
+    [
+        "C:\\Users\\DmytroPinchuk\\CTProjects\\DXFirst\\force-app\\main\\default\\aura\\SubjLeadsPieChart\\SubjLeadsPieChart.css",
+        {
+            "sourcePath": "C:\\Users\\DmytroPinchuk\\CTProjects\\DXFirst\\force-app\\main\\default\\aura\\SubjLeadsPieChart\\SubjLeadsPieChart.css",
+            "isDirectory": false,
+            "size": 116,
+            "modifiedTime": 1570438774668,
+            "changeTime": 1570438774668,
+            "contentHash": "885556ad9d8a6b445f3d5acd81d190bd44e7c14b",
+            "isMetadataFile": false,
             "state": "u"
         }
     ]

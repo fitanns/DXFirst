@@ -22,11 +22,11 @@ public with sharing class TestDataFactory {
         insert timeSlots;
         return timeSlots;
     }
-    public static List<Lead> insertLeads(Integer numberOfLeads) {
+    public static List<Lead> insertLeads(Integer numberOfLeads,Subject__c subject) {
         List<Lead> leads = new List<Lead>();
         for (Integer i = 1; i <= numberOfLeads; i++) {
             leads.add(new Lead(FirstName = 'TestName' + i, LastName = 'LastTestName' + i,
-                    Company = 'TestCompanyName' + i, Status = 'Open - Not Contacted', Email = 'somtestemail' + i + '@gmail.com'));
+                    Company = 'TestCompanyName' + i, Status = 'Open - Not Contacted', Email = 'somtestemail' + i + '@gmail.com',Subject__c = subject.Id));
         }
         insert leads;
         return leads;

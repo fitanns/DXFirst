@@ -5,16 +5,12 @@
 public with sharing class SubjLeadsChartController {
     @AuraEnabled
     public static List<Data> getLeadsBySubject() {
-        List<AggregateResult> aggRes = [
-                SELECT Count(Id) quantity, Subject__r.Name
-                FROM Lead
-                WHERE IsConverted = false
-                GROUP BY Subject__r.Name
-        ];
+        LeadsBySubjectSelector subjectSelector = new LeadsBySubjectSelector();
+        List<AggregateResult> aggRes = subjectSelector.leadsBySubjects();
         List<Data> data = new List<Data>();
         for (AggregateResult aggregateResult : aggRes) {
             String subjectName = (String) aggregateResult.get('Name');
-            Integer leadsQuantity = (Integer) aggregateResult.get('quantity');
+            Integer leadsQuantity = (Integer) aggregateResult.get('expr0');
             data.add(new Data(subjectName, leadsQuantity));
         }
         return data;

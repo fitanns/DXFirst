@@ -8,7 +8,7 @@
                   afterScriptsLoaded="{!c.chartLoaded}"/>
 
     <c:RequestCmp aura:id="requestCall" context="{!this}"/>
-    <div style="width: 500px; height: 500px;">
+    <div class="pie-canvas">
     <lightning:card title="Leads of Subject">
         <canvas id="pie-chart" ></canvas>
     </lightning:card>

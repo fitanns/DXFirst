@@ -25,19 +25,9 @@ public with sharing class LeadsBySubjectsBatch implements Database.Batchable<sOb
     }
 
     public void finish(Database.BatchableContext param1) {
-        AsyncApexJob job = [
-                SELECT Id, Status, NumberOfErrors,
-                        JobItemsProcessed,
-                        TotalJobItems, CreatedBy.Email
-                FROM AsyncApexJob
-                WHERE Id = :param1.getJobId()
-        ];
+        AsyncApexJobSelector jobSelector = new AsyncApexJobSelector();
+        AsyncApexJob job = (AsyncApexJob) jobSelector.getJob(param1.getJobId());
         if (job.Status == 'Completed') {
-/*            List<SubjectsLeadsData__c> subjectsLeadsData = [
-                    SELECT Id,Name,Quantity__c
-                    FROM SubjectsLeadsData__c
-                    WHERE Name IN :countsLeadsOfSubjects.keySet()
-            ];*/
             LeadsBySubjectSelector leadsBySubjectSelector = new LeadsBySubjectSelector();
             List<SubjectsLeadsData__c> subjectsLeadsData = leadsBySubjectSelector.subjectsLeadsDataByName(countsLeadsOfSubjects.keySet());
 

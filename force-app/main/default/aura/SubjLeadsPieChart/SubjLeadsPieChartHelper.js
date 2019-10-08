@@ -7,7 +7,6 @@
         let empApi = component.find('empApi');
         empApi.subscribe("/event/Batch_Completed__e", -1, $A.getCallback(searchResult => {
             this.handleEventAndGetData(component);
-            console.log('asd :');
         })).then(subscription => {
             component.set('v.subscription', subscription);
         }).catch(error => {

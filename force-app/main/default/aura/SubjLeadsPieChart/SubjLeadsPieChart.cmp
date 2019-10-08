@@ -10,12 +10,12 @@
     <ltng:require scripts="{!$Resource.ChartJs}"
                   afterScriptsLoaded="{!c.chartLoaded}"/>
 
-    <aura:if isTrue="{!v.spinner}">
-        <lightning:spinner size="medium" variant="brand" alternativeText="Loading"/>
-    </aura:if>
     <lightning:empApi aura:id="empApi"/>
     <c:RequestCmp aura:id="requestCall" context="{!this}"/>
     <div class="pie-canvas">
+        <aura:if isTrue="{!v.spinner}">
+            <lightning:spinner size="medium" variant="brand" alternativeText="Loading"/>
+        </aura:if>
         <lightning:card title="Leads of Subject">
             <canvas id="pie-chart"></canvas>
         </lightning:card>

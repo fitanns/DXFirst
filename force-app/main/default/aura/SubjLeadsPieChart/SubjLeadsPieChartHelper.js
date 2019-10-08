@@ -31,6 +31,37 @@
             }
         );
     },
+    fireFormData: function (component) {
+        const request = component.find("requestCall");
+        const requestMethodResult = request.enqueue("c.fireBatchToFormData", {});
+        component.set("v.spinner", true);
+        requestMethodResult.then(
+            result => {
+                console.log('success fire');
+            },
+            error => {
+                console.log('err fire');
+            }
+        );
+    },
+    handleEventAndGetData: function (component) {
+        const request = component.find("requestCall");
+        const requestMethodResult = request.enqueue("c.getSubjectsLeadsData", {});
+        requestMethodResult.then(
+            result => {
+                let labels = [],
+                    data = [];
+                result.forEach(function (element) {
+                    labels.push(element.Name);
+                    data.push(element.Quantity__c);
+                });
+                component.set("v.spinner", false);
+                this.formChart(labels, data);
+            },
+            error => {
+            }
+        );
+    },
     formChart: function (labels, datas) {
         let config = {
             type: 'doughnut',
@@ -71,38 +102,5 @@
         let context = document.getElementById("pie-chart");
         new Chart(context, config);
     },
-    fireFormData: function (component) {
-        const request = component.find("requestCall");
-        const requestMethodResult = request.enqueue("c.fireBatchToFormData", {});
-        requestMethodResult.then(
-            result => {
-                console.log('success fire');
-            },
-            error => {
-                console.log('err fire');
-            }
-        );
-    },
-    handleEventAndGetData: function (component) {
-        const request = component.find("requestCall");
-        const requestMethodResult = request.enqueue("c.getLeadsBySubject", {});
-        requestMethodResult.then(
-            result => {
-                console.log('result : ' + JSON.stringify(result));
-                let labels = [],
-                    data = [];
-                result.forEach(function (element) {
-                    labels.push(element.Name);
-                    data.push(element.Quantity__c);
-                });
-                console.log('labels : ' + labels);
-                console.log('data : ' + data);
-                this.formChart(labels, data);
-            },
-            error => {
-            }
-        );
-    }
-
 
 });

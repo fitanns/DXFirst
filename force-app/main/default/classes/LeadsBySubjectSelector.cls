@@ -5,7 +5,7 @@
 public with sharing class LeadsBySubjectSelector extends QueryBuilder {
 
     public List<AggregateResult> leadsBySubjects() {
-        return (List<AggregateResult>)new QueryBuilder(Lead.class)
+        return (List<AggregateResult>) new QueryBuilder(Lead.class)
                 .addCountByField('Id')
                 .addField('Subject__r.Name')
                 .addConditions().add(new QueryBuilder.SimpleCondition('IsConverted = false')).endConditions()
@@ -13,10 +13,18 @@ public with sharing class LeadsBySubjectSelector extends QueryBuilder {
                 .toList();
 
     }
-    public List<SubjectsLeadsData__c> subjectsLeadsData(){
+    public List<SubjectsLeadsData__c> subjectsLeadsData() {
         return (List<SubjectsLeadsData__c>) new QueryBuilder(SubjectsLeadsData__c.class)
                 .addField('Name')
                 .addField('Quantity__c')
+                .toList();
+    }
+
+    public List<SubjectsLeadsData__c> subjectsLeadsDataByName(Set<String> names) {
+        return(List<SubjectsLeadsData__c>) new QueryBuilder(SubjectsLeadsData__c.class)
+                .addField('Name')
+                .addField('Quantity__c')
+                .addConditions().add(new QueryBuilder.InCondition('Name').inCollection(names)).endConditions()
                 .toList();
     }
 }

@@ -6,7 +6,8 @@
     subscribeToEvent: function (component) {
         let empApi = component.find('empApi');
         empApi.subscribe("/event/Batch_Completed__e", -1, $A.getCallback(searchResult => {
-            this.handleEventAndGetData(component);
+            this.handleEventAndGetData(component, searchResult.data.payload);
+            console.log('seatchRes : ' + JSON.stringify(searchResult.data.payload));
         })).then(subscription => {
             component.set('v.subscription', subscription);
         }).catch(error => {
@@ -43,23 +44,28 @@
             }
         );
     },
-    handleEventAndGetData: function (component) {
-        const request = component.find("requestCall");
-        const requestMethodResult = request.enqueue("c.getSubjectsLeadsData", {});
-        requestMethodResult.then(
-            result => {
-                let labels = [],
-                    data = [];
-                result.forEach(function (element) {
-                    labels.push(element.Name);
-                    data.push(element.Quantity__c);
-                });
-                component.set("v.spinner", false);
-                this.formChart(labels, data);
-            },
-            error => {
-            }
-        );
+    handleEventAndGetData: function (component, batchStatus) {
+        if (batchStatus.Status__c === 'Failed') {
+            component.set("v.spinner", false);
+            component.set("v.errorMessage", true);
+        } else {
+            const request = component.find("requestCall");
+            const requestMethodResult = request.enqueue("c.getSubjectsLeadsData", {});
+            requestMethodResult.then(
+                result => {
+                    let labels = [],
+                        data = [];
+                    result.forEach(function (element) {
+                        labels.push(element.Name);
+                        data.push(element.Quantity__c);
+                    });
+                    component.set("v.spinner", false);
+                    this.formChart(labels, data);
+                },
+                error => {
+                }
+            );
+        }
     },
     formChart: function (labels, datas) {
         let config = {

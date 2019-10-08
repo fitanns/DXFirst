@@ -46,7 +46,18 @@ public with sharing class LeadService {
                     System.debug('Error converting new Lead: ' + lcr.getErrors()[0].getMessage());
                 }
             }
-
         }
+    }
+    public Map<String, Integer> formLeadsBySubject(List<Lead> leads) {
+        Map<String, Integer> countsLeadsOfSubjects = new Map<String, Integer>();
+        for (Lead lead : leads) {
+            if (!countsLeadsOfSubjects.containsKey(lead.Subject__r.Name)) {
+                countsLeadsOfSubjects.put(lead.Subject__r.Name, 1);
+            } else {
+                Integer count = countsLeadsOfSubjects.get(lead.Subject__r.Name);
+                countsLeadsOfSubjects.put(lead.Subject__r.Name, count + 1);
+            }
+        }
+        return countsLeadsOfSubjects;
     }
 }

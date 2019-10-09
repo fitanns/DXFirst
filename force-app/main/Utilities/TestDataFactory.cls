@@ -12,6 +12,11 @@ public with sharing class TestDataFactory {
         insert subjects;
         return subjects;
     }
+    public static Subject__c insertSingleSubjectsByName(Integer numberOfSubjects, String subjectName) {
+        Subject__c subjects = new Subject__c(Name = subjectName, Number_of_Lessons__c = 4);
+        insert subjects;
+        return subjects;
+    }
 
     public static List<TimeSlot__c> insertTimeSlots(Integer numberOfTimeSlots, Id subjectId) {
         List<TimeSlot__c> timeSlots = new List<TimeSlot__c>();
@@ -22,11 +27,11 @@ public with sharing class TestDataFactory {
         insert timeSlots;
         return timeSlots;
     }
-    public static List<Lead> insertLeads(Integer numberOfLeads,Subject__c subject) {
+    public static List<Lead> insertLeads(Integer numberOfLeads, Subject__c subject) {
         List<Lead> leads = new List<Lead>();
         for (Integer i = 1; i <= numberOfLeads; i++) {
             leads.add(new Lead(FirstName = 'TestName' + i, LastName = 'LastTestName' + i,
-                    Company = 'TestCompanyName' + i, Status = 'Open - Not Contacted', Email = 'somtestemail' + i + '@gmail.com',Subject__c = subject.Id));
+                    Company = 'TestCompanyName' + i, Status = 'Open - Not Contacted', Email = 'somtestemail' + i + '@gmail.com', Subject__c = subject.Id));
         }
         insert leads;
         return leads;

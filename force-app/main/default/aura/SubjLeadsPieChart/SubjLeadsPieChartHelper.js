@@ -67,6 +67,26 @@
             );
         }
     },
+    getData: function (component) {
+        component.set("v.spinner", true);
+        const request = component.find("requestCall");
+        const requestMethodResult = request.enqueue("c.getSubjectsLeadsData", {});
+        requestMethodResult.then(
+            result => {
+                console.log('reasd : ' + JSON.stringify(result));
+                let labels = [],
+                    data = [];
+                result.forEach(function (element) {
+                    labels.push(element.Name);
+                    data.push(element.Quantity__c);
+                });
+                component.set("v.spinner", false);
+                this.formChart(labels, data);
+            },
+            error => {
+            }
+        );
+    },
     formChart: function (labels, datas) {
         let config = {
             type: 'doughnut',

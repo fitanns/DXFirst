@@ -4,10 +4,11 @@
 
 ({
     doInit: function (component, event, helper) {
-        helper.subscribeToEvent(component);
+        // helper.subscribeToEvent(component);
     },
     chartLoaded: function (component, event, helper) {
         // helper.getLeadsBySubjects(component);
-        helper.fireFormData(component);
+        // helper.fireFormData(component);
+        helper.getData(component);
     }
 });

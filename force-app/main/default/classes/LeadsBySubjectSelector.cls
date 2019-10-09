@@ -11,7 +11,6 @@ public with sharing class LeadsBySubjectSelector extends QueryBuilder {
                 .addConditions().add(new QueryBuilder.SimpleCondition('IsConverted = false')).endConditions()
                 .addGroupBy('Subject__r.Name')
                 .toList();
-
     }
     public List<SubjectsLeadsData__c> subjectsLeadsData() {
         return (List<SubjectsLeadsData__c>) new QueryBuilder(SubjectsLeadsData__c.class)

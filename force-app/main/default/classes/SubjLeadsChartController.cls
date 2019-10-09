@@ -15,13 +15,12 @@ public with sharing class SubjLeadsChartController {
         }
         return data;
     }
+
+
     @AuraEnabled
     public static void fireBatchToFormData() {
         LeadsBySubjectsBatch batch = new LeadsBySubjectsBatch();
         Id batchId = Database.executeBatch(batch);
-        AsyncApexJobSelector jobSelector = new AsyncApexJobSelector();
-        AsyncApexJob job = (AsyncApexJob) jobSelector.getJob(batchId);
-
     }
 
     @AuraEnabled

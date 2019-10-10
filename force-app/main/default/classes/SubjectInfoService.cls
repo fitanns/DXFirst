@@ -2,17 +2,11 @@
  * Created by DmytroPinchuk on 17.09.2019.
  */
 
-public with sharing class SubjectInfoService {
+public with sharing class SubjectInfoService implements SubjectInterface{
 
-/*    public static List<String> getObjectLabels(String objectName) {
-        Map<String, Schema.SObjectField> fieldMap = Schema.SObjectType.objectName.fields.getMap();
-        List<String> objectLabels = new List<String>();
-        for (SObjectField field : fieldMap.values()) {
-            DescribeFieldResult dfr = field.getDescribe();
-            String fieldName = dfr.getName();
-            String fieldLabel = dfr.getLabel();
-            objectLabels.add(fieldLabel);
-        }
-        return objectLabels;
-    }*/
+    public List<Subject__c> getSubjectInfo(String subjectName) {
+        SubjectQuerySelector selector = new SubjectQuerySelector();
+        List<Subject__c> subjects = selector.getSubjectsByName(subjectName);
+        return subjects;
+    }
 }

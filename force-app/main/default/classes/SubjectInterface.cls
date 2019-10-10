@@ -3,5 +3,5 @@
  */
 
 public interface SubjectInterface {
-    List<Subject__c> getSubjectInfo();
+    List<Subject__c> getSubjectInfo(String subjectName);
 }

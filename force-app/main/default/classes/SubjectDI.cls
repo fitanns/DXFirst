@@ -3,14 +3,16 @@
  */
 
 public with sharing class SubjectDI {
-    public List<Subject__c> mathInfo() {
-        SubjectInfoFactory factory = new SubjectInfoFactory();
-        SubjectInterface mathInterface = factory.getMathInfo();
-        return mathInterface.getSubjectInfo();
+    public Subject__c getSubjectInformation(String subjectName) {
+        DependencyInjector.overrideByStatic(SubjectInterface.class, SubjectInfoService.class);
+        SubjectInterface subjectInterface = (SubjectInterface) DependencyInjector.getInstance(SubjectInterface.class);
+        List<Subject__c> subject = subjectInterface.getSubjectInfo(subjectName);
+        if (subject.size() > 0) {
+            return subject[0];
+        } else {
+            throw new SubjectNotExistException('This subject does not exist. Please try to find another.');
+        }
     }
-    public List<Subject__c> phizInfo() {
-        SubjectInfoFactory factory = new SubjectInfoFactory();
-        SubjectInterface phizInterface = factory.getPhizInfo();
-        return phizInterface.getSubjectInfo();
+    public class SubjectNotExistException extends Exception {
     }
 }

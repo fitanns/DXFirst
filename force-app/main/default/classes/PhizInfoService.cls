@@ -4,9 +4,10 @@
 
 public with sharing class PhizInfoService implements SubjectInterface {
 
-    public List<Subject__c> getSubjectInfo() {
+    public List<Subject__c> getSubjectInfo(String subjectName) {
         SubjectQuerySelector selector = new SubjectQuerySelector();
         List<Subject__c> subjects = selector.getSubjectsByName('Phiz');
         return subjects;
     }
+
 }

@@ -10,7 +10,6 @@ public with sharing class LeadsBySubjectsBatch implements Database.Batchable<sOb
 /*        String leadQuery = 'SELECT Count(Id), Subject__r.Name FROM Lead WHERE IsConverted = false GROUP BY Subject__r.Name';
         return new AggregateResultIterable(leadQuery);
         'SELECT Count(Id), Subject__r.Name FROM Lead WHERE IsConverted = false GROUP BY Subject__r.Name' */
-
         return Database.getQueryLocator('SELECT Id, Subject__r.Name FROM Lead WHERE IsConverted = false');
     }
 
@@ -22,26 +21,29 @@ public with sharing class LeadsBySubjectsBatch implements Database.Batchable<sOb
     public void finish(Database.BatchableContext param1) {
         AsyncApexJobSelector jobSelector = new AsyncApexJobSelector();
         AsyncApexJob job = (AsyncApexJob) jobSelector.getJob(param1.getJobId());
-
         if (job.Status == 'Completed') {
-            LeadsBySubjectSelector leadsBySubjectSelector = new LeadsBySubjectSelector();
-            List<SubjectsLeadsData__c> subjectsLeadsData = leadsBySubjectSelector.subjectsLeadsDataByName(countsLeadsOfSubjects.keySet());
-
-            SubjectsLeadsDataService sldService = new SubjectsLeadsDataService();
-            sldService.formOrUpdateData(subjectsLeadsData, countsLeadsOfSubjects);
-
-            Batch_Completed__e batchCompleted = new Batch_Completed__e();
-            batchCompleted.Status__c = 'Completed';
-            PublishPlatformEventService publish = new PublishPlatformEventService();
-            publish.publishMessage(batchCompleted);
+            LeadsBySubjectsBatch.insertOrUpdateData(countsLeadsOfSubjects);
         }
-        System.debug('Status : ' + job.Status);
         if (job.Status == 'Failed') {
-            Batch_Completed__e batchCompleted = new Batch_Completed__e();
-            batchCompleted.Status__c = 'Failed';
-            PublishPlatformEventService publish = new PublishPlatformEventService();
-            publish.publishMessage(batchCompleted);
+            LeadsBySubjectsBatch.failedEvent();
         }
+    }
+    public static void insertOrUpdateData(Map<String, Integer> countsLeadsOfSubjects) {
+        LeadsBySubjectSelector leadsBySubjectSelector = new LeadsBySubjectSelector();
+        List<SubjectsLeadsData__c> subjectsLeadsData = leadsBySubjectSelector.subjectsLeadsDataByName(countsLeadsOfSubjects.keySet());
 
+        SubjectsLeadsDataService sldService = new SubjectsLeadsDataService();
+        sldService.formOrUpdateData(subjectsLeadsData, countsLeadsOfSubjects);
+
+        Batch_Completed__e batchCompleted = new Batch_Completed__e();
+        batchCompleted.Status__c = 'Completed';
+        PublishPlatformEventService publish = new PublishPlatformEventService();
+        publish.publishMessage(batchCompleted);
+    }
+    public static void failedEvent(){
+        Batch_Completed__e batchCompleted = new Batch_Completed__e();
+        batchCompleted.Status__c = 'Failed';
+        PublishPlatformEventService publish = new PublishPlatformEventService();
+        publish.publishMessage(batchCompleted);
     }
 }

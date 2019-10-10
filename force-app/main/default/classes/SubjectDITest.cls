@@ -4,23 +4,26 @@
 @isTest
 public with sharing class SubjectDITest {
     @isTest
-    public static void testMathInfoDI() {
-        Subject__c subject = TestDataFactory.insertSingleSubjectsByName(1,'Math');
-        SubjectDI subjectDI = new SubjectDI();
+    public static void testGetSubjectInformation() {
+        Subject__c testSubject = TestDataFactory.insertSingleSubjectsByName(1, 'Loper');
         Test.startTest();
-        List<Subject__c> subjects = subjectDI.mathInfo();
+        SubjectDI subjectDI = new SubjectDI();
+        Subject__c subject = subjectDI.getSubjectInformation('Loper');
         Test.stopTest();
-        System.assertEquals(1, subjects.size());
-
+        System.assertEquals(subject.Name, testSubject.Name);
     }
     @isTest
-    public static void testPhizInfoDI() {
-        Subject__c subject = TestDataFactory.insertSingleSubjectsByName(1,'Phiz');
-        SubjectDI subjectDI = new SubjectDI();
+    public static void testGetSubjectInformationWithWrongName() {
+        Subject__c testSubject = TestDataFactory.insertSingleSubjectsByName(1, 'Run');
         Test.startTest();
-        List<Subject__c> subjects = subjectDI.phizInfo();
+        String errMessage;
+        try {
+            SubjectDI subjectDI = new SubjectDI();
+            Subject__c subject = subjectDI.getSubjectInformation('Loper');
+        } catch (SubjectDI.SubjectNotExistException e) {
+            errMessage = e.getMessage();
+        }
         Test.stopTest();
-        System.assertEquals(1, subjects.size());
-
+        System.assertEquals('This subject does not exist. Please try to find another.', errMessage);
     }
 }

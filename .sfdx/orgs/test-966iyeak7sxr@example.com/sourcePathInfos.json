@@ -2366,9 +2366,9 @@
             "sourcePath": "C:\\Users\\DmytroPinchuk\\CTProjects\\DXFirst\\force-app\\main\\default\\classes",
             "isDirectory": true,
             "size": 0,
-            "modifiedTime": 1570727432942,
-            "changeTime": 1570727432942,
-            "contentHash": "aaa45a8d37651f0f2a78640101bbc93ae6351af3",
+            "modifiedTime": 1570792998084,
+            "changeTime": 1570792998084,
+            "contentHash": "2b49475a031d10a284dc91219a780482cb04eb56",
             "isMetadataFile": false,
             "state": "u",
             "isWorkspace": false
@@ -6846,7 +6846,7 @@
             "sourcePath": "C:\\Users\\DmytroPinchuk\\CTProjects\\DXFirst\\force-app\\main\\Utilities",
             "isDirectory": true,
             "size": 0,
-            "modifiedTime": 1570723879974,
+            "modifiedTime": 1570791661789,
             "changeTime": 1569503473018,
             "contentHash": "12d10823d5128a9df3ddaac2167312ffb097685e",
             "isMetadataFile": false,
@@ -7502,10 +7502,10 @@
         {
             "sourcePath": "C:\\Users\\DmytroPinchuk\\CTProjects\\DXFirst\\force-app\\main\\Utilities\\TestDataFactory.cls",
             "isDirectory": false,
-            "size": 3204,
-            "modifiedTime": 1570634295972,
-            "changeTime": 1570634295972,
-            "contentHash": "946d2ce0a0765fd39e5cf3bfdb3fec332f798c83",
+            "size": 4509,
+            "modifiedTime": 1570778943380,
+            "changeTime": 1570778943380,
+            "contentHash": "9d49d813229f952137ba3435635f850a6d9fe0cc",
             "isMetadataFile": false,
             "state": "u",
             "isWorkspace": false
@@ -8753,14 +8753,14 @@
     [
         "C:\\Users\\DmytroPinchuk\\CTProjects\\DXFirst\\force-app\\main\\default\\classes\\OpportunityService.cls",
         {
+            "state": "u",
             "sourcePath": "C:\\Users\\DmytroPinchuk\\CTProjects\\DXFirst\\force-app\\main\\default\\classes\\OpportunityService.cls",
             "isDirectory": false,
-            "size": 660,
-            "modifiedTime": 1570728425039,
-            "changeTime": 1570728425039,
-            "contentHash": "1ef3b64f683f8474b7fff84606e1589e782fa831",
             "isMetadataFile": false,
-            "state": "u"
+            "size": 1153,
+            "modifiedTime": 1570798598294,
+            "changeTime": 1570798598294,
+            "contentHash": "1e69b0965e34d2ed1f702b2a67ca683d09872465"
         }
     ],
     [
@@ -8783,10 +8783,10 @@
             "sourcePath": "C:\\Users\\DmytroPinchuk\\CTProjects\\DXFirst\\force-app\\main\\default\\classes\\OpportunityTriggerHandler.cls",
             "isDirectory": false,
             "isMetadataFile": false,
-            "size": 337,
-            "modifiedTime": 1570728613942,
-            "changeTime": 1570728613942,
-            "contentHash": "8bba65208fdef4553d3a910398237232d47975bb"
+            "size": 691,
+            "modifiedTime": 1570798598289,
+            "changeTime": 1570798598289,
+            "contentHash": "e22e91e873aed40222d5512c982808b265b377d7"
         }
     ],
     [
@@ -8807,10 +8807,10 @@
         {
             "sourcePath": "C:\\Users\\DmytroPinchuk\\CTProjects\\DXFirst\\force-app\\main\\default\\classes\\SendSmsService.cls",
             "isDirectory": false,
-            "size": 1703,
-            "modifiedTime": 1570728425047,
-            "changeTime": 1570728425047,
-            "contentHash": "b950a244c8f6616b3f886bbe2a84be499e01c582",
+            "size": 1757,
+            "modifiedTime": 1570792805885,
+            "changeTime": 1570792805885,
+            "contentHash": "214aa4e4eea39e8d6cdaca963264c8e203f0b3d6",
             "isMetadataFile": false,
             "state": "u"
         }
@@ -8850,6 +8850,84 @@
             "modifiedTime": 1570724879852,
             "changeTime": 1570724879852,
             "contentHash": "b0ba6c96733f5e5c86c76b9b854eeaa458610157",
+            "isMetadataFile": true,
+            "state": "u"
+        }
+    ],
+    [
+        "C:\\Users\\DmytroPinchuk\\CTProjects\\DXFirst\\force-app\\main\\default\\classes\\OpportunityServiceTest.cls",
+        {
+            "sourcePath": "C:\\Users\\DmytroPinchuk\\CTProjects\\DXFirst\\force-app\\main\\default\\classes\\OpportunityServiceTest.cls",
+            "isDirectory": false,
+            "size": 2315,
+            "modifiedTime": 1570793360532,
+            "changeTime": 1570793360532,
+            "contentHash": "3b16a4b1689da6a5df7bbaa193334ca4fc0a0228",
+            "isMetadataFile": false,
+            "state": "u"
+        }
+    ],
+    [
+        "C:\\Users\\DmytroPinchuk\\CTProjects\\DXFirst\\force-app\\main\\default\\classes\\OpportunityServiceTest.cls-meta.xml",
+        {
+            "sourcePath": "C:\\Users\\DmytroPinchuk\\CTProjects\\DXFirst\\force-app\\main\\default\\classes\\OpportunityServiceTest.cls-meta.xml",
+            "isDirectory": false,
+            "size": 179,
+            "modifiedTime": 1570776708683,
+            "changeTime": 1570776708683,
+            "contentHash": "463a780dc1b11f5d645b2a49558ed28551f48927",
+            "isMetadataFile": true,
+            "state": "u"
+        }
+    ],
+    [
+        "C:\\Users\\DmytroPinchuk\\CTProjects\\DXFirst\\force-app\\main\\default\\classes\\QueueableSendSms.cls",
+        {
+            "sourcePath": "C:\\Users\\DmytroPinchuk\\CTProjects\\DXFirst\\force-app\\main\\default\\classes\\QueueableSendSms.cls",
+            "isDirectory": false,
+            "size": 851,
+            "modifiedTime": 1570798158832,
+            "changeTime": 1570798158832,
+            "contentHash": "d8dd004ae654f8a8e455de7cf3c36978a8b9b4dd",
+            "isMetadataFile": false,
+            "state": "u"
+        }
+    ],
+    [
+        "C:\\Users\\DmytroPinchuk\\CTProjects\\DXFirst\\force-app\\main\\default\\classes\\QueueableSendSms.cls-meta.xml",
+        {
+            "sourcePath": "C:\\Users\\DmytroPinchuk\\CTProjects\\DXFirst\\force-app\\main\\default\\classes\\QueueableSendSms.cls-meta.xml",
+            "isDirectory": false,
+            "size": 179,
+            "modifiedTime": 1570788747297,
+            "changeTime": 1570788747297,
+            "contentHash": "463a780dc1b11f5d645b2a49558ed28551f48927",
+            "isMetadataFile": true,
+            "state": "u"
+        }
+    ],
+    [
+        "C:\\Users\\DmytroPinchuk\\CTProjects\\DXFirst\\force-app\\main\\default\\classes\\QueueableSendSmsTest.cls",
+        {
+            "sourcePath": "C:\\Users\\DmytroPinchuk\\CTProjects\\DXFirst\\force-app\\main\\default\\classes\\QueueableSendSmsTest.cls",
+            "isDirectory": false,
+            "size": 4126,
+            "modifiedTime": 1570793703150,
+            "changeTime": 1570793703150,
+            "contentHash": "4a55031c522e10472992c465142018592fb6d290",
+            "isMetadataFile": false,
+            "state": "u"
+        }
+    ],
+    [
+        "C:\\Users\\DmytroPinchuk\\CTProjects\\DXFirst\\force-app\\main\\default\\classes\\QueueableSendSmsTest.cls-meta.xml",
+        {
+            "sourcePath": "C:\\Users\\DmytroPinchuk\\CTProjects\\DXFirst\\force-app\\main\\default\\classes\\QueueableSendSmsTest.cls-meta.xml",
+            "isDirectory": false,
+            "size": 179,
+            "modifiedTime": 1570792998090,
+            "changeTime": 1570792998090,
+            "contentHash": "463a780dc1b11f5d645b2a49558ed28551f48927",
             "isMetadataFile": true,
             "state": "u"
         }

@@ -72,5 +72,31 @@ public with sharing class TestDataFactory {
         insert courses;
         return courses;
     }
+    public static List<Opportunity> insertOpportunities(Integer numberOfOpportunities, Id accountId) {
+        List<Opportunity> opportunities = new List<Opportunity>();
+        for (Integer i = 1; i <= numberOfOpportunities; i++) {
+            opportunities.add(new Opportunity(Name = 'SomeOpportunity' + i, AccountId = accountId,
+                    CloseDate = Date.today().addDays(30), StageName = 'Prospecting'));
+        }
+        insert opportunities;
+        return opportunities;
+    }
+    public static List<Account> insertAccounts(Integer numberOfAccounts) {
+        List<Account> accounts = new List<Account>();
+        for (Integer i = 1; i <= numberOfAccounts; i++) {
+            accounts.add(new Account(Name = 'SomeAccount' + i));
+        }
+        insert accounts;
+        return accounts;
+    }
+    public static List<Contact> insertContacts(Integer numberOfContacts, Id accountId, String phoneNumber) {
+        List<Contact> contacts = new List<Contact>();
+        for (Integer i = 1; i <= numberOfContacts; i++) {
+            contacts.add(new Contact(FirstName = 'ContactFirstName' + i, LastName = 'ContactLastName' + i,
+                    AccountId = accountId, MobilePhone = phoneNumber));
+        }
+        insert contacts;
+        return contacts;
+    }
 
 }

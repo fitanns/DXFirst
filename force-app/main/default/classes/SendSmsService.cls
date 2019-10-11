@@ -3,35 +3,32 @@
  */
 
 public with sharing class SendSmsService {
-    public void verifiedPhone(String phoneNumber) {
-        String account = 'ACb25c8b9090f46594f683cb63b87e5536';
-        String token = '0c44f1cca1c88c6100f738ac50fe3c77';
-  /*      Map<String, String> params = new Map<String, String>{
-                'friendlyName' => 'TestPhone',
-                'phoneNumber' => '+380637323742'
-        };*/
-
-        TwilioRestClient client = new TwilioRestClient(account, token);
+    public void verifiedPhone(String phoneNumber, String fromPhone, String accountSID, String token) {
+        /*      Map<String, String> params = new Map<String, String>{
+                      'friendlyName' => 'TestPhone',
+                      'phoneNumber' => '+380637323742'
+              };*/
+        TwilioRestClient client = new TwilioRestClient(accountSID, token);
         TwilioOutgoingCallerIdList idList = new TwilioOutgoingCallerIdList(client);
-        idList.setRequestAccountSid(account);
-//        TwilioOutgoingCallerId callerId = (TwilioOutgoingCallerId)idList.makeNew(client, params);
-        TwilioCallerIdValidation idValidation =  idList.validate(phoneNumber);
-        System.debug(idValidation);
-        System.debug(idValidation.getValidationCode());
-        System.debug(idValidation.getPhoneNumber());
-        System.debug(idValidation.getFriendlyName());
-        sendSms(phoneNumber);
+        idList.setRequestAccountSid(accountSID);
+        TwilioCallerIdValidation idValidation = idList.validate(phoneNumber);
+        /*     System.debug(idValidation);
+             System.debug(idValidation.getValidationCode());
+             System.debug(idValidation.getPhoneNumber());
+             System.debug(idValidation.getFriendlyName());*/
+        SendSmsService smsService = new SendSmsService();
+        smsService.sendSms(phoneNumber, fromPhone, accountSID, token);
 
     }
-    public static void sendSms(String phoneNumber) {
-        String account = 'ACb25c8b9090f46594f683cb63b87e5536';
-        String token = '0c44f1cca1c88c6100f738ac50fe3c77';
-        TwilioRestClient client = new TwilioRestClient(account, token);
+    public SMS_Log__c sendSms(String phoneNumber, String fromPhone, String accountSID, String token) {
+        TwilioRestClient client = new TwilioRestClient(accountSID, token);
         Map<String, String> params = new Map<String, String>{
                 'To' => phoneNumber,
-                'From' => '+12563635238',
-                'Body' => 'Your request to course was successfully accepted! See you at the courses. Course Managment Team'
+                'From' => fromPhone,
+                'Body' => 'Your request to course was successfully accepted! Our manager contact you as soon as possible. Course Managment Team.'
         };
-        TwilioSMS sms = client.getAccount().getSMSMessages().create(params);
+        TwilioSMS twilioSMS = client.getAccount().getSMSMessages().create(params);
+        return new SMS_Log__c(Status__c = twilioSMS.getStatus(),To__c = twilioSMS.getTo(),From__c = twilioSMS.getFrom());
+
     }
 }

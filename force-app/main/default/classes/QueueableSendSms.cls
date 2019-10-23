@@ -17,8 +17,8 @@ public with sharing class QueueableSendSms implements Queueable, Database.Allows
     }
 
     public void execute(QueueableContext param1) {
-        OpportunityService opportunityService = new OpportunityService();
-        smsLogs = opportunityService.sendSmsToClient(newItems, fromPhone, accountSID, token);
+        NotifyUserSmsService notifyUserSmsService = new NotifyUserSmsService();
+        smsLogs = notifyUserSmsService.sendSmsToClient(newItems, fromPhone, accountSID, token);
         insert smsLogs;
     }
 }

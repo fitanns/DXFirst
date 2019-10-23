@@ -2,7 +2,7 @@
  - Created by DmytroPinchuk on 05.09.2019.
  -->
 
-<aura:component description="ListCourses" implements="forceCommunity:availableForAllPageTypes"
+<aura:component description="ListCourses" implements="forceCommunity:availableForAllPageTypes" access="global"
                 controller="ListCoursesController">
     <aura:handler name="init" value="{!this}" action="{!c.doInit}"/>
     <aura:attribute name="courses" type="List"/>

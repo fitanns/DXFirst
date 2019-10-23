@@ -2,7 +2,7 @@
  - Created by DmytroPinchuk on 05.09.2019.
  -->
 
-<aura:component description="CoursesInfo" implements="forceCommunity:availableForAllPageTypes"
+<aura:component description="CoursesInfo" implements="forceCommunity:availableForAllPageTypes" access="global"
                 controller="CourseInfoController">
     <aura:handler event="c:getCourseInfo" action="{!c.handleCourse}"/>
     <aura:handler name="init" value="{!this}" action="{!c.doInit}"/>

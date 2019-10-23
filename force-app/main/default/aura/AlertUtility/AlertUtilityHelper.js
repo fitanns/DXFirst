@@ -18,7 +18,8 @@
         if (!$A.util.isEmpty(args.params)) {
             error = args.params;
         }
+        console.log(error);
         component.set("v.errorMessage", error);
         component.set("v.showError", true);
-    },
+    }
 });
